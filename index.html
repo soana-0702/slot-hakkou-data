@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>スロットデータ</title>
+  <style>
+    /* ── ベース ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      min-height: 100vh;
+      padding: 1.5rem 1rem 4rem;
+    }
+    a { color: #7cb9ff; }
+
+    /* ── レイアウト ── */
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; color: #fff; margin-bottom: .25rem; }
+    .subtitle { font-size: .85rem; color: #888; margin-bottom: 1.5rem; }
+
+    /* ── セクション ── */
+    section { margin-bottom: 2rem; }
+    h2 {
+      font-size: 1rem; font-weight: 700;
+      border-left: 3px solid #7cb9ff;
+      padding-left: .5rem;
+      margin-bottom: .75rem;
+      color: #c5d8ff;
+    }
+
+    /* ── カード ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: .75rem;
+    }
+    .card {
+      background: #1c1f2e;
+      border-radius: 8px;
+      padding: .85rem 1rem;
+    }
+    .card-title { font-size: .85rem; color: #aaa; margin-bottom: .35rem; }
+    .card-value { font-size: 1.3rem; font-weight: 700; color: #fff; }
+    .card-sub { font-size: .75rem; color: #666; margin-top: .2rem; }
+
+    /* ── テーブル ── */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    th {
+      text-align: left; padding: .5rem .75rem;
+      background: #1c1f2e; color: #aaa;
+      border-bottom: 1px solid #2a2d3e;
+      white-space: nowrap;
+    }
+    td {
+      padding: .45rem .75rem;
+      border-bottom: 1px solid #1c1f2e;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1c1f2e; }
+    .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .pos { color: #4caf81; }
+    .neg { color: #e05555; }
+
+    /* ── バッジ ── */
+    .badge {
+      display: inline-block;
+      padding: .15rem .5rem;
+      border-radius: 4px;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+    .badge-ok  { background: #1b3a2a; color: #4caf81; }
+    .badge-ng  { background: #3a1b1b; color: #e05555; }
+
+    /* ── 空状態 ── */
+    .empty { color: #555; font-size: .85rem; padding: 1rem 0; }
+
+    /* ── フッター ── */
+    footer { margin-top: 3rem; text-align: center; font-size: .75rem; color: #444; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <h1>🎰 スロットデータ</h1>
+  <p class="subtitle" id="generated-at">読み込み中…</p>
+
+  <!-- 店舗一覧 -->
+  <section>
+    <h2>店舗状況</h2>
+    <div class="cards" id="stores-container">
+      <p class="empty">データを読み込み中…</p>
+    </div>
+  </section>
+
+  <!-- 出ている機種ランキング -->
+  <section>
+    <h2>出ている機種（直近14日）</h2>
+    <div class="table-wrap">
+      <table id="top-machines-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>店舗</th>
+            <th>機種名</th>
+            <th class="num">平均差枚</th>
+            <th class="num">勝率</th>
+            <th class="num">最大差枚</th>
+            <th class="num">日数</th>
+          </tr>
+        </thead>
+        <tbody id="top-machines-body">
+          <tr><td colspan="7" class="empty">データを読み込み中…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 日次サマリ -->
+  <section>
+    <h2>日次収集サマリ（直近30日）</h2>
+    <div class="table-wrap">
+      <table id="daily-table">
+        <thead>
+          <tr>
+            <th>日付</th>
+            <th>店舗</th>
+            <th class="num">台数</th>
+            <th class="num">差枚合計</th>
+          </tr>
+        </thead>
+        <tbody id="daily-body">
+          <tr><td colspan="4" class="empty">データを読み込み中…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    個人利用目的のデータ記録サイトです。
+    <a href="https://github.com/soana-0702/slot-data-collector" target="_blank">GitHub</a>
+  </footer>
+
+</div>
+
+<script>
+// ── 店舗名マッピング（store_id → 略称） ──────────────────────────────────
+const STORE_LABELS = {
+  "espace-kabuki":          "エスパス 歌舞伎町",
+  "espace-shinjuku-station":"エスパス 西武新宿",
+  "espace-ueno-new":        "エスパス 上野新館",
+  "espace-ueno-main":       "エスパス 上野本館",
+  "maruhan-shinjuku":       "マルハン 新宿",
+};
+
+function storeName(id) {
+  return STORE_LABELS[id] || id;
+}
+
+// ── 数値フォーマット ──────────────────────────────────────────────────────
+function fmtDiff(v) {
+  if (v === null || v === undefined) return "—";
+  const s = v >= 0 ? "+" : "";
+  return s + v.toLocaleString();
+}
+function diffClass(v) {
+  if (v === null || v === undefined) return "";
+  return v >= 0 ? "pos" : "neg";
+}
+function fmtPct(v) {
+  return (v * 100).toFixed(1) + "%";
+}
+
+// ── データ読み込み ────────────────────────────────────────────────────────
+async function load() {
+  // GitHub Pages のルートから相対パスで読む
+  // ローカル確認時は同じディレクトリ構造で動く
+  const url = "data/latest.json";
+  let data;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+  } catch (e) {
+    document.getElementById("generated-at").textContent =
+      "データの読み込みに失敗しました（" + e.message + "）";
+    return;
+  }
+
+  render(data);
+}
+
+// ── 描画 ─────────────────────────────────────────────────────────────────
+function render(data) {
+  // 生成日時
+  const ts = data.generated_at
+    ? data.generated_at.replace("T", " ")
+    : "不明";
+  document.getElementById("generated-at").textContent =
+    "最終更新: " + ts;
+
+  renderStores(data.stores || []);
+  renderTopMachines(data.top_machines || []);
+  renderDaily(data.daily_summary || []);
+}
+
+function renderStores(stores) {
+  const container = document.getElementById("stores-container");
+  if (!stores.length) {
+    container.innerHTML = '<p class="empty">データなし</p>';
+    return;
+  }
+  container.innerHTML = stores.map(s => {
+    const hasData = !!s.latest_date;
+    const badge = hasData
+      ? `<span class="badge badge-ok">収集済</span>`
+      : `<span class="badge badge-ng">未収集</span>`;
+    return `
+      <div class="card">
+        <div class="card-title">${storeName(s.store_id)}</div>
+        <div class="card-value">${s.machine_count.toLocaleString()} 台</div>
+        <div class="card-sub">${s.latest_date || "—"} ${badge}</div>
+      </div>`;
+  }).join("");
+}
+
+function renderTopMachines(machines) {
+  const tbody = document.getElementById("top-machines-body");
+  if (!machines.length) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます（14日分必要）</td></tr>';
+    return;
+  }
+  tbody.innerHTML = machines.map((m, i) => `
+    <tr>
+      <td>${i + 1}</td>
+      <td>${storeName(m.store_id)}</td>
+      <td>${m.machine_name}</td>
+      <td class="num ${diffClass(m.mean_diff)}">${fmtDiff(Math.round(m.mean_diff))}</td>
+      <td class="num">${fmtPct(m.win_rate)}</td>
+      <td class="num ${diffClass(m.max_diff)}">${fmtDiff(m.max_diff)}</td>
+      <td class="num">${m.sample_days}</td>
+    </tr>`).join("");
+}
+
+function renderDaily(summary) {
+  const tbody = document.getElementById("daily-body");
+  if (!summary.length) {
+    tbody.innerHTML = '<tr><td colspan="4" class="empty">データなし</td></tr>';
+    return;
+  }
+  tbody.innerHTML = summary.map(d => `
+    <tr>
+      <td>${d.play_date}</td>
+      <td>${storeName(d.store_id)}</td>
+      <td class="num">${d.machine_count.toLocaleString()}</td>
+      <td class="num ${diffClass(d.total_diff)}">${fmtDiff(d.total_diff)}</td>
+    </tr>`).join("");
+}
+
+load();
+</script>
+</body>
+</html>
