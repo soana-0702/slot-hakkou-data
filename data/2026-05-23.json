@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-24T23:10:13",
+  "play_date": "2026-05-23",
+  "stores": [],
+  "top_machines": [],
+  "daily_summary": [
+    {
+      "play_date": "2026-05-24",
+      "store_id": "espace-kabuki",
+      "machine_count": 749,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-24",
+      "store_id": "espace-shinjuku-station",
+      "machine_count": 269,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-24",
+      "store_id": "espace-ueno-main",
+      "machine_count": 375,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-24",
+      "store_id": "espace-ueno-new",
+      "machine_count": 377,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-23",
+      "store_id": "espace-kabuki",
+      "machine_count": 749,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-23",
+      "store_id": "store_a",
+      "machine_count": 1,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-23",
+      "store_id": "store_b",
+      "machine_count": 1,
+      "total_diff": null
+    },
+    {
+      "play_date": "2026-05-23",
+      "store_id": "test_store",
+      "machine_count": 3,
+      "total_diff": null
+    }
+  ]
+}
