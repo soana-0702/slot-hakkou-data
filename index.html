@@ -16,6 +16,41 @@
     }
     a { color: #7cb9ff; }
 
+    /* ── パスワード画面 ── */
+    #auth-screen {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      gap: 1rem;
+    }
+    #auth-screen h1 { font-size: 1.2rem; color: #aaa; }
+    #auth-screen input {
+      padding: .6rem 1rem;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #1c1f2e;
+      color: #fff;
+      font-size: 1rem;
+      width: 260px;
+      text-align: center;
+      letter-spacing: .1em;
+    }
+    #auth-screen input:focus { outline: none; border-color: #7cb9ff; }
+    #auth-screen button {
+      padding: .6rem 2rem;
+      border-radius: 6px;
+      border: none;
+      background: #7cb9ff;
+      color: #0f1117;
+      font-size: .95rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    #auth-screen button:hover { background: #a8d0ff; }
+    #auth-error { color: #e05555; font-size: .85rem; min-height: 1.2em; }
+
     /* ── レイアウト ── */
     .container { max-width: 900px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; color: #fff; margin-bottom: .25rem; }
@@ -84,7 +119,17 @@
   </style>
 </head>
 <body>
-<div class="container">
+
+<!-- ── パスワード認証画面 ── -->
+<div id="auth-screen">
+  <h1>🔒 パスワードを入力してください</h1>
+  <input type="password" id="pw-input" placeholder="password" autocomplete="current-password" />
+  <button onclick="checkPassword()">ログイン</button>
+  <p id="auth-error"></p>
+</div>
+
+<!-- ── メインコンテンツ（認証後に表示） ── -->
+<div class="container" id="main-content" style="display:none;">
 
   <h1>🎰 スロットデータ</h1>
   <p class="subtitle" id="generated-at">読み込み中…</p>
@@ -148,6 +193,53 @@
 </div>
 
 <script>
+// ── パスワード認証 ────────────────────────────────────────────────────────
+// パスワードは SHA-256 ハッシュで保持（平文は埋め込まない）
+const PW_HASH = "e12fd2d9aea614423c629f54503faba614d968dc4057ce10c071093cc04f46fe";
+const SESSION_KEY = "shd_auth";
+
+async function sha256(text) {
+  const buf = await crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(text)
+  );
+  return Array.from(new Uint8Array(buf))
+    .map(b => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+async function checkPassword() {
+  const input = document.getElementById("pw-input").value;
+  const hash = await sha256(input);
+  if (hash === PW_HASH) {
+    sessionStorage.setItem(SESSION_KEY, "1");
+    showMain();
+  } else {
+    document.getElementById("auth-error").textContent = "パスワードが違います";
+    document.getElementById("pw-input").value = "";
+    document.getElementById("pw-input").focus();
+  }
+}
+
+function showMain() {
+  document.getElementById("auth-screen").style.display = "none";
+  document.getElementById("main-content").style.display = "block";
+  load();
+}
+
+// Enter キーでログイン・セッション維持
+document.addEventListener("DOMContentLoaded", () => {
+  // セッション中は再入力不要
+  if (sessionStorage.getItem(SESSION_KEY) === "1") {
+    showMain();
+    return;
+  }
+  document.getElementById("pw-input").addEventListener("keydown", e => {
+    if (e.key === "Enter") checkPassword();
+  });
+  document.getElementById("pw-input").focus();
+});
+
 // ── 店舗名マッピング（store_id → 略称） ──────────────────────────────────
 const STORE_LABELS = {
   "espace-kabuki":          "エスパス 歌舞伎町",
