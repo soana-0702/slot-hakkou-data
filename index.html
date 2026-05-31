@@ -52,7 +52,7 @@
     #auth-error { color: #e05555; font-size: .85rem; min-height: 1.2em; }
 
     /* ── レイアウト ── */
-    .container { max-width: 900px; margin: 0 auto; }
+    .container { max-width: 960px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; color: #fff; margin-bottom: .25rem; }
     .subtitle { font-size: .85rem; color: #888; margin-bottom: 1rem; }
 
@@ -95,6 +95,9 @@
       padding-left: .5rem;
       margin-bottom: .75rem;
       color: #c5d8ff;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
     }
 
     /* ── カード ── */
@@ -107,10 +110,44 @@
       background: #1c1f2e;
       border-radius: 8px;
       padding: .85rem 1rem;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: border-color .15s, background .15s;
     }
+    .card:hover { border-color: #7cb9ff; background: #1f2438; }
+    .card.active { border-color: #7cb9ff; background: #1a2540; }
     .card-title { font-size: .85rem; color: #aaa; margin-bottom: .35rem; }
     .card-value { font-size: 1.3rem; font-weight: 700; color: #fff; }
     .card-sub { font-size: .75rem; color: #666; margin-top: .2rem; }
+
+    /* ── 店舗ドリルダウン ── */
+    #store-detail {
+      background: #14172a;
+      border: 1px solid #2a3050;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    #store-detail-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #c5d8ff;
+      margin-bottom: .75rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .close-btn {
+      margin-left: auto;
+      padding: .2rem .6rem;
+      border-radius: 4px;
+      border: 1px solid #444;
+      background: transparent;
+      color: #aaa;
+      font-size: .8rem;
+      cursor: pointer;
+    }
+    .close-btn:hover { border-color: #7cb9ff; color: #7cb9ff; }
 
     /* ── テーブル ── */
     .table-wrap { overflow-x: auto; }
@@ -177,11 +214,33 @@
 
   <!-- 店舗一覧 -->
   <section>
-    <h2>店舗状況</h2>
+    <h2>店舗状況 <span style="font-size:.8rem;font-weight:400;color:#888;">（クリックで日次サマリ表示）</span></h2>
     <div class="cards" id="stores-container">
       <p class="empty">データを読み込み中…</p>
     </div>
   </section>
+
+  <!-- 店舗別ドリルダウン（選択時のみ表示） -->
+  <div id="store-detail" style="display:none;">
+    <div id="store-detail-title">
+      <span id="store-detail-name"></span>
+      <button class="close-btn" onclick="closeStoreDetail()">✕ 閉じる</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>日付</th>
+            <th>ソース</th>
+            <th class="num">台数</th>
+            <th class="num">差枚合計</th>
+          </tr>
+        </thead>
+        <tbody id="store-detail-body">
+        </tbody>
+      </table>
+    </div>
+  </div>
 
   <!-- 出ている機種ランキング -->
   <section>
@@ -235,7 +294,6 @@
 
 <script>
 // ── パスワード認証 ────────────────────────────────────────────────────────
-// パスワードは SHA-256 ハッシュで保持（平文は埋め込まない）
 const PW_HASH = "e12fd2d9aea614423c629f54503faba614d968dc4057ce10c071093cc04f46fe";
 const SESSION_KEY = "shd_auth";
 
@@ -280,21 +338,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("pw-input").focus();
 });
 
-// ── 店舗名マッピング（store_id → 略称） ──────────────────────────────────
-const STORE_LABELS = {
-  "espace-kabuki":            "エスパス 歌舞伎町",
-  "espace-shinjuku-station":  "エスパス 西武新宿",
-  "espace-ueno-new":          "エスパス 上野新館",
-  "espace-ueno-main":         "エスパス 上野本館",
-  "espace-shinkoiwa":         "エスパス 新小岩",
-  "espace-takadanobaba":      "エスパス 高田馬場",
-  "maruhan-shinjuku":         "マルハン 新宿",
-};
-
-function storeName(id) {
-  return STORE_LABELS[id] || id;
-}
-
 // ── 数値フォーマット ──────────────────────────────────────────────────────
 function fmtDiff(v) {
   if (v === null || v === undefined) return "—";
@@ -310,7 +353,7 @@ function fmtPct(v) {
 }
 
 // ── 日付一覧の管理 ───────────────────────────────────────────────────────
-let availableDates = [];  // 降順（新しい順）
+let availableDates = [];
 
 async function loadIndex() {
   try {
@@ -319,7 +362,6 @@ async function loadIndex() {
     const idx = await res.json();
     availableDates = idx.dates || [];
   } catch (e) {
-    // index.json がない場合は latest.json だけ使う（後方互換）
     availableDates = [];
   }
 }
@@ -327,7 +369,6 @@ async function loadIndex() {
 function populateDateSelect(selectedDate) {
   const sel = document.getElementById("date-select");
   if (!availableDates.length) {
-    // index.json なし → latest.json のみ
     sel.innerHTML = '<option value="">最新</option>';
     return;
   }
@@ -340,16 +381,14 @@ function populateDateSelect(selectedDate) {
 function updateNavButtons() {
   const sel = document.getElementById("date-select");
   const idx = availableDates.indexOf(sel.value);
-  // availableDates は降順 → idx-1 が「翌日」、idx+1 が「前日」
   document.getElementById("btn-prev").disabled = (idx === availableDates.length - 1);
   document.getElementById("btn-next").disabled = (idx <= 0);
 }
 
 function stepDate(direction) {
-  // direction: -1=前日(idx増加), +1=翌日(idx減少)
   const sel = document.getElementById("date-select");
   const idx = availableDates.indexOf(sel.value);
-  const nextIdx = idx - direction;  // 降順配列なので逆
+  const nextIdx = idx - direction;
   if (nextIdx < 0 || nextIdx >= availableDates.length) return;
   sel.value = availableDates[nextIdx];
   onDateChange();
@@ -357,24 +396,23 @@ function stepDate(direction) {
 
 async function onDateChange() {
   updateNavButtons();
+  closeStoreDetail();
   const date = document.getElementById("date-select").value;
   await loadAndRender(date);
 }
 
 // ── データ読み込みと描画 ──────────────────────────────────────────────────
-async function init() {
-  // 日付一覧を取得してセレクターを構築
-  await loadIndex();
+// 現在のデータを保持（ドリルダウンで参照）
+let currentData = null;
 
-  // 最新日（セレクターの先頭）をデフォルト選択
+async function init() {
+  await loadIndex();
   const defaultDate = availableDates.length ? availableDates[0] : "";
   populateDateSelect(defaultDate);
-
   await loadAndRender(defaultDate);
 }
 
 async function loadAndRender(selectedDate) {
-  // 日付指定があれば YYYY-MM-DD.json、なければ latest.json
   const url = selectedDate ? `data/${selectedDate}.json` : "data/latest.json";
   let data;
   try {
@@ -386,18 +424,17 @@ async function loadAndRender(selectedDate) {
       "データの読み込みに失敗しました（" + e.message + "）";
     return;
   }
+  currentData = data;
   render(data);
 }
 
 // ── 描画 ─────────────────────────────────────────────────────────────────
 function render(data) {
-  // 生成日時・対象日
   const ts = data.generated_at ? data.generated_at.replace("T", " ") : "不明";
   const playDate = data.play_date || "";
   document.getElementById("generated-at").textContent =
     (playDate ? `対象日: ${playDate}　` : "") + `生成: ${ts}`;
 
-  // 機種ランキングの見出しを対象日に合わせる
   if (playDate) {
     document.getElementById("top-machines-heading").textContent =
       `出ている機種（${playDate} 基準 直近14日）`;
@@ -408,6 +445,7 @@ function render(data) {
   renderDaily(data.daily_summary || []);
 }
 
+// ── 店舗カード ────────────────────────────────────────────────────────────
 function renderStores(stores) {
   const container = document.getElementById("stores-container");
   if (!stores.length) {
@@ -419,25 +457,79 @@ function renderStores(stores) {
     const badge = hasData
       ? `<span class="badge badge-ok">収集済</span>`
       : `<span class="badge badge-ng">未収集</span>`;
+    // store_group キーで識別（store_id は JSON に存在しない）
     return `
-      <div class="card">
-        <div class="card-title">${storeName(s.store_id)}</div>
+      <div class="card" onclick="openStoreDetail('${s.store_group}')" data-group="${s.store_group}">
+        <div class="card-title">${s.store_name}</div>
         <div class="card-value">${s.machine_count.toLocaleString()} 台</div>
         <div class="card-sub">${s.latest_date || "—"} ${badge}</div>
       </div>`;
   }).join("");
 }
 
+// ── 店舗ドリルダウン ──────────────────────────────────────────────────────
+function openStoreDetail(storeGroup) {
+  if (!currentData) return;
+
+  // アクティブカードを切り替える
+  document.querySelectorAll(".card").forEach(c => c.classList.remove("active"));
+  const activeCard = document.querySelector(`.card[data-group="${storeGroup}"]`);
+  if (activeCard) activeCard.classList.add("active");
+
+  // 対象店舗情報
+  const store = (currentData.stores || []).find(s => s.store_group === storeGroup);
+  const storeName = store ? store.store_name : storeGroup;
+  const storeIds = store ? store.store_ids : [storeGroup];
+
+  document.getElementById("store-detail-name").textContent = `📊 ${storeName} — 日次サマリ`;
+
+  // daily_summary から対象 store_id のデータを抽出・日付降順
+  const summary = (currentData.daily_summary || [])
+    .filter(d => storeIds.includes(d.store_id))
+    .sort((a, b) => b.play_date.localeCompare(a.play_date));
+
+  const tbody = document.getElementById("store-detail-body");
+  if (!summary.length) {
+    tbody.innerHTML = '<tr><td colspan="4" class="empty">データなし（過去30日分）</td></tr>';
+  } else {
+    tbody.innerHTML = summary.map(d => `
+      <tr>
+        <td>${d.play_date}</td>
+        <td><span style="font-size:.8rem;color:#888;">${d.store_id}</span></td>
+        <td class="num">${d.machine_count.toLocaleString()}</td>
+        <td class="num ${diffClass(d.total_diff)}">${fmtDiff(d.total_diff)}</td>
+      </tr>`).join("");
+  }
+
+  document.getElementById("store-detail").style.display = "block";
+  document.getElementById("store-detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function closeStoreDetail() {
+  document.getElementById("store-detail").style.display = "none";
+  document.querySelectorAll(".card").forEach(c => c.classList.remove("active"));
+}
+
+// ── 機種ランキング ────────────────────────────────────────────────────────
 function renderTopMachines(machines) {
   const tbody = document.getElementById("top-machines-body");
   if (!machines.length) {
     tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます（14日分必要）</td></tr>';
     return;
   }
+
+  // store_id → store_name を currentData.stores から引く
+  const storeMap = {};
+  if (currentData && currentData.stores) {
+    currentData.stores.forEach(s => {
+      s.store_ids.forEach(sid => { storeMap[sid] = s.store_name; });
+    });
+  }
+
   tbody.innerHTML = machines.map((m, i) => `
     <tr>
       <td>${i + 1}</td>
-      <td>${storeName(m.store_id)}</td>
+      <td>${storeMap[m.store_id] || m.store_id}</td>
       <td>${m.machine_name}</td>
       <td class="num ${diffClass(m.mean_diff)}">${fmtDiff(Math.round(m.mean_diff))}</td>
       <td class="num">${fmtPct(m.win_rate)}</td>
@@ -446,16 +538,26 @@ function renderTopMachines(machines) {
     </tr>`).join("");
 }
 
+// ── 日次サマリ ────────────────────────────────────────────────────────────
 function renderDaily(summary) {
   const tbody = document.getElementById("daily-body");
   if (!summary.length) {
     tbody.innerHTML = '<tr><td colspan="4" class="empty">データなし</td></tr>';
     return;
   }
+
+  // store_id → store_name を currentData.stores から引く
+  const storeMap = {};
+  if (currentData && currentData.stores) {
+    currentData.stores.forEach(s => {
+      s.store_ids.forEach(sid => { storeMap[sid] = s.store_name; });
+    });
+  }
+
   tbody.innerHTML = summary.map(d => `
     <tr>
       <td>${d.play_date}</td>
-      <td>${storeName(d.store_id)}</td>
+      <td>${storeMap[d.store_id] || d.store_id}</td>
       <td class="num">${d.machine_count.toLocaleString()}</td>
       <td class="num ${diffClass(d.total_diff)}">${fmtDiff(d.total_diff)}</td>
     </tr>`).join("");
