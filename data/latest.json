@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-02T22:59:27",
-  "play_date": "2026-05-25",
+  "generated_at": "2026-06-02T23:21:36",
+  "play_date": "2026-06-01",
   "stores": [
     {
       "store_group": "espace-kabuki",
@@ -15,7 +15,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 1498
+      "machine_count": 749
     },
     {
       "store_group": "espace-shinjuku-station-anaslo",
@@ -122,7 +122,6 @@
       "machine_count": 664
     }
   ],
-  "top_machines": [],
   "daily_summary": [
     {
       "play_date": "2026-06-01",

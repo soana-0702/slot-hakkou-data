@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-02T23:21:30",
-  "play_date": "2026-05-23",
+  "generated_at": "2026-06-02T23:21:33",
+  "play_date": "2026-05-28",
   "stores": [
     {
       "store_group": "espace-kabuki",
@@ -15,7 +15,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 749
     },
     {
       "store_group": "espace-shinjuku-station-anaslo",
@@ -28,7 +28,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 269
     },
     {
       "store_group": "espace-ueno-new-anaslo",
@@ -41,7 +41,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 377
     },
     {
       "store_group": "espace-ueno-main-anaslo",
@@ -54,7 +54,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 375
     },
     {
       "store_group": "espace-shinkoiwa-anaslo",
@@ -67,7 +67,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 464
     },
     {
       "store_group": "espace-takadanobaba-anaslo",
@@ -80,7 +80,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 344
     },
     {
       "store_group": "amuse-asakusa-anaslo",
@@ -93,7 +93,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 460
     },
     {
       "store_group": "jaran-asakusa-anaslo",
@@ -106,7 +106,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 317
     },
     {
       "store_group": "maruhan-shinjuku-anaslo",
@@ -119,7 +119,7 @@
       ],
       "latest_date": "2026-06-01",
       "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "machine_count": 664
     }
   ],
   "daily_summary": [

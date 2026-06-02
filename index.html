@@ -563,7 +563,7 @@ async function loadAndRender(selectedDate) {
 }
 
 // ── 描画 ─────────────────────────────────────────────────────────────────
-function render(data) {
+async function render(data) {
   const ts = data.generated_at ? data.generated_at.replace("T", " ") : "不明";
   const playDate = data.play_date || "";
   document.getElementById("generated-at").textContent =
@@ -575,8 +575,10 @@ function render(data) {
   }
 
   renderStores(data.stores || []);
-  renderTopMachines(data.top_machines || []);
   renderDaily(data.daily_summary || []);
+
+  // 機種ランキングはフロントエンドで直近14日分を集計
+  await buildAndRenderTopMachines(data.play_date, data.stores || []);
 }
 
 // ── 店舗カード ────────────────────────────────────────────────────────────
@@ -645,25 +647,86 @@ function closeStoreDetail() {
 }
 
 // ── 機種ランキング ────────────────────────────────────────────────────────
-function renderTopMachines(machines) {
+
+// 直近14日分の日付別 JSON を fetch して機種ランキングをフロントエンドで集計・描画する
+async function buildAndRenderTopMachines(playDate, stores) {
   const tbody = document.getElementById("top-machines-body");
-  if (!machines.length) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます（14日分必要）</td></tr>';
+  tbody.innerHTML = '<tr><td colspan="7" class="empty">集計中…</td></tr>';
+
+  // 基準日を含む直近14日を availableDates から取得
+  const baseIdx = availableDates.indexOf(playDate);
+  const targetDates = baseIdx >= 0
+    ? availableDates.slice(baseIdx, baseIdx + 14)
+    : availableDates.slice(0, 14);
+
+  if (!targetDates.length) {
+    renderTopMachines([], stores);
     return;
   }
 
-  // store_id → store_name を currentData.stores から引く
+  // store_group → store_name マップを構築
   const storeMap = {};
-  if (currentData && currentData.stores) {
-    currentData.stores.forEach(s => {
-      s.store_ids.forEach(sid => { storeMap[sid] = s.store_name; });
+  stores.forEach(s => {
+    storeMap[s.store_group] = s.store_name;
+  });
+
+  // machines/YYYY-MM-DD.json を並行 fetch して台レベルで集計
+  const groups = {};
+  const machineResults = await Promise.all(
+    targetDates.map(async d => {
+      try {
+        const res = await fetch(`data/machines/${d}.json`);
+        if (!res.ok) return null;
+        return await res.json();
+      } catch (_) {
+        return null;
+      }
+    })
+  );
+
+  machineResults.forEach((data, i) => {
+    if (!data) return;
+    const playD = targetDates[i];
+    Object.entries(data.stores || {}).forEach(([storeGroup, storeData]) => {
+      (storeData.machines || []).forEach(m => {
+        if (m.diff_coins == null) return;
+        const key = `${storeGroup}\t${m.machine_name}`;
+        if (!groups[key]) {
+          groups[key] = { storeGroup, machineName: m.machine_name, dates: new Set(), diffs: [] };
+        }
+        groups[key].dates.add(playD);
+        groups[key].diffs.push(m.diff_coins);
+      });
     });
+  });
+
+  // sample_days >= 3 でフィルタ → 平均差枚降順
+  const machines = Object.values(groups)
+    .filter(g => g.dates.size >= 3)
+    .map(g => ({
+      store_group: g.storeGroup,
+      machine_name: g.machineName,
+      sample_days: g.dates.size,
+      mean_diff: g.diffs.reduce((a, b) => a + b, 0) / g.diffs.length,
+      win_rate: g.diffs.filter(d => d > 0).length / g.diffs.length,
+      max_diff: Math.max(...g.diffs),
+    }))
+    .sort((a, b) => b.mean_diff - a.mean_diff);
+
+  renderTopMachines(machines, storeMap);
+}
+
+function renderTopMachines(machines, storeMap) {
+  const tbody = document.getElementById("top-machines-body");
+  if (!machines.length) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます（3日分以上必要）</td></tr>';
+    return;
   }
 
   tbody.innerHTML = machines.map((m, i) => `
     <tr>
       <td>${i + 1}</td>
-      <td>${storeMap[m.store_id] || m.store_id}</td>
+      <td>${(storeMap && storeMap[m.store_group]) || m.store_group}</td>
       <td>${m.machine_name}</td>
       <td class="num ${diffClass(m.mean_diff)}">${fmtDiff(Math.round(m.mean_diff))}</td>
       <td class="num">${fmtPct(m.win_rate)}</td>
