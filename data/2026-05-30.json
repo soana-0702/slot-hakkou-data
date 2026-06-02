@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T23:21:34",
+  "generated_at": "2026-06-02T23:49:13",
   "play_date": "2026-05-30",
   "stores": [
     {
@@ -461,12 +461,6 @@
     },
     {
       "play_date": "2026-05-26",
-      "store_id": "espace-kabuki-minrepo",
-      "machine_count": 749,
-      "total_diff": 60716
-    },
-    {
-      "play_date": "2026-05-26",
       "store_id": "espace-shinjuku-station-anaslo",
       "machine_count": 269,
       "total_diff": 69755
@@ -512,12 +506,6 @@
       "store_id": "amuse-asakusa-anaslo",
       "machine_count": 460,
       "total_diff": 82362
-    },
-    {
-      "play_date": "2026-05-25",
-      "store_id": "espace-kabuki-anaslo",
-      "machine_count": 749,
-      "total_diff": 74037
     },
     {
       "play_date": "2026-05-25",
