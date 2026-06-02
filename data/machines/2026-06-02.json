@@ -1,0 +1,4616 @@
+{
+  "play_date": "2026-06-02",
+  "generated_at": "2026-06-03T01:35:25",
+  "format_version": 1,
+  "stores": {
+    "espace-shinjuku-station": {
+      "store_name": "エスパス日拓 西武新宿駅前店",
+      "machines": [
+        {
+          "machine_number": "300",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 520,
+          "total_games": 2702,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "301",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 156,
+          "total_games": 4690,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "302",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": -915,
+          "total_games": 2253,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "303",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 780,
+          "total_games": 3803,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "304",
+          "machine_name": "スマスロ鉄拳6",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "305",
+          "machine_name": "スマスロ鉄拳6",
+          "diff_coins": 804,
+          "total_games": 646,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "306",
+          "machine_name": "スマスロ鉄拳6",
+          "diff_coins": -820,
+          "total_games": 1384,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "307",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "308",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "309",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 874,
+          "total_games": 2395,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "310",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "311",
+          "machine_name": "Lスマスロとある魔術の禁書目録",
+          "diff_coins": 31,
+          "total_games": 1755,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "312",
+          "machine_name": "Lスマスロとある魔術の禁書目録",
+          "diff_coins": -719,
+          "total_games": 783,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "313",
+          "machine_name": "スマスロとある科学の超電磁砲2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "314",
+          "machine_name": "スマスロとある科学の超電磁砲2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "315",
+          "machine_name": "スマスロとある科学の超電磁砲2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "316",
+          "machine_name": "ミスタージャグラー",
+          "diff_coins": 208,
+          "total_games": 4959,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "317",
+          "machine_name": "ミスタージャグラー",
+          "diff_coins": 342,
+          "total_games": 354,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "318",
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": 342,
+          "total_games": 1489,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "319",
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": 38,
+          "total_games": 4754,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "320",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": 592,
+          "total_games": 1857,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "321",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": -402,
+          "total_games": 487,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "322",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -98,
+          "total_games": 1468,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "323",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -549,
+          "total_games": 546,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "324",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -251,
+          "total_games": 788,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "325",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": 504,
+          "total_games": 2833,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "326",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": -387,
+          "total_games": 329,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "327",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": -179,
+          "total_games": 975,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "328",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 461,
+          "total_games": 4326,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "329",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -79,
+          "total_games": 2441,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "330",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 0,
+          "total_games": 3777,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "331",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 361,
+          "total_games": 3498,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "332",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 108,
+          "total_games": 4083,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "333",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 3124,
+          "total_games": 7181,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "334",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 0,
+          "total_games": 1660,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "335",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 420,
+          "total_games": 1878,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "336",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -37,
+          "total_games": 1165,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "337",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 774,
+          "total_games": 3830,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "338",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -675,
+          "total_games": 4727,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "339",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -931,
+          "total_games": 1320,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "340",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -245,
+          "total_games": 1234,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "341",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 145,
+          "total_games": 4030,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "342",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -544,
+          "total_games": 1312,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "343",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -734,
+          "total_games": 1232,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "344",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -173,
+          "total_games": 1923,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "345",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 342,
+          "total_games": 2297,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "346",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 1168,
+          "total_games": 4245,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "347",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 375,
+          "total_games": 1624,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "348",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -255,
+          "total_games": 440,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "349",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -538,
+          "total_games": 2519,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "350",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -185,
+          "total_games": 127,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "351",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 214,
+          "total_games": 4034,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "352",
+          "machine_name": "L東京喰種",
+          "diff_coins": -313,
+          "total_games": 344,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "353",
+          "machine_name": "L東京喰種",
+          "diff_coins": -395,
+          "total_games": 383,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "354",
+          "machine_name": "L東京喰種",
+          "diff_coins": 2947,
+          "total_games": 1406,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "355",
+          "machine_name": "L東京喰種",
+          "diff_coins": -481,
+          "total_games": 490,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "356",
+          "machine_name": "L東京喰種",
+          "diff_coins": -837,
+          "total_games": 770,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "357",
+          "machine_name": "L東京喰種",
+          "diff_coins": -408,
+          "total_games": 369,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "358",
+          "machine_name": "L東京喰種",
+          "diff_coins": 1280,
+          "total_games": 1161,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "359",
+          "machine_name": "L東京喰種",
+          "diff_coins": 2689,
+          "total_games": 1573,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "360",
+          "machine_name": "L東京喰種",
+          "diff_coins": -169,
+          "total_games": 276,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "361",
+          "machine_name": "L東京喰種",
+          "diff_coins": -55,
+          "total_games": 195,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "362",
+          "machine_name": "L東京喰種",
+          "diff_coins": 2622,
+          "total_games": 1622,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "363",
+          "machine_name": "L東京喰種",
+          "diff_coins": -391,
+          "total_games": 381,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "364",
+          "machine_name": "L東京喰種",
+          "diff_coins": -485,
+          "total_games": 553,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "365",
+          "machine_name": "L東京喰種",
+          "diff_coins": 2402,
+          "total_games": 5219,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "366",
+          "machine_name": "L東京喰種",
+          "diff_coins": -3349,
+          "total_games": 2955,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "367",
+          "machine_name": "L東京喰種",
+          "diff_coins": 691,
+          "total_games": 2482,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "368",
+          "machine_name": "L東京喰種",
+          "diff_coins": -144,
+          "total_games": 231,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "369",
+          "machine_name": "L東京喰種",
+          "diff_coins": -834,
+          "total_games": 1512,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "370",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1673,
+          "total_games": 2541,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "371",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 2236,
+          "total_games": 6425,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "372",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -70,
+          "total_games": 44,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "373",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 195,
+          "total_games": 810,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "374",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1229,
+          "total_games": 973,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "375",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 688,
+          "total_games": 806,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "376",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1407,
+          "total_games": 1213,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "377",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -269,
+          "total_games": 294,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "378",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 2898,
+          "total_games": 5042,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "379",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -62,
+          "total_games": 2421,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "380",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -390,
+          "total_games": 1554,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "381",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -738,
+          "total_games": 1975,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "382",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1991,
+          "total_games": 1461,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "383",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 8593,
+          "total_games": 5596,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "384",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -549,
+          "total_games": 430,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "385",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -584,
+          "total_games": 5634,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "386",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 2623,
+          "total_games": 5940,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "387",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -673,
+          "total_games": 1467,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "388",
+          "machine_name": "スマスロ ゴッドイーター リザレクション",
+          "diff_coins": -745,
+          "total_games": 1150,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "389",
+          "machine_name": "スマスロ ゴッドイーター リザレクション",
+          "diff_coins": 128,
+          "total_games": 329,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "390",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "391",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "392",
+          "machine_name": "アレックス ブライト",
+          "diff_coins": -798,
+          "total_games": 691,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "393",
+          "machine_name": "アレックス ブライト",
+          "diff_coins": -346,
+          "total_games": 1093,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "394",
+          "machine_name": "Lアズールレーン THE ANIMATION",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "395",
+          "machine_name": "Lアズールレーン THE ANIMATION",
+          "diff_coins": 109,
+          "total_games": 382,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "396",
+          "machine_name": "Lアズールレーン THE ANIMATION",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "397",
+          "machine_name": "スマスロ新鬼武者3",
+          "diff_coins": -384,
+          "total_games": 633,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "398",
+          "machine_name": "スマスロ新鬼武者3",
+          "diff_coins": -475,
+          "total_games": 311,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "399",
+          "machine_name": "スマスロ新鬼武者3",
+          "diff_coins": -826,
+          "total_games": 712,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "400",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -1057,
+          "total_games": 1444,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "401",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -1336,
+          "total_games": 1520,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "402",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -740,
+          "total_games": 736,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "403",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -174,
+          "total_games": 625,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "404",
+          "machine_name": "Lスマスロ劇場版まどか前後編f-フォルテ-",
+          "diff_coins": 4809,
+          "total_games": 5523,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "405",
+          "machine_name": "Lスマスロ劇場版まどか前後編f-フォルテ-",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "406",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -238,
+          "total_games": 497,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "407",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -2346,
+          "total_games": 2562,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "408",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -900,
+          "total_games": 657,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "409",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": 489,
+          "total_games": 1193,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "410",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": -1685,
+          "total_games": 1321,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "411",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": 728,
+          "total_games": 2281,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "412",
+          "machine_name": "L無職転生～異世界行ったら本気だす～",
+          "diff_coins": -81,
+          "total_games": 195,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "413",
+          "machine_name": "L無職転生～異世界行ったら本気だす～",
+          "diff_coins": -528,
+          "total_games": 647,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "414",
+          "machine_name": "L無職転生～異世界行ったら本気だす～",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "415",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": -644,
+          "total_games": 4216,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "416",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": 1291,
+          "total_games": 3740,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "417",
+          "machine_name": "L戦国乙女４　戦乱に閃く炯眼の軍師",
+          "diff_coins": -1881,
+          "total_games": 1957,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "418",
+          "machine_name": "L戦国乙女４　戦乱に閃く炯眼の軍師",
+          "diff_coins": -747,
+          "total_games": 515,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "419",
+          "machine_name": "L戦国乙女４　戦乱に閃く炯眼の軍師",
+          "diff_coins": 560,
+          "total_games": 616,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "420",
+          "machine_name": "L麻雀格闘倶楽部　覚醒",
+          "diff_coins": -522,
+          "total_games": 781,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "421",
+          "machine_name": "GI優駿倶楽部黄金",
+          "diff_coins": -334,
+          "total_games": 309,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "422",
+          "machine_name": "Lパチスロうみねこのなく頃に2",
+          "diff_coins": 660,
+          "total_games": 5646,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "423",
+          "machine_name": "Lひぐらしのなく頃に業",
+          "diff_coins": -293,
+          "total_games": 3042,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "424",
+          "machine_name": "スマスロ サンダーV",
+          "diff_coins": 113,
+          "total_games": 661,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "425",
+          "machine_name": "スマスロ サンダーV",
+          "diff_coins": -18,
+          "total_games": 1579,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "426",
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": 1329,
+          "total_games": 2010,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "427",
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -1107,
+          "total_games": 2024,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "428",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": -80,
+          "total_games": 906,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "429",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": -416,
+          "total_games": 346,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "430",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": -1932,
+          "total_games": 2659,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "431",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": -365,
+          "total_games": 1681,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "432",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "433",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "434",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "435",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "436",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "437",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "438",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "439",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 1033,
+          "total_games": 751,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "440",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "441",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "442",
+          "machine_name": "スマスロ シャーマンキング",
+          "diff_coins": 3125,
+          "total_games": 2288,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "443",
+          "machine_name": "スマスロ シャーマンキング",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "444",
+          "machine_name": "スマスロ シャーマンキング",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "445",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -1156,
+          "total_games": 2190,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "446",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -103,
+          "total_games": 2214,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "447",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -2818,
+          "total_games": 5532,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "448",
+          "machine_name": "スマスロ ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": -591,
+          "total_games": 670,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "449",
+          "machine_name": "A-SLOT+ ディスクアップ ULTRAREMIX",
+          "diff_coins": 2192,
+          "total_games": 4183,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "450",
+          "machine_name": "L範馬刃牙",
+          "diff_coins": -182,
+          "total_games": 278,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "451",
+          "machine_name": "L少女☆歌劇 レヴュースタァライト -The SLOT-",
+          "diff_coins": 3122,
+          "total_games": 2284,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "452",
+          "machine_name": "スマスロ スーパーブラックジャック",
+          "diff_coins": 621,
+          "total_games": 1831,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "453",
+          "machine_name": "いざ！番長",
+          "diff_coins": -688,
+          "total_games": 856,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "454",
+          "machine_name": "SHAKE BONUS TRIGGER",
+          "diff_coins": -994,
+          "total_games": 1806,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "455",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": -2184,
+          "total_games": 1970,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "456",
+          "machine_name": "Lラブ嬢3～Wご指名はいかがですか?～",
+          "diff_coins": -1406,
+          "total_games": 2530,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "457",
+          "machine_name": "A-SLOT+異世界かるてっとBT",
+          "diff_coins": -723,
+          "total_games": 1764,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "458",
+          "machine_name": "スマスロ 東京リベンジャーズ",
+          "diff_coins": 568,
+          "total_games": 910,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "459",
+          "machine_name": "クレアの秘宝伝～はじまりの扉と太陽の石～ボーナストリガーver.",
+          "diff_coins": -663,
+          "total_games": 4758,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "460",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": -714,
+          "total_games": 1229,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "461",
+          "machine_name": "スマスロ スーパーリオエース2",
+          "diff_coins": -517,
+          "total_games": 4124,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "462",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": -109,
+          "total_games": 87,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "463",
+          "machine_name": "スマスロ痛いのは嫌なので防御力に極振りしたいと思います。",
+          "diff_coins": -822,
+          "total_games": 2053,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "464",
+          "machine_name": "翔べ！ハーレムエース",
+          "diff_coins": 81,
+          "total_games": 389,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "465",
+          "machine_name": "Lタクトオーパス デスティニー",
+          "diff_coins": -1711,
+          "total_games": 1873,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "466",
+          "machine_name": "スマスロヨルムンガンド",
+          "diff_coins": -346,
+          "total_games": 2797,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        }
+      ]
+    },
+    "espace-takadanobaba": {
+      "store_name": "エスパス日拓高田馬場本店",
+      "machines": [
+        {
+          "machine_number": "2003",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -1992,
+          "total_games": 7317,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2004",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": 1700,
+          "total_games": 5863,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2005",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -2994,
+          "total_games": 6121,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2006",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -698,
+          "total_games": 4851,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2007",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -3408,
+          "total_games": 4016,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2008",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -1301,
+          "total_games": 9331,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2009",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": 4909,
+          "total_games": 7640,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2010",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -1685,
+          "total_games": 5562,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2011",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": 5322,
+          "total_games": 4505,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2012",
+          "machine_name": "スマスロ ミリオンゴッド-神々の軌跡-",
+          "diff_coins": -3702,
+          "total_games": 6223,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2013",
+          "machine_name": "真打 吉宗",
+          "diff_coins": 2189,
+          "total_games": 3804,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2014",
+          "machine_name": "真打 吉宗",
+          "diff_coins": -1191,
+          "total_games": 3619,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2015",
+          "machine_name": "真打 吉宗",
+          "diff_coins": 1019,
+          "total_games": 3754,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2016",
+          "machine_name": "真打 吉宗",
+          "diff_coins": -1388,
+          "total_games": 3284,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2017",
+          "machine_name": "真打 吉宗",
+          "diff_coins": -1389,
+          "total_games": 2301,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2018",
+          "machine_name": "真打 吉宗",
+          "diff_coins": 1091,
+          "total_games": 4526,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2019",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": -2090,
+          "total_games": 3141,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2020",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 2004,
+          "total_games": 2585,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2021",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 0,
+          "total_games": 1131,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2022",
+          "machine_name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 408,
+          "total_games": 540,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2023",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": -101,
+          "total_games": 115,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2024",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": -489,
+          "total_games": 1866,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2025",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": -1794,
+          "total_games": 1154,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2026",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": 615,
+          "total_games": 7672,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2027",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": -1389,
+          "total_games": 1201,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2028",
+          "machine_name": "L ToLOVEるダークネス TRANCE ver.8.7",
+          "diff_coins": 909,
+          "total_games": 4021,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2029",
+          "machine_name": "L ToLOVEるダークネス TRANCE ver.8.7",
+          "diff_coins": -1901,
+          "total_games": 4346,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2030",
+          "machine_name": "スマスロ スーパーリオエース2",
+          "diff_coins": -699,
+          "total_games": 4100,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2031",
+          "machine_name": "スマスロ スーパーリオエース2",
+          "diff_coins": -1498,
+          "total_games": 1347,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2032",
+          "machine_name": "スマスロ スーパーリオエース2",
+          "diff_coins": -2484,
+          "total_games": 5666,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2033",
+          "machine_name": "スマスロ スーパーリオエース2",
+          "diff_coins": -1085,
+          "total_games": 5167,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2034",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1085,
+          "total_games": 1714,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2035",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -192,
+          "total_games": 514,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2036",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 799,
+          "total_games": 4268,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2037",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1990,
+          "total_games": 2363,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2038",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": -499,
+          "total_games": 325,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2039",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2040",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 913,
+          "total_games": 920,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2041",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2042",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2043",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2044",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 204,
+          "total_games": 2804,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2045",
+          "machine_name": "L東京喰種",
+          "diff_coins": -599,
+          "total_games": 4352,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2046",
+          "machine_name": "L東京喰種",
+          "diff_coins": -500,
+          "total_games": 447,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2047",
+          "machine_name": "L東京喰種",
+          "diff_coins": 610,
+          "total_games": 2292,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2048",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1792,
+          "total_games": 1812,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2049",
+          "machine_name": "L東京喰種",
+          "diff_coins": -394,
+          "total_games": 985,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2050",
+          "machine_name": "L東京喰種",
+          "diff_coins": -501,
+          "total_games": 483,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2051",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1009,
+          "total_games": 3219,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2052",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1084,
+          "total_games": 2531,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2053",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1685,
+          "total_games": 2395,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2054",
+          "machine_name": "L東京喰種",
+          "diff_coins": 2313,
+          "total_games": 5471,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2055",
+          "machine_name": "L東京喰種",
+          "diff_coins": -298,
+          "total_games": 349,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2056",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1089,
+          "total_games": 1512,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2057",
+          "machine_name": "L東京喰種",
+          "diff_coins": 407,
+          "total_games": 4128,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2058",
+          "machine_name": "L東京喰種",
+          "diff_coins": 8589,
+          "total_games": 4727,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2059",
+          "machine_name": "L東京喰種",
+          "diff_coins": -1597,
+          "total_games": 1465,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2060",
+          "machine_name": "Lタクトオーパス デスティニー",
+          "diff_coins": -1688,
+          "total_games": 6987,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2061",
+          "machine_name": "Lタクトオーパス デスティニー",
+          "diff_coins": -496,
+          "total_games": 4876,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2062",
+          "machine_name": "スマスロ ゴッドイーター リザレクション",
+          "diff_coins": 810,
+          "total_games": 2581,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2063",
+          "machine_name": "スマスロ ゴッドイーター リザレクション",
+          "diff_coins": -1905,
+          "total_games": 1825,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2064",
+          "machine_name": "スマスロ ゴッドイーター リザレクション",
+          "diff_coins": -398,
+          "total_games": 1818,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2065",
+          "machine_name": "スマスロ ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": -4298,
+          "total_games": 7273,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2066",
+          "machine_name": "スマスロ ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": 714,
+          "total_games": 4854,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2067",
+          "machine_name": "スマスロ ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": 3707,
+          "total_games": 4873,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2068",
+          "machine_name": "いざ！番長",
+          "diff_coins": 4005,
+          "total_games": 5722,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2069",
+          "machine_name": "いざ！番長",
+          "diff_coins": -1092,
+          "total_games": 906,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2070",
+          "machine_name": "いざ！番長",
+          "diff_coins": 608,
+          "total_games": 4015,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2071",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": -504,
+          "total_games": 585,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2072",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 709,
+          "total_games": 2739,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2073",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": -897,
+          "total_games": 905,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2074",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": -297,
+          "total_games": 498,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2075",
+          "machine_name": "Lパチスロ革命機ヴァルヴレイヴ2",
+          "diff_coins": 496,
+          "total_games": 3285,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2076",
+          "machine_name": "Lアズールレーン THE ANIMATION",
+          "diff_coins": -97,
+          "total_games": 2545,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2077",
+          "machine_name": "Lアズールレーン THE ANIMATION",
+          "diff_coins": -1997,
+          "total_games": 2744,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2078",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": -2711,
+          "total_games": 4557,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2079",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": -1497,
+          "total_games": 2441,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2080",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": 5509,
+          "total_games": 5266,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2081",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": -3910,
+          "total_games": 4271,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2082",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": 310,
+          "total_games": 477,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2083",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": -698,
+          "total_games": 2873,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2084",
+          "machine_name": "L東京喰種",
+          "diff_coins": -2489,
+          "total_games": 6097,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2085",
+          "machine_name": "L東京喰種",
+          "diff_coins": -302,
+          "total_games": 844,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2086",
+          "machine_name": "L東京喰種",
+          "diff_coins": 112,
+          "total_games": 1406,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2087",
+          "machine_name": "L東京喰種",
+          "diff_coins": -2606,
+          "total_games": 3341,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2088",
+          "machine_name": "L東京喰種",
+          "diff_coins": 7682,
+          "total_games": 3773,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2089",
+          "machine_name": "スマスロ鉄拳6",
+          "diff_coins": -701,
+          "total_games": 886,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2090",
+          "machine_name": "スマスロヨルムンガンド",
+          "diff_coins": -303,
+          "total_games": 5063,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2091",
+          "machine_name": "スマスロヨルムンガンド",
+          "diff_coins": 201,
+          "total_games": 986,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2092",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -999,
+          "total_games": 1898,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2093",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -997,
+          "total_games": 1623,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2094",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -591,
+          "total_games": 571,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2095",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -304,
+          "total_games": 573,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2096",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -793,
+          "total_games": 3095,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2097",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 513,
+          "total_games": 1390,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2098",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -592,
+          "total_games": 2166,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2099",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1197,
+          "total_games": 2297,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2100",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1897,
+          "total_games": 2680,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2101",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -392,
+          "total_games": 866,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2102",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1795,
+          "total_games": 3226,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2103",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 1920,
+          "total_games": 5424,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2104",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 0,
+          "total_games": 2008,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2105",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 709,
+          "total_games": 2787,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2106",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 904,
+          "total_games": 4442,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2107",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": -699,
+          "total_games": 4547,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2108",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 0,
+          "total_games": 2057,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2109",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": -291,
+          "total_games": 6367,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2110",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1490,
+          "total_games": 3638,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2111",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -98,
+          "total_games": 3077,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2112",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1093,
+          "total_games": 3175,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2113",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1984,
+          "total_games": 2927,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2114",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 13948,
+          "total_games": 7408,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2115",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -399,
+          "total_games": 2056,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2116",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -392,
+          "total_games": 4172,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2117",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 608,
+          "total_games": 1049,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2118",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 2095,
+          "total_games": 3225,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2119",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -1300,
+          "total_games": 2366,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2120",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 508,
+          "total_games": 2592,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2121",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -787,
+          "total_games": 5875,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2122",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": 1208,
+          "total_games": 1663,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2123",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -195,
+          "total_games": 431,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2124",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -1305,
+          "total_games": 1309,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2125",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -1986,
+          "total_games": 2909,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2126",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -590,
+          "total_games": 1694,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2127",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -1392,
+          "total_games": 2320,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2128",
+          "machine_name": "スマスロ新鬼武者3",
+          "diff_coins": -790,
+          "total_games": 2045,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2129",
+          "machine_name": "スマスロ新鬼武者3",
+          "diff_coins": 116,
+          "total_games": 441,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2130",
+          "machine_name": "L戦国乙女４　戦乱に閃く炯眼の軍師",
+          "diff_coins": 3021,
+          "total_games": 5215,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2131",
+          "machine_name": "L戦国乙女４　戦乱に閃く炯眼の軍師",
+          "diff_coins": 3209,
+          "total_games": 6435,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2132",
+          "machine_name": "L戦国乙女４　戦乱に閃く炯眼の軍師",
+          "diff_coins": -1990,
+          "total_games": 7729,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2133",
+          "machine_name": "L無職転生～異世界行ったら本気だす～",
+          "diff_coins": 3008,
+          "total_games": 3191,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2134",
+          "machine_name": "L無職転生～異世界行ったら本気だす～",
+          "diff_coins": 2007,
+          "total_games": 2767,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2135",
+          "machine_name": "スマスロ 東京リベンジャーズ",
+          "diff_coins": -996,
+          "total_games": 1088,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2136",
+          "machine_name": "スマスロ 東京リベンジャーズ",
+          "diff_coins": -1196,
+          "total_games": 1500,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2137",
+          "machine_name": "スマスロ 東京リベンジャーズ",
+          "diff_coins": 1098,
+          "total_games": 1137,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2138",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -793,
+          "total_games": 3223,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2139",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": 7315,
+          "total_games": 4087,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2140",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -1492,
+          "total_games": 2261,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2141",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": 1510,
+          "total_games": 3120,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2142",
+          "machine_name": "スマスロ 攻殻機動隊",
+          "diff_coins": -2085,
+          "total_games": 2642,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2143",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": 5112,
+          "total_games": 4317,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2144",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": 204,
+          "total_games": 2308,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2145",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": 6021,
+          "total_games": 3250,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2146",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": 6125,
+          "total_games": 4524,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2147",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": -1797,
+          "total_games": 2091,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2148",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": 5606,
+          "total_games": 3770,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2149",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": -1998,
+          "total_games": 3243,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2150",
+          "machine_name": "スマスロ バイオハザードRE:3",
+          "diff_coins": -396,
+          "total_games": 1574,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2151",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": -2891,
+          "total_games": 7940,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2152",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": -493,
+          "total_games": 7899,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2153",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": 4310,
+          "total_games": 6279,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2154",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": -189,
+          "total_games": 5824,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2155",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": -3913,
+          "total_games": 5357,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2156",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": -1284,
+          "total_games": 3603,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2157",
+          "machine_name": "Lパチスロ炎炎ノ消防隊2",
+          "diff_coins": 2004,
+          "total_games": 6607,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2158",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -2492,
+          "total_games": 5816,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2159",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -895,
+          "total_games": 2570,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2160",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -2609,
+          "total_games": 3467,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2161",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 404,
+          "total_games": 610,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2162",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 3391,
+          "total_games": 7293,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2163",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 1611,
+          "total_games": 5145,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2164",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": 1801,
+          "total_games": 3552,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2165",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": -990,
+          "total_games": 2694,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2166",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": -4411,
+          "total_games": 5173,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2167",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": 310,
+          "total_games": 1544,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2168",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": 5686,
+          "total_games": 2150,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2169",
+          "machine_name": "Lスマスロ北斗の拳",
+          "diff_coins": 313,
+          "total_games": 2096,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2170",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1992,
+          "total_games": 4525,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2171",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -593,
+          "total_games": 568,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2172",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -786,
+          "total_games": 4870,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2173",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": 1910,
+          "total_games": 4895,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2174",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": -705,
+          "total_games": 2414,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2175",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": -97,
+          "total_games": 2949,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2176",
+          "machine_name": "スマスロ 甲鉄城のカバネリ 海門決戦",
+          "diff_coins": -2904,
+          "total_games": 3714,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2177",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1005,
+          "total_games": 2209,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2178",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 1507,
+          "total_games": 989,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2179",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 5397,
+          "total_games": 1646,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2180",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 3993,
+          "total_games": 727,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2181",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -1690,
+          "total_games": 2196,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2182",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": 4702,
+          "total_games": 2453,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2183",
+          "machine_name": "Lパチスロからくりサーカス",
+          "diff_coins": -905,
+          "total_games": 582,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2184",
+          "machine_name": "L ToLOVEるダークネス TRANCE ver.8.7",
+          "diff_coins": 707,
+          "total_games": 4233,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2185",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": -699,
+          "total_games": 790,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2186",
+          "machine_name": "Lパチスロ かぐや様は告らせたい",
+          "diff_coins": 0,
+          "total_games": 0,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2187",
+          "machine_name": "スマスロ モンスターハンターライズ",
+          "diff_coins": -897,
+          "total_games": 3362,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2188",
+          "machine_name": "L東京喰種",
+          "diff_coins": -703,
+          "total_games": 2412,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2189",
+          "machine_name": "L東京喰種",
+          "diff_coins": -3700,
+          "total_games": 3522,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2190",
+          "machine_name": "スマスロ鉄拳6",
+          "diff_coins": -2791,
+          "total_games": 3368,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2191",
+          "machine_name": "スマスロモンキーターンV",
+          "diff_coins": -497,
+          "total_games": 919,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2192",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": -1684,
+          "total_games": 3675,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2193",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 6620,
+          "total_games": 8399,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2194",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 410,
+          "total_games": 5471,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2195",
+          "machine_name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -103,
+          "total_games": 440,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2196",
+          "machine_name": "スマスロ化物語",
+          "diff_coins": -1596,
+          "total_games": 2058,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "2197",
+          "machine_name": "スマスロ北斗の拳 転生の章2",
+          "diff_coins": 0,
+          "total_games": 64,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3001",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1297,
+          "total_games": 4849,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3002",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1089,
+          "total_games": 6208,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3003",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1013,
+          "total_games": 4417,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3004",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1090,
+          "total_games": 3032,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3005",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -899,
+          "total_games": 1612,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3006",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -101,
+          "total_games": 6246,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3007",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 3019,
+          "total_games": 6135,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3008",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -798,
+          "total_games": 3055,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3009",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 607,
+          "total_games": 5622,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3010",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 508,
+          "total_games": 4607,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3011",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 107,
+          "total_games": 5474,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3012",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 602,
+          "total_games": 6952,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3013",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 109,
+          "total_games": 1181,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3014",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 3795,
+          "total_games": 8411,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3015",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 206,
+          "total_games": 990,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3016",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -102,
+          "total_games": 2413,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3017",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -1490,
+          "total_games": 3048,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3018",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -703,
+          "total_games": 1364,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3019",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -702,
+          "total_games": 1379,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3020",
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": -404,
+          "total_games": 5909,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3021",
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": -199,
+          "total_games": 2335,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3022",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": 1414,
+          "total_games": 5373,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3023",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": -105,
+          "total_games": 365,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3024",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": -793,
+          "total_games": 2877,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3025",
+          "machine_name": "ジャグラーガールズSS",
+          "diff_coins": -304,
+          "total_games": 2723,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3026",
+          "machine_name": "ミスタージャグラー",
+          "diff_coins": 2215,
+          "total_games": 6285,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3027",
+          "machine_name": "ミスタージャグラー",
+          "diff_coins": 908,
+          "total_games": 3838,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3028",
+          "machine_name": "ミスタージャグラー",
+          "diff_coins": -999,
+          "total_games": 1469,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3029",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": 603,
+          "total_games": 5729,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3030",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": -103,
+          "total_games": 652,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3031",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": -900,
+          "total_games": 1745,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3032",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": -1391,
+          "total_games": 5782,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3033",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": -98,
+          "total_games": 483,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3034",
+          "machine_name": "ハッピージャグラーＶＩＩＩ",
+          "diff_coins": 803,
+          "total_games": 6125,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3035",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 1104,
+          "total_games": 5262,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3036",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -396,
+          "total_games": 1199,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3037",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 0,
+          "total_games": 6254,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3038",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 0,
+          "total_games": 3761,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3039",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 0,
+          "total_games": 4665,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3040",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -596,
+          "total_games": 673,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3041",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 1001,
+          "total_games": 5196,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3042",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 115,
+          "total_games": 1265,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3043",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -397,
+          "total_games": 6271,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3044",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 513,
+          "total_games": 2394,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3045",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 313,
+          "total_games": 3331,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3046",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": 2615,
+          "total_games": 3896,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3047",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -1899,
+          "total_games": 4915,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3048",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -591,
+          "total_games": 1887,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3049",
+          "machine_name": "ファンキージャグラー２ＫＴ",
+          "diff_coins": -304,
+          "total_games": 4801,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3050",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -596,
+          "total_games": 4333,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3051",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 0,
+          "total_games": 2166,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3052",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1698,
+          "total_games": 7081,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3053",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -398,
+          "total_games": 4623,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3054",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -697,
+          "total_games": 757,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3055",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 498,
+          "total_games": 5655,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3056",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1496,
+          "total_games": 3130,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3057",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 1209,
+          "total_games": 4230,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3058",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -304,
+          "total_games": 505,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3059",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 1013,
+          "total_games": 7106,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3060",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -496,
+          "total_games": 2166,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3061",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 112,
+          "total_games": 3036,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3062",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -591,
+          "total_games": 2105,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3063",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 1007,
+          "total_games": 6413,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3064",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -705,
+          "total_games": 2841,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3065",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": 806,
+          "total_games": 3958,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3066",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -395,
+          "total_games": 1444,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3067",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -704,
+          "total_games": 3480,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3068",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -392,
+          "total_games": 1327,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3069",
+          "machine_name": "ゴーゴージャグラー３",
+          "diff_coins": -196,
+          "total_games": 5315,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3070",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 903,
+          "total_games": 3595,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3071",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 0,
+          "total_games": 5044,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3072",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 1013,
+          "total_games": 7113,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3073",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -391,
+          "total_games": 2428,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3074",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -593,
+          "total_games": 2170,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3075",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 0,
+          "total_games": 6205,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3076",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1798,
+          "total_games": 3328,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3077",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -505,
+          "total_games": 3265,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3078",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -399,
+          "total_games": 3941,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3079",
+          "machine_name": "パチスロ　甲鉄城のカバネリ",
+          "diff_coins": 116,
+          "total_games": 2064,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3080",
+          "machine_name": "パチスロ　ディスクアップ２",
+          "diff_coins": 516,
+          "total_games": 3051,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3081",
+          "machine_name": "パチスロ　ディスクアップ２",
+          "diff_coins": -197,
+          "total_games": 2524,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3082",
+          "machine_name": "バーサスリヴァイズ",
+          "diff_coins": 1007,
+          "total_games": 4200,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3083",
+          "machine_name": "スマスロ スーパーブラックジャック",
+          "diff_coins": 2098,
+          "total_games": 1424,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3084",
+          "machine_name": "L主役は銭形5",
+          "diff_coins": -1089,
+          "total_games": 3360,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3085",
+          "machine_name": "L戦国コレクション５　超極楽ＬＯＯＰ",
+          "diff_coins": -503,
+          "total_games": 1105,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3086",
+          "machine_name": "L少女☆歌劇 レヴュースタァライト -The SLOT-",
+          "diff_coins": -1499,
+          "total_games": 1678,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3087",
+          "machine_name": "L虚構推理",
+          "diff_coins": -2889,
+          "total_games": 3676,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3088",
+          "machine_name": "スマスロ真・北斗無双",
+          "diff_coins": -596,
+          "total_games": 455,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3089",
+          "machine_name": "スマスロ シャーマンキング",
+          "diff_coins": -1085,
+          "total_games": 1322,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3090",
+          "machine_name": "吉宗",
+          "diff_coins": -1002,
+          "total_games": 6179,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3100",
+          "machine_name": "L不二子BT",
+          "diff_coins": -899,
+          "total_games": 2561,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3101",
+          "machine_name": "L不二子BT",
+          "diff_coins": 304,
+          "total_games": 2051,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3102",
+          "machine_name": "クレアの秘宝伝～はじまりの扉と太陽の石～ボーナストリガーver.",
+          "diff_coins": 1616,
+          "total_games": 4565,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3103",
+          "machine_name": "アレックス ブライト",
+          "diff_coins": 1005,
+          "total_games": 1591,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3104",
+          "machine_name": "アレックス ブライト",
+          "diff_coins": 1418,
+          "total_games": 3584,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3105",
+          "machine_name": "SHAKE BONUS TRIGGER",
+          "diff_coins": -905,
+          "total_games": 3194,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3106",
+          "machine_name": "SHAKE BONUS TRIGGER",
+          "diff_coins": -1491,
+          "total_games": 2554,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3107",
+          "machine_name": "スマスロ サンダーV",
+          "diff_coins": -1794,
+          "total_games": 5455,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3108",
+          "machine_name": "A-SLOT+異世界かるてっとBT",
+          "diff_coins": -391,
+          "total_games": 3610,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3109",
+          "machine_name": "A-SLOT+異世界かるてっとBT",
+          "diff_coins": -1391,
+          "total_games": 4269,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3110",
+          "machine_name": "L D4DJ Pachi-Slot Mix",
+          "diff_coins": -1390,
+          "total_games": 1981,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3111",
+          "machine_name": "回胴黙示録カイジ 狂宴",
+          "diff_coins": -1302,
+          "total_games": 2017,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3112",
+          "machine_name": "新ハナビ",
+          "diff_coins": -902,
+          "total_games": 2736,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3113",
+          "machine_name": "新ハナビ",
+          "diff_coins": 908,
+          "total_games": 5392,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3114",
+          "machine_name": "新ハナビ",
+          "diff_coins": -297,
+          "total_games": 3724,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3115",
+          "machine_name": "交響詩篇エウレカセブン HI-EVOLUTION ZERO TYPE-ART",
+          "diff_coins": -1692,
+          "total_games": 2347,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3116",
+          "machine_name": "A-SLOT+ この素晴らしい世界に祝福を！",
+          "diff_coins": -1387,
+          "total_games": 1914,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3117",
+          "machine_name": "Lパチスロうみねこのなく頃に2",
+          "diff_coins": 607,
+          "total_games": 5249,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3118",
+          "machine_name": "アニマルスロット ドッチ",
+          "diff_coins": -1998,
+          "total_games": 3529,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3119",
+          "machine_name": "A-SLOT+ ディスクアップ ULTRAREMIX",
+          "diff_coins": -890,
+          "total_games": 5089,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3120",
+          "machine_name": "A-SLOT+ ディスクアップ ULTRAREMIX",
+          "diff_coins": 715,
+          "total_games": 4189,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3121",
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -499,
+          "total_games": 2739,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3122",
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": 1399,
+          "total_games": 3026,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3123",
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -999,
+          "total_games": 3054,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3124",
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -1193,
+          "total_games": 3038,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3125",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -596,
+          "total_games": 3835,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3126",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -999,
+          "total_games": 2917,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3127",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -701,
+          "total_games": 2010,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3128",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1091,
+          "total_games": 3838,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3129",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -900,
+          "total_games": 2337,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3130",
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1087,
+          "total_games": 4146,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3131",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1001,
+          "total_games": 4063,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3132",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -99,
+          "total_games": 4849,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3133",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -196,
+          "total_games": 5995,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3134",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -702,
+          "total_games": 1853,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3135",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -105,
+          "total_games": 2675,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3136",
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -104,
+          "total_games": 7195,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3137",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -1302,
+          "total_games": 1671,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3138",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -101,
+          "total_games": 2938,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3139",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": 3589,
+          "total_games": 3600,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3140",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -784,
+          "total_games": 943,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3141",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -595,
+          "total_games": 903,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3142",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -701,
+          "total_games": 1745,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3143",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -493,
+          "total_games": 1938,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3144",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": -2390,
+          "total_games": 3070,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3145",
+          "machine_name": "スマスロ 沖ドキ!DUO アンコール",
+          "diff_coins": 0,
+          "total_games": 5458,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3181",
+          "machine_name": "沖ドキ!ゴージャス 30Φ",
+          "diff_coins": -5885,
+          "total_games": 7380,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3182",
+          "machine_name": "沖ドキ!ゴージャス 30Φ",
+          "diff_coins": -3198,
+          "total_games": 4740,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3183",
+          "machine_name": "沖ドキ!ゴージャス 30Φ",
+          "diff_coins": 203,
+          "total_games": 934,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3184",
+          "machine_name": "沖ドキ！BLACK",
+          "diff_coins": -998,
+          "total_games": 1993,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3185",
+          "machine_name": "沖ドキ！BLACK",
+          "diff_coins": -1285,
+          "total_games": 3659,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3186",
+          "machine_name": "沖ドキ！BLACK",
+          "diff_coins": -1600,
+          "total_games": 2124,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3187",
+          "machine_name": "スマート沖スロ ニューキングハナハナV",
+          "diff_coins": -105,
+          "total_games": 1411,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3188",
+          "machine_name": "スマート沖スロ ニューキングハナハナV",
+          "diff_coins": -991,
+          "total_games": 2232,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3189",
+          "machine_name": "スマート沖スロ ニューキングハナハナV",
+          "diff_coins": -904,
+          "total_games": 3076,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3190",
+          "machine_name": "キングハナハナ-30",
+          "diff_coins": 408,
+          "total_games": 3419,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3191",
+          "machine_name": "チバリヨ2",
+          "diff_coins": -799,
+          "total_games": 532,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3192",
+          "machine_name": "チバリヨ2",
+          "diff_coins": -790,
+          "total_games": 1260,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        },
+        {
+          "machine_number": "3193",
+          "machine_name": "沖ドキ！ＧＯＬＤ-30",
+          "diff_coins": 610,
+          "total_games": 157,
+          "bb_prob": null,
+          "rb_prob": null,
+          "source_id": "minrepo"
+        }
+      ]
+    }
+  }
+}
