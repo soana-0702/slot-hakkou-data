@@ -165,6 +165,7 @@
     tr:last-child td { border-bottom: none; }
     tr:hover td { background: #1c1f2e; }
     .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .num-date { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
     .pos { color: #4caf81; }
     .neg { color: #e05555; }
 
@@ -325,6 +326,11 @@
   <!-- 出ている機種ランキング -->
   <section>
     <h2 id="top-machines-heading">出ている機種（直近14日）</h2>
+    <div id="top-machines-pager" style="display:none; margin-bottom:.5rem; text-align:center;">
+      <button id="top-machines-prev" onclick="stepTopMachinesPage(-1)">◀ 前へ</button>
+      <span id="top-machines-page-info" style="margin:0 .8rem;"></span>
+      <button id="top-machines-next" onclick="stepTopMachinesPage(1)">次へ ▶</button>
+    </div>
     <div class="table-wrap">
       <table id="top-machines-table">
         <thead>
@@ -332,16 +338,21 @@
             <th>#</th>
             <th>店舗</th>
             <th>機種名</th>
+            <th class="num">差枚合計</th>
             <th class="num">平均差枚</th>
             <th class="num">勝率</th>
-            <th class="num">最大差枚</th>
-            <th class="num">日数</th>
+            <th class="num-date">該当日</th>
           </tr>
         </thead>
         <tbody id="top-machines-body">
           <tr><td colspan="7" class="empty">データを読み込み中…</td></tr>
         </tbody>
       </table>
+    </div>
+    <div id="top-machines-pager-bottom" style="display:none; margin-top:.5rem; text-align:center;">
+      <button id="top-machines-prev-bottom" onclick="stepTopMachinesPage(-1)">◀ 前へ</button>
+      <span id="top-machines-page-info-bottom" style="margin:0 .8rem;"></span>
+      <button id="top-machines-next-bottom" onclick="stepTopMachinesPage(1)">次へ ▶</button>
     </div>
   </section>
 
@@ -684,55 +695,97 @@ async function buildAndRenderTopMachines(playDate, stores) {
     })
   );
 
+  // 日付 × 店舗 × 機種ごとに集計（1行 = 1日・1店舗・1機種）
+  const rows = [];
   machineResults.forEach((data, i) => {
     if (!data) return;
     const playD = targetDates[i];
     Object.entries(data.stores || {}).forEach(([storeGroup, storeData]) => {
+      const dayGroups = {};
       (storeData.machines || []).forEach(m => {
         if (m.diff_coins == null) return;
-        const key = `${storeGroup}\t${m.machine_name}`;
-        if (!groups[key]) {
-          groups[key] = { storeGroup, machineName: m.machine_name, dates: new Set(), diffs: [] };
-        }
-        groups[key].dates.add(playD);
-        groups[key].diffs.push(m.diff_coins);
+        const name = m.machine_name;
+        if (!dayGroups[name]) dayGroups[name] = { totalDiff: 0, plusCount: 0, count: 0 };
+        dayGroups[name].totalDiff += m.diff_coins;
+        dayGroups[name].count++;
+        if (m.diff_coins > 0) dayGroups[name].plusCount++;
+      });
+      Object.entries(dayGroups).forEach(([machineName, day]) => {
+        rows.push({
+          store_group: storeGroup,
+          machine_name: machineName,
+          total_diff: day.totalDiff,
+          mean_diff: day.count > 0 ? day.totalDiff / day.count : 0,
+          plus_count: day.plusCount,
+          total_count: day.count,
+          play_date: playD,
+        });
       });
     });
   });
 
-  // sample_days >= 3 でフィルタ → 平均差枚降順
-  const machines = Object.values(groups)
-    .filter(g => g.dates.size >= 3)
-    .map(g => ({
-      store_group: g.storeGroup,
-      machine_name: g.machineName,
-      sample_days: g.dates.size,
-      mean_diff: g.diffs.reduce((a, b) => a + b, 0) / g.diffs.length,
-      win_rate: g.diffs.filter(d => d > 0).length / g.diffs.length,
-      max_diff: Math.max(...g.diffs),
-    }))
-    .sort((a, b) => b.mean_diff - a.mean_diff);
+  // 平均差枚降順でソート・上位1000件に絞る
+  const machines = rows.sort((a, b) => b.mean_diff - a.mean_diff).slice(0, 1000);
 
-  renderTopMachines(machines, storeMap);
+  topMachinesAll = machines;
+  topMachinesStoreMap = storeMap;
+  topMachinesPage = 0;
+  renderTopMachines();
 }
 
-function renderTopMachines(machines, storeMap) {
+const TOP_MACHINES_PAGE_SIZE = 100;
+let topMachinesAll = [];
+let topMachinesStoreMap = {};
+let topMachinesPage = 0;
+
+function stepTopMachinesPage(dir) {
+  const maxPage = Math.ceil(topMachinesAll.length / TOP_MACHINES_PAGE_SIZE) - 1;
+  topMachinesPage = Math.max(0, Math.min(topMachinesPage + dir, maxPage));
+  renderTopMachines();
+}
+
+function renderTopMachines() {
   const tbody = document.getElementById("top-machines-body");
-  if (!machines.length) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます（3日分以上必要）</td></tr>';
+  const pager = document.getElementById("top-machines-pager");
+
+  if (!topMachinesAll.length) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます</td></tr>';
+    pager.style.display = "none";
     return;
   }
 
-  tbody.innerHTML = machines.map((m, i) => `
+  const totalPages = Math.ceil(topMachinesAll.length / TOP_MACHINES_PAGE_SIZE);
+  const start = topMachinesPage * TOP_MACHINES_PAGE_SIZE;
+  const page = topMachinesAll.slice(start, start + TOP_MACHINES_PAGE_SIZE);
+
+  tbody.innerHTML = page.map((m, i) => `
     <tr>
-      <td>${i + 1}</td>
-      <td>${(storeMap && storeMap[m.store_group]) || m.store_group}</td>
+      <td>${start + i + 1}</td>
+      <td>${(topMachinesStoreMap && topMachinesStoreMap[m.store_group]) || m.store_group}</td>
       <td>${m.machine_name}</td>
+      <td class="num ${diffClass(m.total_diff)}">${fmtDiff(m.total_diff)}</td>
       <td class="num ${diffClass(m.mean_diff)}">${fmtDiff(Math.round(m.mean_diff))}</td>
-      <td class="num">${fmtPct(m.win_rate)}</td>
-      <td class="num ${diffClass(m.max_diff)}">${fmtDiff(m.max_diff)}</td>
-      <td class="num">${m.sample_days}</td>
+      <td class="num">${m.plus_count}/${m.total_count}</td>
+      <td class="num-date">${m.play_date}</td>
     </tr>`).join("");
+
+  const pagerBottom = document.getElementById("top-machines-pager-bottom");
+  if (totalPages > 1) {
+    const info = `${topMachinesPage + 1} / ${totalPages} ページ（全${topMachinesAll.length}件）`;
+    const atFirst = topMachinesPage === 0;
+    const atLast = topMachinesPage === totalPages - 1;
+    pager.style.display = "block";
+    document.getElementById("top-machines-page-info").textContent = info;
+    document.getElementById("top-machines-prev").disabled = atFirst;
+    document.getElementById("top-machines-next").disabled = atLast;
+    pagerBottom.style.display = "block";
+    document.getElementById("top-machines-page-info-bottom").textContent = info;
+    document.getElementById("top-machines-prev-bottom").disabled = atFirst;
+    document.getElementById("top-machines-next-bottom").disabled = atLast;
+  } else {
+    pager.style.display = "none";
+    pagerBottom.style.display = "none";
+  }
 }
 
 // ── 全台リストモーダル ────────────────────────────────────────────────────
