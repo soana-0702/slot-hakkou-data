@@ -1,6 +1,6 @@
 {
   "play_date": "2026-05-24",
-  "generated_at": "2026-06-03T01:49:55",
+  "generated_at": "2026-06-03T01:59:57",
   "format_version": 1,
   "stores": {
     "amuse-asakusa": {
@@ -10899,2424 +10899,2424 @@
       "machines": [
         {
           "machine_number": "3001",
-          "machine_name": "Lｺﾞｯﾄﾞｲｰﾀｰ ﾘｻﾞﾚｸｼｮﾝ",
-          "diff_coins": null,
+          "machine_name": "ゴッドイーター リザレクション",
+          "diff_coins": -1500,
           "total_games": 3529,
           "bb_prob": 0.0,
           "rb_prob": 352.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3002",
-          "machine_name": "Lｺﾞｯﾄﾞｲｰﾀｰ ﾘｻﾞﾚｸｼｮﾝ",
-          "diff_coins": null,
+          "machine_name": "ゴッドイーター リザレクション",
+          "diff_coins": -3400,
           "total_games": 3572,
           "bb_prob": 0.0,
           "rb_prob": 324.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3003",
-          "machine_name": "Lｺﾞｯﾄﾞｲｰﾀｰ ﾘｻﾞﾚｸｼｮﾝ",
-          "diff_coins": null,
+          "machine_name": "ゴッドイーター リザレクション",
+          "diff_coins": -2200,
           "total_games": 3222,
           "bb_prob": 0.0,
           "rb_prob": 537.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3004",
-          "machine_name": "Lﾓﾝｽﾀｰﾊﾝﾀｰﾗｲｽﾞ",
-          "diff_coins": null,
+          "machine_name": "モンスターハンターライズ",
+          "diff_coins": -1500,
           "total_games": 4409,
           "bb_prob": 0.0,
           "rb_prob": 200.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3005",
-          "machine_name": "Lﾓﾝｽﾀｰﾊﾝﾀｰﾗｲｽﾞ",
-          "diff_coins": null,
+          "machine_name": "モンスターハンターライズ",
+          "diff_coins": 1900,
           "total_games": 4282,
           "bb_prob": 0.0,
           "rb_prob": 285.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3006",
-          "machine_name": "Lﾓﾝｽﾀｰﾊﾝﾀｰﾗｲｽﾞ",
-          "diff_coins": null,
+          "machine_name": "モンスターハンターライズ",
+          "diff_coins": 900,
           "total_games": 4426,
           "bb_prob": 0.0,
           "rb_prob": 245.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3007",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": -700,
           "total_games": 5021,
           "bb_prob": 0.0,
           "rb_prob": 228.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3008",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": 6700,
           "total_games": 2985,
           "bb_prob": 0.0,
           "rb_prob": 331.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3009",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": -2000,
           "total_games": 5498,
           "bb_prob": 0.0,
           "rb_prob": 458.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3010",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": -1500,
           "total_games": 4262,
           "bb_prob": 0.0,
           "rb_prob": 304.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3011",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": -1300,
           "total_games": 3182,
           "bb_prob": 0.0,
           "rb_prob": 318.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3012",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": 2500,
           "total_games": 4584,
           "bb_prob": 0.0,
           "rb_prob": 176.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3013",
-          "machine_name": "LﾓﾝｷｰﾀｰﾝV",
-          "diff_coins": null,
+          "machine_name": "モンキーターンV",
+          "diff_coins": -1400,
           "total_games": 4826,
           "bb_prob": 0.0,
           "rb_prob": 301.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3014",
-          "machine_name": "Lﾏｷﾞｱﾚｺｰﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": 4400,
           "total_games": 3124,
           "bb_prob": 260.3,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3015",
-          "machine_name": "Lﾏｷﾞｱﾚｺｰﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -2200,
           "total_games": 2713,
           "bb_prob": 271.3,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3016",
-          "machine_name": "Lﾏｷﾞｱﾚｺｰﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -900,
           "total_games": 5041,
           "bb_prob": 201.6,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3017",
-          "machine_name": "Lﾏｷﾞｱﾚｺｰﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -3600,
           "total_games": 3639,
           "bb_prob": 279.9,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3018",
-          "machine_name": "Lﾏｷﾞｱﾚｺｰﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -2500,
           "total_games": 4051,
           "bb_prob": 225.1,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3019",
-          "machine_name": "Lﾏｷﾞｱﾚｺｰﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "マギアレコード 魔法少女まどか☆マギカ外伝",
+          "diff_coins": -1800,
           "total_games": 4377,
           "bb_prob": 243.2,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3020",
-          "machine_name": "ｼﾞｬｸﾞﾗｰｶﾞｰﾙｽﾞSS",
-          "diff_coins": null,
+          "machine_name": "ジャグラーガールズ",
+          "diff_coins": 1000,
           "total_games": 7706,
           "bb_prob": 285.4,
           "rb_prob": 233.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3021",
-          "machine_name": "ｼﾞｬｸﾞﾗｰｶﾞｰﾙｽﾞSS",
-          "diff_coins": null,
+          "machine_name": "ジャグラーガールズ",
+          "diff_coins": 1500,
           "total_games": 8732,
           "bb_prob": 236.0,
           "rb_prob": 291.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3022",
-          "machine_name": "ｼﾞｬｸﾞﾗｰｶﾞｰﾙｽﾞSS",
-          "diff_coins": null,
-          "total_games": 8782,
-          "bb_prob": 209.1,
-          "rb_prob": 237.4,
-          "source_id": null
+          "machine_name": "ジャグラーガールズ",
+          "diff_coins": 2700,
+          "total_games": 8820,
+          "bb_prob": 210.0,
+          "rb_prob": 238.4,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3023",
-          "machine_name": "ｳﾙﾄﾗﾐﾗｸﾙｼﾞｬｸﾞﾗｰ",
-          "diff_coins": null,
-          "total_games": 9172,
-          "bb_prob": 254.8,
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": 1000,
+          "total_games": 9175,
+          "bb_prob": 254.9,
           "rb_prob": 262.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3024",
-          "machine_name": "ｳﾙﾄﾗﾐﾗｸﾙｼﾞｬｸﾞﾗｰ",
-          "diff_coins": null,
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": -300,
           "total_games": 6228,
           "bb_prob": 270.8,
-          "rb_prob": 389.3,
-          "source_id": null
+          "rb_prob": 389.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3025",
-          "machine_name": "ｳﾙﾄﾗﾐﾗｸﾙｼﾞｬｸﾞﾗｰ",
-          "diff_coins": null,
+          "machine_name": "ウルトラミラクルジャグラー",
+          "diff_coins": -100,
           "total_games": 6882,
           "bb_prob": 264.7,
           "rb_prob": 404.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3026",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1500,
           "total_games": 5058,
           "bb_prob": 361.3,
           "rb_prob": 361.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3027",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -400,
           "total_games": 2456,
           "bb_prob": 350.9,
           "rb_prob": 409.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3028",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 300,
           "total_games": 7578,
           "bb_prob": 261.3,
           "rb_prob": 344.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3029",
-          "machine_name": "ｺﾞｰｺﾞｰｼﾞｬｸﾞﾗｰ3",
-          "diff_coins": null,
+          "machine_name": "ゴーゴージャグラー3",
+          "diff_coins": -700,
           "total_games": 6304,
           "bb_prob": 300.2,
           "rb_prob": 315.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3030",
-          "machine_name": "ｺﾞｰｺﾞｰｼﾞｬｸﾞﾗｰ3",
-          "diff_coins": null,
-          "total_games": 4064,
-          "bb_prob": 338.7,
-          "rb_prob": 312.6,
-          "source_id": null
+          "machine_name": "ゴーゴージャグラー3",
+          "diff_coins": -1000,
+          "total_games": 4141,
+          "bb_prob": 345.1,
+          "rb_prob": 295.8,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3031",
-          "machine_name": "ｺﾞｰｺﾞｰｼﾞｬｸﾞﾗｰ3",
-          "diff_coins": null,
+          "machine_name": "ゴーゴージャグラー3",
+          "diff_coins": -300,
           "total_games": 5477,
           "bb_prob": 273.9,
           "rb_prob": 365.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3032",
-          "machine_name": "ｺﾞｰｺﾞｰｼﾞｬｸﾞﾗｰ3",
-          "diff_coins": null,
+          "machine_name": "ゴーゴージャグラー3",
+          "diff_coins": 1100,
           "total_games": 9076,
           "bb_prob": 259.3,
           "rb_prob": 245.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3033",
-          "machine_name": "ｺﾞｰｺﾞｰｼﾞｬｸﾞﾗｰ3",
-          "diff_coins": null,
+          "machine_name": "ゴーゴージャグラー3",
+          "diff_coins": -300,
           "total_games": 4192,
           "bb_prob": 232.9,
           "rb_prob": 524.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3034",
-          "machine_name": "ｺﾞｰｺﾞｰｼﾞｬｸﾞﾗｰ3",
-          "diff_coins": null,
-          "total_games": 7610,
-          "bb_prob": 237.8,
-          "rb_prob": 281.9,
-          "source_id": null
+          "machine_name": "ゴーゴージャグラー3",
+          "diff_coins": 1000,
+          "total_games": 7765,
+          "bb_prob": 235.3,
+          "rb_prob": 287.6,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3035",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 6852,
-          "bb_prob": 326.3,
-          "rb_prob": 263.5,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -100,
+          "total_games": 6918,
+          "bb_prob": 329.4,
+          "rb_prob": 266.1,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3036",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 9251,
-          "bb_prob": 250.0,
-          "rb_prob": 308.4,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1800,
+          "total_games": 9426,
+          "bb_prob": 241.7,
+          "rb_prob": 314.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3037",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 5128,
-          "bb_prob": 244.2,
-          "rb_prob": 569.8,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 300,
+          "total_games": 5179,
+          "bb_prob": 246.6,
+          "rb_prob": 575.4,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3038",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 600,
           "total_games": 7528,
           "bb_prob": 268.9,
           "rb_prob": 313.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3039",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 8866,
-          "bb_prob": 197.0,
-          "rb_prob": 286.0,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 4100,
+          "total_games": 8913,
+          "bb_prob": 193.8,
+          "rb_prob": 287.5,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3040",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1500,
           "total_games": 8759,
           "bb_prob": 243.3,
           "rb_prob": 292.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3041",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1100,
           "total_games": 6350,
           "bb_prob": 317.5,
           "rb_prob": 373.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3042",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1200,
           "total_games": 7971,
           "bb_prob": 227.7,
           "rb_prob": 379.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3043",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -900,
           "total_games": 4922,
           "bb_prob": 328.1,
           "rb_prob": 447.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3044",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1500,
           "total_games": 4388,
           "bb_prob": 398.9,
           "rb_prob": 548.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3045",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 5794,
-          "bb_prob": 321.9,
-          "rb_prob": 263.4,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -400,
+          "total_games": 5866,
+          "bb_prob": 325.9,
+          "rb_prob": 266.6,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3046",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1500,
           "total_games": 7895,
           "bb_prob": 225.6,
           "rb_prob": 358.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3047",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 5069,
-          "bb_prob": 633.6,
-          "rb_prob": 422.4,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -2800,
+          "total_games": 5078,
+          "bb_prob": 634.8,
+          "rb_prob": 423.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3048",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -1900,
           "total_games": 5953,
           "bb_prob": 425.2,
           "rb_prob": 350.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3049",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 5649,
-          "bb_prob": 313.8,
-          "rb_prob": 332.3,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -400,
+          "total_games": 5731,
+          "bb_prob": 301.6,
+          "rb_prob": 337.1,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3050",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 6170,
-          "bb_prob": 280.5,
-          "rb_prob": 362.9,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -200,
+          "total_games": 6189,
+          "bb_prob": 281.3,
+          "rb_prob": 364.1,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3051",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 8712,
-          "bb_prob": 229.3,
-          "rb_prob": 256.2,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 2200,
+          "total_games": 8925,
+          "bb_prob": 234.9,
+          "rb_prob": 255.0,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3052",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 7181,
-          "bb_prob": 247.6,
-          "rb_prob": 224.4,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1900,
+          "total_games": 7237,
+          "bb_prob": 249.6,
+          "rb_prob": 226.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3053",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 2700,
           "total_games": 6814,
           "bb_prob": 206.5,
           "rb_prob": 262.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3054",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 700,
           "total_games": 6595,
           "bb_prob": 253.7,
           "rb_prob": 471.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3055",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 6078,
-          "bb_prob": 196.1,
-          "rb_prob": 552.5,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1000,
+          "total_games": 6164,
+          "bb_prob": 198.8,
+          "rb_prob": 560.4,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3056",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
+          "machine_name": "マイジャグラーV",
+          "diff_coins": -900,
           "total_games": 4451,
           "bb_prob": 296.7,
           "rb_prob": 556.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3057",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 6831,
-          "bb_prob": 227.7,
-          "rb_prob": 244.0,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1900,
+          "total_games": 7010,
+          "bb_prob": 233.7,
+          "rb_prob": 250.4,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3058",
-          "machine_name": "ﾏｲｼﾞｬｸﾞﾗｰV",
-          "diff_coins": null,
-          "total_games": 8104,
-          "bb_prob": 270.1,
-          "rb_prob": 238.4,
-          "source_id": null
+          "machine_name": "マイジャグラーV",
+          "diff_coins": 1300,
+          "total_games": 8218,
+          "bb_prob": 273.9,
+          "rb_prob": 241.7,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3059",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -500,
           "total_games": 2535,
           "bb_prob": 281.7,
           "rb_prob": 845.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3060",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -800,
           "total_games": 2643,
           "bb_prob": 377.6,
           "rb_prob": 660.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3061",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
-          "total_games": 8812,
-          "bb_prob": 251.8,
-          "rb_prob": 238.2,
-          "source_id": null
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 1800,
+          "total_games": 8894,
+          "bb_prob": 254.1,
+          "rb_prob": 240.4,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3062",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1800,
           "total_games": 3223,
           "bb_prob": 644.6,
           "rb_prob": 402.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3063",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1700,
           "total_games": 3378,
           "bb_prob": 482.6,
           "rb_prob": 482.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3064",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1600,
           "total_games": 5777,
           "bb_prob": 412.6,
           "rb_prob": 304.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3065",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
-          "total_games": 7358,
-          "bb_prob": 262.8,
-          "rb_prob": 272.5,
-          "source_id": null
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 700,
+          "total_games": 7368,
+          "bb_prob": 263.1,
+          "rb_prob": 272.9,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3066",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 400,
           "total_games": 7501,
           "bb_prob": 258.7,
           "rb_prob": 312.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3067",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -500,
           "total_games": 7056,
           "bb_prob": 320.7,
           "rb_prob": 352.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3068",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 200,
           "total_games": 4740,
           "bb_prob": 278.8,
           "rb_prob": 338.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3069",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1200,
           "total_games": 3753,
           "bb_prob": 341.2,
           "rb_prob": 625.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3070",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -1300,
           "total_games": 4515,
-          "bb_prob": 376.3,
+          "bb_prob": 376.2,
           "rb_prob": 564.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3071",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 200,
           "total_games": 7329,
           "bb_prob": 261.8,
           "rb_prob": 385.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3072",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": 0,
           "total_games": 4419,
-          "bb_prob": 221.0,
+          "bb_prob": 220.9,
           "rb_prob": 631.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3073",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
-          "total_games": 8164,
-          "bb_prob": 326.6,
-          "rb_prob": 255.1,
-          "source_id": null
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": -600,
+          "total_games": 8235,
+          "bb_prob": 329.4,
+          "rb_prob": 257.3,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3074",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": 1100,
           "total_games": 7921,
           "bb_prob": 240.0,
           "rb_prob": 304.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3075",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": -400,
           "total_games": 6405,
           "bb_prob": 305.0,
           "rb_prob": 278.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3076",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
-          "total_games": 8673,
-          "bb_prob": 206.5,
-          "rb_prob": 456.5,
-          "source_id": null
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": 1500,
+          "total_games": 8738,
+          "bb_prob": 208.0,
+          "rb_prob": 459.9,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3077",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": 300,
           "total_games": 4848,
           "bb_prob": 230.9,
           "rb_prob": 538.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3078",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
-          "total_games": 8464,
-          "bb_prob": 273.0,
-          "rb_prob": 273.0,
-          "source_id": null
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": 1100,
+          "total_games": 8542,
+          "bb_prob": 275.5,
+          "rb_prob": 266.9,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3079",
-          "machine_name": "ﾌｧﾝｷｰｼﾞｬｸﾞﾗｰ2KT",
-          "diff_coins": null,
+          "machine_name": "ファンキージャグラー2",
+          "diff_coins": -500,
           "total_games": 5354,
           "bb_prob": 297.4,
           "rb_prob": 411.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3080",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
-          "total_games": 9402,
-          "bb_prob": 303.3,
-          "rb_prob": 324.2,
-          "source_id": null
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": -600,
+          "total_games": 9486,
+          "bb_prob": 306.0,
+          "rb_prob": 306.0,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3081",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
-          "total_games": 8064,
-          "bb_prob": 196.7,
-          "rb_prob": 201.6,
-          "source_id": null
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": 4800,
+          "total_games": 8240,
+          "bb_prob": 196.2,
+          "rb_prob": 206.0,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3082",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
-          "total_games": 8705,
-          "bb_prob": 256.0,
-          "rb_prob": 256.0,
-          "source_id": null
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": 1900,
+          "total_games": 8816,
+          "bb_prob": 251.9,
+          "rb_prob": 251.9,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3083",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
-          "total_games": 2357,
-          "bb_prob": 785.7,
-          "rb_prob": 336.7,
-          "source_id": null
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": -1400,
+          "total_games": 2394,
+          "bb_prob": 798.0,
+          "rb_prob": 342.0,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3084",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
-          "total_games": 7145,
-          "bb_prob": 264.6,
-          "rb_prob": 255.2,
-          "source_id": null
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": 1300,
+          "total_games": 7170,
+          "bb_prob": 265.6,
+          "rb_prob": 256.1,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3085",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": -200,
           "total_games": 1996,
           "bb_prob": 332.7,
           "rb_prob": 332.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3086",
-          "machine_name": "ﾊｯﾋﾟｰｼﾞｬｸﾞﾗｰVIII",
-          "diff_coins": null,
-          "total_games": 4629,
-          "bb_prob": 385.8,
-          "rb_prob": 1157.3,
-          "source_id": null
+          "machine_name": "ハッピージャグラーVIII",
+          "diff_coins": -1900,
+          "total_games": 4632,
+          "bb_prob": 386.0,
+          "rb_prob": 1158.0,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3087",
-          "machine_name": "L虚構推理",
-          "diff_coins": null,
+          "machine_name": "虚構推理",
+          "diff_coins": 1400,
           "total_games": 5068,
           "bb_prob": 0.0,
           "rb_prob": 844.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3088",
-          "machine_name": "Lﾏｼﾞｶﾙﾊﾛｳｨﾝ8",
-          "diff_coins": null,
+          "machine_name": "マジカルハロウィン8",
+          "diff_coins": 400,
           "total_games": 2781,
           "bb_prob": 126.4,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3089",
-          "machine_name": "Lﾀｸﾄｵｰﾊﾟｽ ﾃﾞｽﾃｨﾆｰ",
-          "diff_coins": null,
+          "machine_name": "タクトオーパス デスティニー",
+          "diff_coins": -1900,
           "total_games": 4623,
           "bb_prob": 0.0,
           "rb_prob": 192.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3090",
-          "machine_name": "L無職転生",
-          "diff_coins": null,
+          "machine_name": "無職転生 ～異世界行ったら本気だす～",
+          "diff_coins": 0,
           "total_games": 4553,
           "bb_prob": 0.0,
           "rb_prob": 182.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3091",
-          "machine_name": "Lｱﾆﾏﾙｽﾛｯﾄﾄﾞｯﾁ",
-          "diff_coins": null,
+          "machine_name": "ドッチ",
+          "diff_coins": -500,
           "total_games": 3256,
           "bb_prob": 135.7,
           "rb_prob": 465.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3092",
-          "machine_name": "Lｱｸﾀﾞﾏﾄﾞﾗｲﾌﾞ",
-          "diff_coins": null,
+          "machine_name": "アクダマドライブ",
+          "diff_coins": 800,
           "total_games": 5367,
           "bb_prob": 244.0,
           "rb_prob": 412.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3093",
-          "machine_name": "L銀河英雄伝説",
-          "diff_coins": null,
+          "machine_name": "銀河英雄伝説 Die Neue These",
+          "diff_coins": -300,
           "total_games": 2966,
           "bb_prob": 0.0,
           "rb_prob": 329.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3094",
-          "machine_name": "L機動戦士ｶﾞﾝﾀﾞﾑSEED",
-          "diff_coins": null,
+          "machine_name": "機動戦士ガンダムSEED",
+          "diff_coins": -400,
           "total_games": 3534,
           "bb_prob": 0.0,
           "rb_prob": 294.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3095",
-          "machine_name": "L吉宗",
-          "diff_coins": null,
+          "machine_name": "吉宗",
+          "diff_coins": -1300,
           "total_games": 1511,
           "bb_prob": 1511.0,
           "rb_prob": 755.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3096",
-          "machine_name": "Lとある科学の超電磁砲2",
-          "diff_coins": null,
+          "machine_name": "とある科学の超電磁砲2",
+          "diff_coins": 700,
           "total_games": 2740,
           "bb_prob": 0.0,
           "rb_prob": 342.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3097",
-          "machine_name": "L戦国乙女4",
-          "diff_coins": null,
+          "machine_name": "戦国乙女4 戦乱に閃く炯眼の軍師",
+          "diff_coins": 4000,
           "total_games": 6661,
           "bb_prob": 229.7,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3098",
-          "machine_name": "Lｶﾞｰﾙｽﾞ&ﾊﾟﾝﾂｧｰ最終",
-          "diff_coins": null,
+          "machine_name": "ガールズ&パンツァー 最終章",
+          "diff_coins": -1900,
           "total_games": 1899,
           "bb_prob": 189.9,
-          "rb_prob": 158.3,
-          "source_id": null
+          "rb_prob": 158.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3099",
-          "machine_name": "Lｶﾞｰﾙｽﾞ&ﾊﾟﾝﾂｧｰ最終",
-          "diff_coins": null,
+          "machine_name": "ガールズ&パンツァー 最終章",
+          "diff_coins": 3100,
           "total_games": 3485,
           "bb_prob": 59.1,
           "rb_prob": 134.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3100",
-          "machine_name": "Lｶﾞｰﾙｽﾞ&ﾊﾟﾝﾂｧｰ最終",
-          "diff_coins": null,
+          "machine_name": "ガールズ&パンツァー 最終章",
+          "diff_coins": -1100,
           "total_games": 2289,
           "bb_prob": 143.1,
           "rb_prob": 134.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3101",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -900,
           "total_games": 5025,
           "bb_prob": 314.1,
           "rb_prob": 502.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3102",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": -800,
           "total_games": 3889,
           "bb_prob": 299.2,
           "rb_prob": 388.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3103",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
-          "total_games": 7305,
-          "bb_prob": 260.9,
-          "rb_prob": 251.9,
-          "source_id": null
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 900,
+          "total_games": 7374,
+          "bb_prob": 263.4,
+          "rb_prob": 254.3,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3104",
-          "machine_name": "ﾈｵｱｲﾑｼﾞｬｸﾞﾗｰEX",
-          "diff_coins": null,
+          "machine_name": "ネオアイムジャグラーEX",
+          "diff_coins": 200,
           "total_games": 3542,
           "bb_prob": 253.0,
           "rb_prob": 442.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3105",
-          "machine_name": "LﾊﾞｲｵﾊｻﾞｰﾄﾞRE：3",
-          "diff_coins": null,
+          "machine_name": "バイオハザード RE:3",
+          "diff_coins": 6000,
           "total_games": 3716,
           "bb_prob": 0.0,
           "rb_prob": 54.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3106",
-          "machine_name": "LﾊﾞｲｵﾊｻﾞｰﾄﾞRE：3",
-          "diff_coins": null,
+          "machine_name": "バイオハザード RE:3",
+          "diff_coins": -1200,
           "total_games": 4091,
           "bb_prob": 0.0,
           "rb_prob": 56.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3107",
-          "machine_name": "LﾊﾞｲｵﾊｻﾞｰﾄﾞRE：3",
-          "diff_coins": null,
+          "machine_name": "バイオハザード RE:3",
+          "diff_coins": -3700,
           "total_games": 3450,
           "bb_prob": 0.0,
           "rb_prob": 93.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3108",
-          "machine_name": "LﾊﾞｲｵﾊｻﾞｰﾄﾞRE：3",
-          "diff_coins": null,
+          "machine_name": "バイオハザード RE:3",
+          "diff_coins": -2800,
           "total_games": 3581,
           "bb_prob": 0.0,
           "rb_prob": 70.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3109",
-          "machine_name": "LﾊﾞｲｵﾊｻﾞｰﾄﾞRE：3",
-          "diff_coins": null,
+          "machine_name": "バイオハザード RE:3",
+          "diff_coins": 6100,
           "total_games": 3436,
           "bb_prob": 0.0,
           "rb_prob": 43.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3110",
-          "machine_name": "LﾊﾞｲｵﾊｻﾞｰﾄﾞRE：3",
-          "diff_coins": null,
+          "machine_name": "バイオハザード RE:3",
+          "diff_coins": -200,
           "total_games": 3504,
           "bb_prob": 0.0,
           "rb_prob": 57.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3111",
-          "machine_name": "L真打吉宗",
-          "diff_coins": null,
+          "machine_name": "真打 吉宗",
+          "diff_coins": 1200,
           "total_games": 4705,
           "bb_prob": 0.0,
           "rb_prob": 313.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3112",
-          "machine_name": "L真打吉宗",
-          "diff_coins": null,
+          "machine_name": "真打 吉宗",
+          "diff_coins": -4200,
           "total_games": 3141,
           "bb_prob": 0.0,
           "rb_prob": 392.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3113",
-          "machine_name": "L真打吉宗",
-          "diff_coins": null,
+          "machine_name": "真打 吉宗",
+          "diff_coins": -2400,
           "total_games": 3851,
           "bb_prob": 0.0,
           "rb_prob": 320.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3114",
-          "machine_name": "L真打吉宗",
-          "diff_coins": null,
+          "machine_name": "真打 吉宗",
+          "diff_coins": -1900,
           "total_games": 4588,
           "bb_prob": 0.0,
           "rb_prob": 382.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3115",
-          "machine_name": "L真打吉宗",
-          "diff_coins": null,
+          "machine_name": "真打 吉宗",
+          "diff_coins": 7200,
           "total_games": 2780,
           "bb_prob": 0.0,
           "rb_prob": 556.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3116",
-          "machine_name": "Lﾊﾞﾝﾄﾞﾘ!",
-          "diff_coins": null,
+          "machine_name": "バンドリ！",
+          "diff_coins": -1300,
           "total_games": 3385,
           "bb_prob": 0.0,
           "rb_prob": 307.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3117",
-          "machine_name": "Lﾊﾞﾝﾄﾞﾘ!",
-          "diff_coins": null,
+          "machine_name": "バンドリ！",
+          "diff_coins": -1600,
           "total_games": 2623,
           "bb_prob": 0.0,
           "rb_prob": 327.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3118",
-          "machine_name": "Lﾊﾞﾝﾄﾞﾘ!",
-          "diff_coins": null,
+          "machine_name": "バンドリ！",
+          "diff_coins": -1400,
           "total_games": 2207,
           "bb_prob": 0.0,
           "rb_prob": 367.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3119",
-          "machine_name": "L東京ﾘﾍﾞﾝｼﾞｬｰｽﾞ",
-          "diff_coins": null,
+          "machine_name": "東京リベンジャーズ",
+          "diff_coins": -800,
           "total_games": 6365,
           "bb_prob": 0.0,
           "rb_prob": 578.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3120",
-          "machine_name": "L東京ﾘﾍﾞﾝｼﾞｬｰｽﾞ",
-          "diff_coins": null,
+          "machine_name": "東京リベンジャーズ",
+          "diff_coins": -2800,
           "total_games": 7959,
           "bb_prob": 0.0,
           "rb_prob": 612.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3121",
-          "machine_name": "LｱｽﾞｰﾙﾚｰﾝTHE ANIMATION",
-          "diff_coins": null,
+          "machine_name": "アズールレーン THE ANIMATION",
+          "diff_coins": -1400,
           "total_games": 3459,
           "bb_prob": 0.0,
           "rb_prob": 203.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3122",
-          "machine_name": "LｱｽﾞｰﾙﾚｰﾝTHE ANIMATION",
-          "diff_coins": null,
+          "machine_name": "アズールレーン THE ANIMATION",
+          "diff_coins": 3000,
           "total_games": 2577,
           "bb_prob": 0.0,
           "rb_prob": 171.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3123",
-          "machine_name": "LｱｽﾞｰﾙﾚｰﾝTHE ANIMATION",
-          "diff_coins": null,
-          "total_games": 701,
+          "machine_name": "アズールレーン THE ANIMATION",
+          "diff_coins": 9700,
+          "total_games": 706,
           "bb_prob": 0.0,
-          "rb_prob": 100.1,
-          "source_id": null
+          "rb_prob": 100.9,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3124",
-          "machine_name": "Lﾌﾟﾘｽﾞﾑﾅﾅ",
-          "diff_coins": null,
+          "machine_name": "プリズムナナ",
+          "diff_coins": -1900,
           "total_games": 2796,
           "bb_prob": 233.0,
           "rb_prob": 349.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3125",
-          "machine_name": "Lﾌﾟﾘｽﾞﾑﾅﾅ",
-          "diff_coins": null,
+          "machine_name": "プリズムナナ",
+          "diff_coins": -1000,
           "total_games": 1211,
           "bb_prob": 302.8,
           "rb_prob": 302.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3126",
-          "machine_name": "Lﾀﾞﾝﾍﾞﾙ何ｷﾛ持てる?",
-          "diff_coins": null,
+          "machine_name": "ダンベル何キロ持てる？",
+          "diff_coins": -800,
           "total_games": 1311,
           "bb_prob": 0.0,
           "rb_prob": 437.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3127",
-          "machine_name": "Lﾀﾞﾝﾍﾞﾙ何ｷﾛ持てる?",
-          "diff_coins": null,
+          "machine_name": "ダンベル何キロ持てる？",
+          "diff_coins": -200,
           "total_games": 885,
           "bb_prob": 0.0,
           "rb_prob": 295.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3128",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": -1000,
           "total_games": 3717,
           "bb_prob": 119.9,
           "rb_prob": 337.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3129",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": 5500,
           "total_games": 6053,
           "bb_prob": 58.8,
           "rb_prob": 232.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3130",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": -1100,
           "total_games": 3364,
           "bb_prob": 120.1,
           "rb_prob": 560.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3131",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": 1700,
           "total_games": 5306,
           "bb_prob": 80.4,
           "rb_prob": 312.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3132",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": 0,
           "total_games": 1715,
           "bb_prob": 95.3,
           "rb_prob": 343.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3133",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": -2100,
           "total_games": 2438,
           "bb_prob": 187.5,
           "rb_prob": 487.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3134",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": 1200,
           "total_games": 4708,
           "bb_prob": 78.5,
           "rb_prob": 362.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3135",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": -2100,
           "total_games": 5565,
           "bb_prob": 556.5,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3136",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": 0,
           "total_games": 7037,
           "bb_prob": 879.6,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3137",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": -7900,
           "total_games": 6640,
           "bb_prob": 0.0,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3138",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": 6600,
           "total_games": 6362,
           "bb_prob": 0.0,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3139",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": -1100,
           "total_games": 6110,
           "bb_prob": 1527.5,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3140",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": -2100,
           "total_games": 6751,
           "bb_prob": 3375.5,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3141",
-          "machine_name": "Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡",
-          "diff_coins": null,
+          "machine_name": "ミリオンゴッド‐神々の軌跡‐",
+          "diff_coins": 5900,
           "total_games": 5305,
           "bb_prob": 0.0,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3142",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": -2800,
           "total_games": 3559,
           "bb_prob": 0.0,
           "rb_prob": 444.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3143",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": -1200,
           "total_games": 4854,
           "bb_prob": 0.0,
           "rb_prob": 373.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3144",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": -100,
           "total_games": 3286,
           "bb_prob": 0.0,
           "rb_prob": 328.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3145",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": -1800,
           "total_games": 4809,
           "bb_prob": 0.0,
           "rb_prob": 369.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3146",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": 2400,
           "total_games": 5126,
           "bb_prob": 0.0,
           "rb_prob": 341.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3147",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": -1300,
           "total_games": 5842,
           "bb_prob": 0.0,
           "rb_prob": 292.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3148",
-          "machine_name": "L北斗 転生の章2",
-          "diff_coins": null,
+          "machine_name": "北斗の拳 転生の章2",
+          "diff_coins": 0,
           "total_games": 5142,
           "bb_prob": 0.0,
           "rb_prob": 342.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3149",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": -1600,
           "total_games": 5134,
           "bb_prob": 0.0,
           "rb_prob": 233.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3150",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": -3000,
           "total_games": 4262,
           "bb_prob": 0.0,
           "rb_prob": 304.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3151",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": -2100,
           "total_games": 5034,
           "bb_prob": 0.0,
           "rb_prob": 218.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3152",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": 4900,
           "total_games": 3836,
           "bb_prob": 0.0,
           "rb_prob": 182.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3153",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": 1400,
           "total_games": 5214,
           "bb_prob": 0.0,
           "rb_prob": 200.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3154",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": -400,
           "total_games": 5278,
           "bb_prob": 0.0,
           "rb_prob": 211.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3155",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": -3300,
           "total_games": 5088,
           "bb_prob": 0.0,
           "rb_prob": 299.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3156",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": -500,
           "total_games": 3665,
           "bb_prob": 0.0,
           "rb_prob": 261.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3157",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": 6400,
           "total_games": 4409,
           "bb_prob": 0.0,
           "rb_prob": 314.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3158",
-          "machine_name": "L甲鉄城のｶﾊﾞﾈﾘ海門決戦",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ 海門(うなと)決戦",
+          "diff_coins": 1300,
           "total_games": 4637,
           "bb_prob": 0.0,
           "rb_prob": 244.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3159",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": 3600,
           "total_games": 4689,
           "bb_prob": 0.0,
           "rb_prob": 223.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3160",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -400,
           "total_games": 6369,
           "bb_prob": 0.0,
           "rb_prob": 227.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3161",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -3400,
           "total_games": 5972,
           "bb_prob": 0.0,
           "rb_prob": 205.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3162",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -1500,
           "total_games": 4149,
           "bb_prob": 0.0,
           "rb_prob": 244.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3163",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -1100,
           "total_games": 3920,
           "bb_prob": 0.0,
           "rb_prob": 280.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3164",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -4300,
           "total_games": 4946,
           "bb_prob": 0.0,
           "rb_prob": 290.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3165",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": 4700,
           "total_games": 4619,
           "bb_prob": 0.0,
           "rb_prob": 220.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3166",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": 6600,
           "total_games": 4165,
           "bb_prob": 0.0,
           "rb_prob": 173.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3167",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": 4300,
           "total_games": 4920,
           "bb_prob": 0.0,
           "rb_prob": 213.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3168",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -3600,
           "total_games": 4630,
           "bb_prob": 0.0,
           "rb_prob": 257.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3169",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -3200,
           "total_games": 5850,
           "bb_prob": 0.0,
           "rb_prob": 307.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3170",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": 6000,
           "total_games": 3999,
           "bb_prob": 0.0,
           "rb_prob": 210.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3171",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -2800,
           "total_games": 5342,
           "bb_prob": 0.0,
           "rb_prob": 267.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3172",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -300,
           "total_games": 4517,
           "bb_prob": 0.0,
           "rb_prob": 205.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3173",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -5800,
           "total_games": 6318,
           "bb_prob": 0.0,
           "rb_prob": 287.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3174",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": 2700,
           "total_games": 4038,
           "bb_prob": 0.0,
           "rb_prob": 237.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3175",
-          "machine_name": "L炎炎ﾉ消防隊2",
-          "diff_coins": null,
+          "machine_name": "スマスロ炎炎ノ消防隊2",
+          "diff_coins": -2100,
           "total_games": 7119,
           "bb_prob": 0.0,
           "rb_prob": 395.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3176",
-          "machine_name": "L炎炎ﾉ消防隊2",
-          "diff_coins": null,
+          "machine_name": "スマスロ炎炎ノ消防隊2",
+          "diff_coins": 2400,
           "total_games": 7030,
           "bb_prob": 0.0,
           "rb_prob": 351.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3177",
-          "machine_name": "L炎炎ﾉ消防隊2",
-          "diff_coins": null,
+          "machine_name": "スマスロ炎炎ノ消防隊2",
+          "diff_coins": -1600,
           "total_games": 6576,
           "bb_prob": 0.0,
           "rb_prob": 313.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3178",
-          "machine_name": "L炎炎ﾉ消防隊2",
-          "diff_coins": null,
+          "machine_name": "スマスロ炎炎ノ消防隊2",
+          "diff_coins": 2200,
           "total_games": 6498,
           "bb_prob": 0.0,
           "rb_prob": 464.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3179",
-          "machine_name": "L炎炎ﾉ消防隊2",
-          "diff_coins": null,
+          "machine_name": "スマスロ炎炎ノ消防隊2",
+          "diff_coins": -1000,
           "total_games": 6503,
           "bb_prob": 0.0,
           "rb_prob": 282.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3180",
-          "machine_name": "L革命機ｳﾞｧﾙｳﾞﾚｲｳﾞ2",
-          "diff_coins": null,
+          "machine_name": "革命機ヴァルヴレイヴ2",
+          "diff_coins": -1100,
           "total_games": 5876,
           "bb_prob": 139.9,
           "rb_prob": 1175.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3181",
-          "machine_name": "L革命機ｳﾞｧﾙｳﾞﾚｲｳﾞ2",
-          "diff_coins": null,
+          "machine_name": "革命機ヴァルヴレイヴ2",
+          "diff_coins": 6600,
           "total_games": 7257,
           "bb_prob": 69.8,
           "rb_prob": 1209.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3182",
-          "machine_name": "L革命機ｳﾞｧﾙｳﾞﾚｲｳﾞ2",
-          "diff_coins": null,
+          "machine_name": "革命機ヴァルヴレイヴ2",
+          "diff_coins": -4900,
           "total_games": 7519,
           "bb_prob": 203.2,
           "rb_prob": 1074.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3183",
-          "machine_name": "L革命機ｳﾞｧﾙｳﾞﾚｲｳﾞ2",
-          "diff_coins": null,
+          "machine_name": "革命機ヴァルヴレイヴ2",
+          "diff_coins": -5800,
           "total_games": 6055,
           "bb_prob": 318.7,
           "rb_prob": 865.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3184",
-          "machine_name": "L革命機ｳﾞｧﾙｳﾞﾚｲｳﾞ2",
-          "diff_coins": null,
+          "machine_name": "革命機ヴァルヴレイヴ2",
+          "diff_coins": -1300,
           "total_games": 5054,
           "bb_prob": 180.5,
           "rb_prob": 722.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3185",
-          "machine_name": "L化物語",
-          "diff_coins": null,
+          "machine_name": "化物語",
+          "diff_coins": -2500,
           "total_games": 3057,
           "bb_prob": 0.0,
           "rb_prob": 436.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3186",
-          "machine_name": "L化物語",
-          "diff_coins": null,
+          "machine_name": "化物語",
+          "diff_coins": -400,
           "total_games": 5704,
           "bb_prob": 0.0,
           "rb_prob": 203.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3187",
-          "machine_name": "L化物語",
-          "diff_coins": null,
+          "machine_name": "化物語",
+          "diff_coins": 1100,
           "total_games": 4665,
           "bb_prob": 0.0,
           "rb_prob": 311.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3188",
-          "machine_name": "L化物語",
-          "diff_coins": null,
+          "machine_name": "化物語",
+          "diff_coins": 4700,
           "total_games": 4564,
           "bb_prob": 0.0,
           "rb_prob": 190.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3189",
-          "machine_name": "Lﾖﾙﾑﾝｶﾞﾝﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "ヨルムンガンド",
+          "diff_coins": -300,
           "total_games": 1567,
           "bb_prob": 0.0,
           "rb_prob": 522.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3190",
-          "machine_name": "Lﾖﾙﾑﾝｶﾞﾝﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "ヨルムンガンド",
+          "diff_coins": -1100,
           "total_games": 3107,
           "bb_prob": 0.0,
           "rb_prob": 776.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3191",
-          "machine_name": "L機動戦士ｶﾞﾝﾀﾞﾑﾕﾆｺｰﾝ覚醒",
-          "diff_coins": null,
+          "machine_name": "機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": 14300,
           "total_games": 3166,
           "bb_prob": 0.0,
           "rb_prob": 263.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3192",
-          "machine_name": "L機動戦士ｶﾞﾝﾀﾞﾑﾕﾆｺｰﾝ覚醒",
-          "diff_coins": null,
+          "machine_name": "機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": -100,
           "total_games": 2337,
           "bb_prob": 0.0,
           "rb_prob": 292.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3193",
-          "machine_name": "L機動戦士ｶﾞﾝﾀﾞﾑﾕﾆｺｰﾝ覚醒",
-          "diff_coins": null,
+          "machine_name": "機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": -200,
           "total_games": 554,
           "bb_prob": 0.0,
           "rb_prob": 277.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3194",
-          "machine_name": "L機動戦士ｶﾞﾝﾀﾞﾑﾕﾆｺｰﾝ覚醒",
-          "diff_coins": null,
+          "machine_name": "機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "diff_coins": -900,
           "total_games": 3232,
           "bb_prob": 0.0,
           "rb_prob": 538.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3195",
-          "machine_name": "Lﾋﾞｯｸﾞﾄﾞﾘｰﾑ",
-          "diff_coins": null,
+          "machine_name": "ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": 200,
           "total_games": 6553,
           "bb_prob": 0.0,
           "rb_prob": 364.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3196",
-          "machine_name": "Lﾋﾞｯｸﾞﾄﾞﾘｰﾑ",
-          "diff_coins": null,
+          "machine_name": "ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": 200,
           "total_games": 6872,
           "bb_prob": 0.0,
           "rb_prob": 274.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3197",
-          "machine_name": "Lﾋﾞｯｸﾞﾄﾞﾘｰﾑ",
-          "diff_coins": null,
+          "machine_name": "ビッグドリーム THE GOLDEN PUSHER",
+          "diff_coins": 3400,
           "total_games": 3935,
           "bb_prob": 0.0,
           "rb_prob": 281.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3198",
-          "machine_name": "Lからくりｻｰｶｽ",
-          "diff_coins": null,
+          "machine_name": "からくりサーカス",
+          "diff_coins": 700,
           "total_games": 3165,
           "bb_prob": 0.0,
           "rb_prob": 316.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3199",
-          "machine_name": "Lからくりｻｰｶｽ",
-          "diff_coins": null,
+          "machine_name": "からくりサーカス",
+          "diff_coins": -1600,
           "total_games": 2048,
           "bb_prob": 0.0,
           "rb_prob": 512.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3200",
-          "machine_name": "Lからくりｻｰｶｽ",
-          "diff_coins": null,
+          "machine_name": "からくりサーカス",
+          "diff_coins": 4900,
           "total_games": 3232,
           "bb_prob": 0.0,
           "rb_prob": 230.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3201",
-          "machine_name": "Lｽｰﾊﾟｰﾘｵｴｰｽ2",
-          "diff_coins": null,
+          "machine_name": "スーパーリオエース2",
+          "diff_coins": -4100,
           "total_games": 4952,
           "bb_prob": 0.0,
           "rb_prob": 495.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3202",
-          "machine_name": "Lｽｰﾊﾟｰﾘｵｴｰｽ2",
-          "diff_coins": null,
+          "machine_name": "スーパーリオエース2",
+          "diff_coins": 6200,
           "total_games": 6395,
           "bb_prob": 0.0,
           "rb_prob": 139.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3203",
-          "machine_name": "Lｽｰﾊﾟｰﾘｵｴｰｽ2",
-          "diff_coins": null,
+          "machine_name": "スーパーリオエース2",
+          "diff_coins": -700,
           "total_games": 6486,
           "bb_prob": 0.0,
-          "rb_prob": 270.3,
-          "source_id": null
+          "rb_prob": 270.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3204",
-          "machine_name": "Lｽｰﾊﾟｰﾘｵｴｰｽ2",
-          "diff_coins": null,
+          "machine_name": "スーパーリオエース2",
+          "diff_coins": -2000,
           "total_games": 5013,
           "bb_prob": 0.0,
           "rb_prob": 294.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3205",
-          "machine_name": "Lかぐや様は告らせたい",
-          "diff_coins": null,
+          "machine_name": "かぐや様は告らせたい",
+          "diff_coins": -2300,
           "total_games": 2910,
           "bb_prob": 363.8,
           "rb_prob": 582.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3206",
-          "machine_name": "Lかぐや様は告らせたい",
-          "diff_coins": null,
+          "machine_name": "かぐや様は告らせたい",
+          "diff_coins": 2200,
           "total_games": 3375,
           "bb_prob": 135.0,
           "rb_prob": 562.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3207",
-          "machine_name": "Lかぐや様は告らせたい",
-          "diff_coins": null,
+          "machine_name": "かぐや様は告らせたい",
+          "diff_coins": 6300,
           "total_games": 6028,
           "bb_prob": 134.0,
           "rb_prob": 376.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3208",
-          "machine_name": "L攻殻機動隊",
-          "diff_coins": null,
+          "machine_name": "攻殻機動隊",
+          "diff_coins": -1600,
           "total_games": 4207,
           "bb_prob": 0.0,
           "rb_prob": 280.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3209",
-          "machine_name": "L攻殻機動隊",
-          "diff_coins": null,
+          "machine_name": "攻殻機動隊",
+          "diff_coins": -1200,
           "total_games": 5097,
           "bb_prob": 0.0,
           "rb_prob": 221.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3210",
-          "machine_name": "L攻殻機動隊",
-          "diff_coins": null,
+          "machine_name": "攻殻機動隊",
+          "diff_coins": -1200,
           "total_games": 4048,
           "bb_prob": 0.0,
           "rb_prob": 404.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3211",
-          "machine_name": "L鉄拳6",
-          "diff_coins": null,
+          "machine_name": "鉄拳6",
+          "diff_coins": 0,
           "total_games": 1775,
           "bb_prob": 136.5,
           "rb_prob": 161.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3212",
-          "machine_name": "L鉄拳6",
-          "diff_coins": null,
+          "machine_name": "鉄拳6",
+          "diff_coins": -2000,
           "total_games": 2129,
           "bb_prob": 304.1,
-          "rb_prob": 532.3,
-          "source_id": null
+          "rb_prob": 532.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3213",
-          "machine_name": "L鉄拳6",
-          "diff_coins": null,
+          "machine_name": "鉄拳6",
+          "diff_coins": -1800,
           "total_games": 1941,
           "bb_prob": 215.7,
-          "rb_prob": 485.3,
-          "source_id": null
+          "rb_prob": 485.2,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3214",
-          "machine_name": "L鉄拳6",
-          "diff_coins": null,
+          "machine_name": "鉄拳6",
+          "diff_coins": 500,
           "total_games": 2696,
           "bb_prob": 128.4,
           "rb_prob": 149.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3215",
-          "machine_name": "Lｺﾞｯﾄﾞｲｰﾀｰ ﾘｻﾞﾚｸｼｮﾝ",
-          "diff_coins": null,
+          "machine_name": "ゴッドイーター リザレクション",
+          "diff_coins": -200,
           "total_games": 4073,
           "bb_prob": 0.0,
           "rb_prob": 509.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3216",
-          "machine_name": "Lﾀﾞﾝﾍﾞﾙ何ｷﾛ持てる?",
-          "diff_coins": null,
+          "machine_name": "ダンベル何キロ持てる？",
+          "diff_coins": 1000,
           "total_games": 5688,
           "bb_prob": 0.0,
           "rb_prob": 316.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3217",
-          "machine_name": "Lｽﾏｽﾛ北斗",
-          "diff_coins": null,
+          "machine_name": "スマスロ北斗の拳",
+          "diff_coins": 400,
           "total_games": 1461,
           "bb_prob": 76.9,
           "rb_prob": 730.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3218",
-          "machine_name": "L東京喰種",
-          "diff_coins": null,
+          "machine_name": "東京喰種",
+          "diff_coins": -6100,
           "total_games": 6400,
           "bb_prob": 0.0,
           "rb_prob": 266.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "3219",
-          "machine_name": "L炎炎ﾉ消防隊2",
-          "diff_coins": null,
+          "machine_name": "スマスロ炎炎ノ消防隊2",
+          "diff_coins": 6500,
           "total_games": 6515,
           "bb_prob": 0.0,
           "rb_prob": 361.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4036",
-          "machine_name": "交響詩篇ｴｳﾚｶｾﾌﾞﾝTYPE-ART",
-          "diff_coins": null,
+          "machine_name": "交響詩篇エウレカセブン HI-EVOLUTION ZERO TYPE‐ART",
+          "diff_coins": -1700,
           "total_games": 2912,
           "bb_prob": 208.0,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4037",
-          "machine_name": "LBｻﾝﾀﾞｰV",
-          "diff_coins": null,
+          "machine_name": "スマスロ サンダーV",
+          "diff_coins": -1900,
           "total_games": 4473,
           "bb_prob": 447.3,
           "rb_prob": 497.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4038",
-          "machine_name": "LﾃﾞｨｽｸｱｯﾌﾟULTRAREMIX",
-          "diff_coins": null,
+          "machine_name": "ディスクアップ ULTRAREMIX",
+          "diff_coins": -100,
           "total_games": 1971,
           "bb_prob": 281.6,
           "rb_prob": 985.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4039",
-          "machine_name": "LﾃﾞｨｽｸｱｯﾌﾟULTRAREMIX",
-          "diff_coins": null,
+          "machine_name": "ディスクアップ ULTRAREMIX",
+          "diff_coins": -1000,
           "total_games": 5826,
           "bb_prob": 323.7,
           "rb_prob": 647.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4040",
-          "machine_name": "LﾃﾞｨｽｸｱｯﾌﾟULTRAREMIX",
-          "diff_coins": null,
+          "machine_name": "ディスクアップ ULTRAREMIX",
+          "diff_coins": 300,
           "total_games": 4384,
           "bb_prob": 257.9,
           "rb_prob": 438.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4041",
-          "machine_name": "ﾃﾞｨｽｸｱｯﾌﾟ2",
-          "diff_coins": null,
+          "machine_name": "ディスクアップ2",
+          "diff_coins": 1100,
           "total_games": 5677,
           "bb_prob": 283.9,
           "rb_prob": 378.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4042",
-          "machine_name": "ﾃﾞｨｽｸｱｯﾌﾟ2",
-          "diff_coins": null,
+          "machine_name": "ディスクアップ2",
+          "diff_coins": 1000,
           "total_games": 4958,
           "bb_prob": 275.4,
           "rb_prob": 826.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4043",
-          "machine_name": "LB異世界かるてっと",
-          "diff_coins": null,
+          "machine_name": "A‐SLOT+ 異世界かるてっと",
+          "diff_coins": -1500,
           "total_games": 4799,
           "bb_prob": 218.1,
           "rb_prob": 369.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4044",
-          "machine_name": "ｺｰﾄﾞｷﾞｱｽ3 C.C.&Kallen",
-          "diff_coins": null,
+          "machine_name": "コードギアス反逆のルルーシュ3 C.C.&Kallen ver.",
+          "diff_coins": 400,
           "total_games": 5260,
           "bb_prob": 292.2,
           "rb_prob": 526.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4045",
-          "machine_name": "戦国恋姫",
-          "diff_coins": null,
+          "machine_name": "戦国†恋姫",
+          "diff_coins": 300,
           "total_games": 2199,
           "bb_prob": 244.3,
           "rb_prob": 439.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4046",
-          "machine_name": "ﾊｰﾄﾞﾎﾞｲﾙﾄﾞ",
-          "diff_coins": null,
+          "machine_name": "ハードボイルド",
+          "diff_coins": -800,
           "total_games": 1676,
           "bb_prob": 419.0,
           "rb_prob": 838.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4047",
-          "machine_name": "LB SHAKE BONUS TRIGGER",
-          "diff_coins": null,
+          "machine_name": "SHAKE BONUS TRIGGER",
+          "diff_coins": 3200,
           "total_games": 6513,
           "bb_prob": 250.5,
           "rb_prob": 501.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4048",
-          "machine_name": "LB不二子",
-          "diff_coins": null,
+          "machine_name": "不二子BT",
+          "diff_coins": 300,
           "total_games": 4405,
           "bb_prob": 142.1,
           "rb_prob": 367.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4049",
-          "machine_name": "LB不二子",
-          "diff_coins": null,
+          "machine_name": "不二子BT",
+          "diff_coins": 100,
           "total_games": 4359,
           "bb_prob": 140.6,
           "rb_prob": 335.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4057",
-          "machine_name": "Lﾊﾅﾋﾞ",
-          "diff_coins": null,
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -600,
           "total_games": 3591,
           "bb_prob": 359.1,
           "rb_prob": 399.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4058",
-          "machine_name": "Lﾊﾅﾋﾞ",
-          "diff_coins": null,
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -300,
           "total_games": 3046,
           "bb_prob": 304.6,
           "rb_prob": 609.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4059",
-          "machine_name": "Lﾊﾅﾋﾞ",
-          "diff_coins": null,
+          "machine_name": "スマスロ ハナビ",
+          "diff_coins": -600,
           "total_games": 1371,
           "bb_prob": 457.0,
           "rb_prob": 1371.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4060",
-          "machine_name": "新ﾊﾅﾋﾞ",
-          "diff_coins": null,
+          "machine_name": "新ハナビ",
+          "diff_coins": -300,
           "total_games": 3435,
-          "bb_prob": 286.3,
+          "bb_prob": 286.2,
           "rb_prob": 858.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4061",
-          "machine_name": "新ﾊﾅﾋﾞ",
-          "diff_coins": null,
+          "machine_name": "新ハナビ",
+          "diff_coins": 1200,
           "total_games": 6869,
           "bb_prob": 274.8,
           "rb_prob": 274.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4062",
-          "machine_name": "新ﾊﾅﾋﾞ",
-          "diff_coins": null,
+          "machine_name": "新ハナビ",
+          "diff_coins": -500,
           "total_games": 6228,
           "bb_prob": 311.4,
           "rb_prob": 415.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4063",
-          "machine_name": "ｸﾗﾝｷｰｸﾚｽﾄ",
-          "diff_coins": null,
+          "machine_name": "クランキークレスト",
+          "diff_coins": 2300,
           "total_games": 7139,
           "bb_prob": 230.3,
           "rb_prob": 285.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4064",
-          "machine_name": "Lｼｬｰﾏﾝｷﾝｸﾞ",
-          "diff_coins": null,
+          "machine_name": "シャーマンキング",
+          "diff_coins": -1500,
           "total_games": 3165,
           "bb_prob": 351.7,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4065",
-          "machine_name": "LBｱﾚｯｸｽ ﾌﾞﾗｲﾄ",
-          "diff_coins": null,
+          "machine_name": "アレックス ブライト",
+          "diff_coins": 1800,
           "total_games": 5466,
           "bb_prob": 237.7,
           "rb_prob": 420.5,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4066",
-          "machine_name": "ﾊﾞｰｻｽﾘｳﾞｧｲｽﾞ",
-          "diff_coins": null,
+          "machine_name": "バーサスリヴァイズ",
+          "diff_coins": 3800,
           "total_games": 8259,
           "bb_prob": 201.4,
           "rb_prob": 434.7,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4067",
-          "machine_name": "Lうみねこのなく頃に2",
-          "diff_coins": null,
+          "machine_name": "うみねこのなく頃に2",
+          "diff_coins": 400,
           "total_games": 4174,
           "bb_prob": 463.8,
           "rb_prob": 231.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4068",
           "machine_name": "幼女戦記",
-          "diff_coins": null,
+          "diff_coins": 3500,
           "total_games": 2709,
           "bb_prob": 0.0,
           "rb_prob": 301.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4069",
-          "machine_name": "この素晴らしい世界に祝福",
-          "diff_coins": null,
+          "machine_name": "この素晴らしい世界に祝福を！",
+          "diff_coins": 2300,
           "total_games": 4100,
           "bb_prob": 0.0,
           "rb_prob": 215.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4070",
-          "machine_name": "甲鉄城のｶﾊﾞﾈﾘ",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ",
+          "diff_coins": 2200,
           "total_games": 4665,
           "bb_prob": 0.0,
           "rb_prob": 259.2,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4071",
-          "machine_name": "甲鉄城のｶﾊﾞﾈﾘ",
-          "diff_coins": null,
+          "machine_name": "甲鉄城のカバネリ",
+          "diff_coins": 4500,
           "total_games": 5002,
           "bb_prob": 0.0,
           "rb_prob": 161.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4072",
-          "machine_name": "この素晴らしい世界に祝福",
-          "diff_coins": null,
+          "machine_name": "この素晴らしい世界に祝福を！",
+          "diff_coins": -1400,
           "total_games": 6537,
           "bb_prob": 0.0,
           "rb_prob": 217.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4073",
           "machine_name": "幼女戦記",
-          "diff_coins": null,
+          "diff_coins": 0,
           "total_games": 3521,
           "bb_prob": 0.0,
           "rb_prob": 440.1,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4074",
-          "machine_name": "Lうみねこのなく頃に2",
-          "diff_coins": null,
+          "machine_name": "うみねこのなく頃に2",
+          "diff_coins": 700,
           "total_games": 4410,
           "bb_prob": 367.5,
           "rb_prob": 275.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4075",
-          "machine_name": "ﾊﾞｰｻｽﾘｳﾞｧｲｽﾞ",
-          "diff_coins": null,
+          "machine_name": "バーサスリヴァイズ",
+          "diff_coins": 400,
           "total_games": 6639,
           "bb_prob": 316.1,
           "rb_prob": 301.8,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4076",
-          "machine_name": "LBｱﾚｯｸｽ ﾌﾞﾗｲﾄ",
-          "diff_coins": null,
+          "machine_name": "アレックス ブライト",
+          "diff_coins": 2600,
           "total_games": 8343,
           "bb_prob": 278.1,
           "rb_prob": 309.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4077",
-          "machine_name": "Lｼｬｰﾏﾝｷﾝｸﾞ",
-          "diff_coins": null,
+          "machine_name": "シャーマンキング",
+          "diff_coins": -1500,
           "total_games": 1379,
           "bb_prob": 459.7,
           "rb_prob": 0.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4078",
           "machine_name": "L南国育ち",
-          "diff_coins": null,
+          "diff_coins": -3500,
           "total_games": 3267,
           "bb_prob": 544.5,
           "rb_prob": 653.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4079",
           "machine_name": "L南国育ち",
-          "diff_coins": null,
+          "diff_coins": -1300,
           "total_games": 1303,
           "bb_prob": 651.5,
           "rb_prob": 434.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4080",
-          "machine_name": "LBﾆｭｰｷﾝｸﾞﾊﾅﾊﾅV",
-          "diff_coins": null,
+          "machine_name": "スマート沖スロ ニューキングハナハナV",
+          "diff_coins": -700,
           "total_games": 4994,
           "bb_prob": 293.8,
           "rb_prob": 554.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4081",
-          "machine_name": "LBﾆｭｰｷﾝｸﾞﾊﾅﾊﾅV",
-          "diff_coins": null,
+          "machine_name": "スマート沖スロ ニューキングハナハナV",
+          "diff_coins": 700,
           "total_games": 8370,
           "bb_prob": 298.9,
           "rb_prob": 321.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4082",
-          "machine_name": "LBﾆｭｰｷﾝｸﾞﾊﾅﾊﾅV",
-          "diff_coins": null,
+          "machine_name": "スマート沖スロ ニューキングハナハナV",
+          "diff_coins": 600,
           "total_games": 4234,
           "bb_prob": 249.1,
           "rb_prob": 423.4,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4083",
-          "machine_name": "L沖ﾄﾞｷ!DUO ｱﾝｺｰﾙ",
-          "diff_coins": null,
+          "machine_name": "沖ドキ!DUO アンコール",
+          "diff_coins": 3600,
           "total_games": 2196,
           "bb_prob": 62.7,
           "rb_prob": 219.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4084",
-          "machine_name": "L沖ﾄﾞｷ!DUO ｱﾝｺｰﾙ",
-          "diff_coins": null,
+          "machine_name": "沖ドキ!DUO アンコール",
+          "diff_coins": 300,
           "total_games": 451,
           "bb_prob": 90.2,
           "rb_prob": 451.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4085",
-          "machine_name": "沖ﾄﾞｷ!BLACK",
-          "diff_coins": null,
-          "total_games": 1607,
-          "bb_prob": 146.1,
-          "rb_prob": 178.6,
-          "source_id": null
+          "machine_name": "沖ドキ!BLACK",
+          "diff_coins": 600,
+          "total_games": 1668,
+          "bb_prob": 139.0,
+          "rb_prob": 185.3,
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4086",
-          "machine_name": "沖ﾄﾞｷ!BLACK",
-          "diff_coins": null,
+          "machine_name": "沖ドキ!BLACK",
+          "diff_coins": -1300,
           "total_games": 1181,
           "bb_prob": 590.5,
           "rb_prob": 1181.0,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4087",
-          "machine_name": "沖ﾄﾞｷ!BLACK",
-          "diff_coins": null,
+          "machine_name": "沖ドキ!BLACK",
+          "diff_coins": -2100,
           "total_games": 1876,
           "bb_prob": 625.3,
           "rb_prob": 625.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4088",
-          "machine_name": "ｷﾝｸﾞﾊﾅﾊﾅ-30",
-          "diff_coins": null,
+          "machine_name": "キングハナハナ-30",
+          "diff_coins": -300,
           "total_games": 5972,
           "bb_prob": 284.4,
           "rb_prob": 426.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4089",
-          "machine_name": "ｷﾝｸﾞﾊﾅﾊﾅ-30",
-          "diff_coins": null,
+          "machine_name": "キングハナハナ-30",
+          "diff_coins": 2200,
           "total_games": 8310,
           "bb_prob": 224.6,
           "rb_prob": 361.3,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4090",
-          "machine_name": "ｽﾀｰﾊﾅﾊﾅ-30",
-          "diff_coins": null,
+          "machine_name": "スターハナハナ‐30",
+          "diff_coins": -1300,
           "total_games": 2103,
           "bb_prob": 525.8,
           "rb_prob": 420.6,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4091",
-          "machine_name": "ﾊﾅﾊﾅﾎｳｵｳ天翔-30",
-          "diff_coins": null,
+          "machine_name": "ハナハナホウオウ～天翔～-30",
+          "diff_coins": 600,
           "total_games": 5411,
           "bb_prob": 235.3,
           "rb_prob": 450.9,
-          "source_id": null
+          "source_id": "anaslo"
         },
         {
           "machine_number": "4092",
-          "machine_name": "ﾊﾅﾊﾅﾎｳｵｳ天翔-30",
-          "diff_coins": null,
-          "total_games": 6474,
-          "bb_prob": 323.7,
-          "rb_prob": 431.6,
-          "source_id": null
+          "machine_name": "ハナハナホウオウ～天翔～-30",
+          "diff_coins": -700,
+          "total_games": 6556,
+          "bb_prob": 327.8,
+          "rb_prob": 437.1,
+          "source_id": "anaslo"
         }
       ]
     },

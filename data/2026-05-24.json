@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T01:49:55",
+  "generated_at": "2026-06-03T01:59:57",
   "play_date": "2026-05-24",
   "stores": [
     {
@@ -29,8 +29,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-02",
-      "oldest_date": "2026-05-25",
-      "machine_count": 0
+      "oldest_date": "2026-05-24",
+      "machine_count": 269
     },
     {
       "store_group": "espace-ueno-new",
@@ -618,6 +618,12 @@
       "store_id": "espace-shinjuku-station",
       "machine_count": 269,
       "total_diff": null
+    },
+    {
+      "play_date": "2026-05-24",
+      "store_id": "espace-shinjuku-station-anaslo",
+      "machine_count": 269,
+      "total_diff": 47800
     },
     {
       "play_date": "2026-05-24",
