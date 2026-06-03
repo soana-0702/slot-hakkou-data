@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T10:05:22",
+  "generated_at": "2026-06-03T19:14:30",
   "play_date": "2026-05-27",
   "stores": [
     {
@@ -154,8 +154,8 @@
     {
       "play_date": "2026-06-02",
       "store_id": "espace-shinjuku-station-minrepo",
-      "machine_count": 167,
-      "total_diff": 568
+      "machine_count": 269,
+      "total_diff": 8505
     },
     {
       "play_date": "2026-06-02",
