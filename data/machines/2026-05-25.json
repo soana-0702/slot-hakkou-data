@@ -1,9 +1,9 @@
 {
   "play_date": "2026-05-25",
-  "generated_at": "2026-06-02T23:49:10",
+  "generated_at": "2026-06-03T10:05:21",
   "format_version": 1,
   "stores": {
-    "amuse-asakusa-anaslo": {
+    "amuse-asakusa": {
       "store_name": "アミューズ浅草店",
       "machines": [
         {
@@ -10894,7 +10894,7 @@
         }
       ]
     },
-    "espace-shinjuku-station-anaslo": {
+    "espace-shinjuku-station": {
       "store_name": "エスパス日拓 西武新宿駅前店",
       "machines": [
         {
@@ -13320,7 +13320,7 @@
         }
       ]
     },
-    "espace-shinkoiwa-anaslo": {
+    "espace-shinkoiwa": {
       "store_name": "エスパス１３００新小岩北口駅前店",
       "machines": [
         {
@@ -17501,7 +17501,7 @@
         }
       ]
     },
-    "espace-takadanobaba-anaslo": {
+    "espace-takadanobaba": {
       "store_name": "エスパス日拓高田馬場本店",
       "machines": [
         {
@@ -20602,7 +20602,7 @@
         }
       ]
     },
-    "espace-ueno-main-anaslo": {
+    "espace-ueno-main": {
       "store_name": "エスパス日拓 上野本館",
       "machines": [
         {
@@ -23982,7 +23982,7 @@
         }
       ]
     },
-    "espace-ueno-new-anaslo": {
+    "espace-ueno-new": {
       "store_name": "エスパス日拓 上野新館",
       "machines": [
         {
@@ -27380,7 +27380,7 @@
         }
       ]
     },
-    "jaran-asakusa-anaslo": {
+    "jaran-asakusa": {
       "store_name": "ジャラン浅草店",
       "machines": [
         {
@@ -30238,7 +30238,7 @@
         }
       ]
     },
-    "maruhan-shinjuku-anaslo": {
+    "maruhan-shinjuku": {
       "store_name": "マルハン新宿東宝ビル店",
       "machines": [
         {

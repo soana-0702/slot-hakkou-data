@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-03T09:56:19",
-  "play_date": "2026-06-02",
+  "generated_at": "2026-06-03T10:05:26",
+  "play_date": "2026-06-01",
   "stores": [
     {
       "store_group": "espace-kabuki",
@@ -15,7 +15,7 @@
       ],
       "latest_date": "2026-06-02",
       "oldest_date": "2026-05-24",
-      "machine_count": 749
+      "machine_count": 1498
     },
     {
       "store_group": "espace-shinjuku-station",
@@ -30,7 +30,7 @@
       ],
       "latest_date": "2026-06-02",
       "oldest_date": "2026-05-24",
-      "machine_count": 167
+      "machine_count": 269
     },
     {
       "store_group": "espace-ueno-new",
@@ -60,7 +60,7 @@
       ],
       "latest_date": "2026-06-02",
       "oldest_date": "2026-05-24",
-      "machine_count": 375
+      "machine_count": 750
     },
     {
       "store_group": "espace-shinkoiwa",
