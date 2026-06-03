@@ -483,6 +483,34 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("pw-input").focus();
 });
 
+// ソートヘッダーのイベント委任（初回1回のみ登録）
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("#machine-table thead").addEventListener("click", e => {
+    const th = e.target.closest("th.sortable");
+    if (!th) return;
+    if (modalSortCol === th.dataset.col) {
+      modalSortAsc = !modalSortAsc;
+    } else {
+      modalSortCol = th.dataset.col;
+      // 差枚・G数・確率は降順スタート、台番・機種名は昇順スタート
+      modalSortAsc = ["machine_number", "machine_name"].includes(modalSortCol);
+    }
+    renderMachineTable();
+  });
+
+  document.querySelector("#model-table thead").addEventListener("click", e => {
+    const th = e.target.closest("th.sortable");
+    if (!th) return;
+    if (modelSortCol === th.dataset.col) {
+      modelSortAsc = !modelSortAsc;
+    } else {
+      modelSortCol = th.dataset.col;
+      modelSortAsc = th.dataset.col === "machine_name";
+    }
+    renderModelTable();
+  });
+});
+
 // ── 数値フォーマット ──────────────────────────────────────────────────────
 function fmtDiff(v) {
   if (v === null || v === undefined) return "—";
@@ -493,8 +521,42 @@ function diffClass(v) {
   if (v === null || v === undefined) return "";
   return v >= 0 ? "pos" : "neg";
 }
-function fmtPct(v) {
-  return (v * 100).toFixed(1) + "%";
+// ── ソートインジケーター更新 ──────────────────────────────────────────────
+function updateSortIndicators(tableId, sortCol, sortAsc) {
+  document.querySelectorAll(`#${tableId} th.sortable`).forEach(th => {
+    th.classList.remove("sort-asc", "sort-desc");
+    if (th.dataset.col === sortCol) {
+      th.classList.add(sortAsc ? "sort-asc" : "sort-desc");
+    }
+  });
+}
+
+// ── ページャー状態更新 ────────────────────────────────────────────────────
+// pagerId: ページャー div の id（例: "top-machines-pager"）
+// infoId / prevId / nextId: 対応する子要素 id
+function setPagerState(pagerId, infoId, prevId, nextId, show, info, atFirst, atLast) {
+  const pager = document.getElementById(pagerId);
+  if (!show) { pager.style.display = "none"; return; }
+  pager.style.display = "block";
+  document.getElementById(infoId).textContent = info;
+  document.getElementById(prevId).disabled = atFirst;
+  document.getElementById(nextId).disabled = atLast;
+}
+
+// ── machines JSON キャッシュ ──────────────────────────────────────────────
+const machinesCache = new Map();
+
+async function fetchMachinesJson(date) {
+  if (machinesCache.has(date)) return machinesCache.get(date);
+  try {
+    const res = await fetch(`data/machines/${date}.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    machinesCache.set(date, data);
+    return data;
+  } catch (_) {
+    return null;
+  }
 }
 
 // ── 日付一覧の管理 ───────────────────────────────────────────────────────
@@ -681,19 +743,8 @@ async function buildAndRenderTopMachines(playDate, stores) {
     storeMap[s.store_group] = s.store_name;
   });
 
-  // machines/YYYY-MM-DD.json を並行 fetch して台レベルで集計
-  const groups = {};
-  const machineResults = await Promise.all(
-    targetDates.map(async d => {
-      try {
-        const res = await fetch(`data/machines/${d}.json`);
-        if (!res.ok) return null;
-        return await res.json();
-      } catch (_) {
-        return null;
-      }
-    })
-  );
+  // machines/YYYY-MM-DD.json を並行 fetch して台レベルで集計（キャッシュ活用）
+  const machineResults = await Promise.all(targetDates.map(d => fetchMachinesJson(d)));
 
   // 日付 × 店舗 × 機種ごとに集計（1行 = 1日・1店舗・1機種）
   const rows = [];
@@ -746,11 +797,11 @@ function stepTopMachinesPage(dir) {
 
 function renderTopMachines() {
   const tbody = document.getElementById("top-machines-body");
-  const pager = document.getElementById("top-machines-pager");
 
   if (!topMachinesAll.length) {
     tbody.innerHTML = '<tr><td colspan="7" class="empty">データが蓄積されると表示されます</td></tr>';
-    pager.style.display = "none";
+    setPagerState("top-machines-pager", null, null, null, false);
+    setPagerState("top-machines-pager-bottom", null, null, null, false);
     return;
   }
 
@@ -769,28 +820,18 @@ function renderTopMachines() {
       <td class="num-date">${m.play_date}</td>
     </tr>`).join("");
 
-  const pagerBottom = document.getElementById("top-machines-pager-bottom");
-  if (totalPages > 1) {
-    const info = `${topMachinesPage + 1} / ${totalPages} ページ（全${topMachinesAll.length}件）`;
-    const atFirst = topMachinesPage === 0;
-    const atLast = topMachinesPage === totalPages - 1;
-    pager.style.display = "block";
-    document.getElementById("top-machines-page-info").textContent = info;
-    document.getElementById("top-machines-prev").disabled = atFirst;
-    document.getElementById("top-machines-next").disabled = atLast;
-    pagerBottom.style.display = "block";
-    document.getElementById("top-machines-page-info-bottom").textContent = info;
-    document.getElementById("top-machines-prev-bottom").disabled = atFirst;
-    document.getElementById("top-machines-next-bottom").disabled = atLast;
-  } else {
-    pager.style.display = "none";
-    pagerBottom.style.display = "none";
-  }
+  const show = totalPages > 1;
+  const info = `${topMachinesPage + 1} / ${totalPages} ページ（全${topMachinesAll.length}件）`;
+  const atFirst = topMachinesPage === 0;
+  const atLast = topMachinesPage === totalPages - 1;
+  setPagerState("top-machines-pager", "top-machines-page-info", "top-machines-prev", "top-machines-next", show, info, atFirst, atLast);
+  setPagerState("top-machines-pager-bottom", "top-machines-page-info-bottom", "top-machines-prev-bottom", "top-machines-next-bottom", show, info, atFirst, atLast);
 }
 
 // ── 全台リストモーダル ────────────────────────────────────────────────────
 // 現在モーダルに表示中の台データ（ソート用に保持）
 let currentMachines = [];
+let modelSummaryCache = null;  // currentMachines が変わるまで使い回す
 let modalSortCol = "diff_coins";
 let modalSortAsc = false;  // デフォルト：差枚降順
 
@@ -801,40 +842,37 @@ async function openMachineModal(storeGroup, storeName, playDate) {
     '<tr><td colspan="7" class="empty">読み込み中…</td></tr>';
   document.getElementById("machine-modal-overlay").classList.add("open");
 
-  // machines/YYYY-MM-DD.json を fetch
-  let machinesData;
-  try {
-    const res = await fetch(`data/machines/${playDate}.json`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    machinesData = await res.json();
-  } catch (e) {
+  // machines/YYYY-MM-DD.json を fetch（キャッシュ活用）
+  const machinesData = await fetchMachinesJson(playDate);
+  if (!machinesData) {
     document.getElementById("machine-table-body").innerHTML =
-      `<tr><td colspan="7" class="empty">データ取得失敗: ${e.message}</td></tr>`;
+      '<tr><td colspan="7" class="empty">データ取得失敗</td></tr>';
     return;
   }
 
   // storeGroup に対応する machines を取得
   const storeEntry = machinesData.stores ? machinesData.stores[storeGroup] : null;
   currentMachines = storeEntry ? (storeEntry.machines || []) : [];
+  modelSummaryCache = null;
 
   // デフォルト：全台リストタブ・差枚降順・フィルタなし
-  machineFilter = null;
-  document.getElementById("tab-btn-all").textContent = "全台リスト";
-  document.getElementById("show-all-btn").style.display = "none";
+  resetFilterUI();
   switchModalTab("all");
   modalSortCol = "diff_coins";
   modalSortAsc = false;
   renderMachineTable();
-  initMachineTableSort();
-  initModelTableSort();
+}
+
+function resetFilterUI() {
+  machineFilter = null;
+  document.getElementById("tab-btn-all").textContent = "全台リスト";
+  document.getElementById("show-all-btn").style.display = "none";
 }
 
 function closeMachineModal() {
   document.getElementById("machine-modal-overlay").classList.remove("open");
   currentMachines = [];
-  machineFilter = null;
-  document.getElementById("tab-btn-all").textContent = "全台リスト";
-  document.getElementById("show-all-btn").style.display = "none";
+  resetFilterUI();
 }
 
 function onModalOverlayClick(e) {
@@ -891,32 +929,7 @@ function renderMachineTable() {
       </tr>`;
   }).join("");
 
-  // ソートインジケーターを更新
-  document.querySelectorAll("#machine-table th.sortable").forEach(th => {
-    th.classList.remove("sort-asc", "sort-desc");
-    if (th.dataset.col === modalSortCol) {
-      th.classList.add(modalSortAsc ? "sort-asc" : "sort-desc");
-    }
-  });
-}
-
-function initMachineTableSort() {
-  document.querySelectorAll("#machine-table th.sortable").forEach(th => {
-    // イベントリスナーの二重登録を防ぐ
-    th.replaceWith(th.cloneNode(true));
-  });
-  document.querySelectorAll("#machine-table th.sortable").forEach(th => {
-    th.addEventListener("click", () => {
-      if (modalSortCol === th.dataset.col) {
-        modalSortAsc = !modalSortAsc;
-      } else {
-        modalSortCol = th.dataset.col;
-        // 差枚・G数・確率は降順スタート、台番・機種名は昇順スタート
-        modalSortAsc = ["machine_number", "machine_name"].includes(modalSortCol);
-      }
-      renderMachineTable();
-    });
-  });
+  updateSortIndicators("machine-table", modalSortCol, modalSortAsc);
 }
 
 // ── タブ切替 ──────────────────────────────────────────────────────────────
@@ -938,9 +951,7 @@ function switchModalTab(tab) {
 
 // machineFilter をリセットして全台リストに戻る
 function resetMachineFilter() {
-  machineFilter = null;
-  document.getElementById("tab-btn-all").textContent = "全台リスト";
-  document.getElementById("show-all-btn").style.display = "none";
+  resetFilterUI();
   switchModalTab("all");
 }
 
@@ -982,7 +993,8 @@ function renderModelTable(filterName = null) {
     return;
   }
 
-  let summary = buildModelSummary(currentMachines);
+  if (!modelSummaryCache) modelSummaryCache = buildModelSummary(currentMachines);
+  let summary = modelSummaryCache;
 
   // 機種名絞り込み（機種行クリックからの戻り表示には使わないが将来拡張用）
   if (filterName) summary = summary.filter(s => s.machine_name === filterName);
@@ -1006,30 +1018,7 @@ function renderModelTable(filterName = null) {
       <td class="num">${s.count}</td>
     </tr>`).join("");
 
-  // ソートインジケーター更新
-  document.querySelectorAll("#model-table th.sortable").forEach(th => {
-    th.classList.remove("sort-asc", "sort-desc");
-    if (th.dataset.col === modelSortCol) {
-      th.classList.add(modelSortAsc ? "sort-asc" : "sort-desc");
-    }
-  });
-}
-
-function initModelTableSort() {
-  document.querySelectorAll("#model-table th.sortable").forEach(th => {
-    th.replaceWith(th.cloneNode(true));
-  });
-  document.querySelectorAll("#model-table th.sortable").forEach(th => {
-    th.addEventListener("click", () => {
-      if (modelSortCol === th.dataset.col) {
-        modelSortAsc = !modelSortAsc;
-      } else {
-        modelSortCol = th.dataset.col;
-        modelSortAsc = th.dataset.col === "machine_name";
-      }
-      renderModelTable();
-    });
-  });
+  updateSortIndicators("model-table", modelSortCol, modelSortAsc);
 }
 
 // ── 機種行クリック → 全台リストを機種名で絞り込み ────────────────────────
