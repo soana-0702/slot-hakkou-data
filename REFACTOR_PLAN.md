@@ -421,11 +421,569 @@ src/
 候補 1・2 はコードの依存関係があるためセットで実施するのが効率的。候補 10 は他の候補と独立しているため、どのタイミングで実施しても問題ない。
 
 ```
-第1ステップ: 候補1 + 候補2（BaseScraper への日付ヘルパー + result 辞書共通化）
-第2ステップ: 候補3（notifier.py の truncation 統合）
-第3ステップ: 候補4（user_agent 共通化）
+第1ステップ: 候補1 + 候補2（BaseScraper への日付ヘルパー + result 辞書共通化）✅ 完了
+第2ステップ: 候補3（notifier.py の truncation 統合）                          ✅ 完了
+第3ステップ: 候補4（user_agent 共通化）                                       ✅ 完了
 第4ステップ: 候補10（cli.py の責務分割）
 第5ステップ: 候補5・6（必要と判断した場合のみ）
 ```
 
 各ステップは TDD で実施する（先にテスト修正 → 実装変更の順）。
+
+---
+
+---
+
+## バックエンド パフォーマンス改善候補
+
+作成日: 2026-06-03
+
+### 背景・前提
+
+現在のデータ規模（9店舗 × 最大 800 台/日）では顕在化していない問題が主。**店舗数・台数が倍以上になる段階での対応でも問題ない**。インデックスは `idx_store_date`（store_id + play_date）・`idx_machine_name` が定義済みで主要クエリは最適化されている。
+
+---
+
+### 全体サマリ
+
+| 優先度 | # | 候補 | 対象 | 推定改善度 |
+|--------|---|------|------|----------|
+| 中 | BP-1 | `_save_machines_to_db()` のバッチインサート化 | `src/cli.py` | DB 書込 30-50% 削減 |
+| 中 | BP-2 | `exporter.py` の N+1 クエリ統合 | `src/exporter.py` | export 時間 70-80% 削減 |
+| 低 | BP-3 | `_build_top_machines()` の NULL フィルタを DB 側に移動 | `src/exporter.py` | メモリ使用量削減 |
+| 見送り | BP-4 | `cmd_collect()` の並行化 | `src/cli.py` | IP ブロック対策で直列が設計要件 |
+
+---
+
+### 候補 BP-1: `_save_machines_to_db()` のバッチインサート化
+
+#### 問題のある箇所
+
+- [`src/cli.py`](../src/cli.py)（`_save_machines_to_db()` 内の upsert ループ）
+
+```python
+for machine in machines:
+    stmt = sqlite_insert(DMD).values(...)  # 1台ずつ INSERT/UPDATE
+    session.execute(stmt)
+    saved += 1
+```
+
+100 台のデータで 100 回の INSERT/UPDATE が発生する。SQLite のトランザクション内でも、実行回数が多いほどオーバーヘッドが積み重なる。
+
+#### 影響度
+
+- 1日 9 店舗 × 800 台 = 7,200 回の INSERT（現状）
+- backfill で 30 日分 = 216,000 回
+- 店舗数が倍増すると比例して遅くなる
+
+#### 修正方針
+
+SQLite の `INSERT OR REPLACE` 一括実行か、`executemany()` による一括処理に変更する。
+
+```python
+# 現在: ループ内で 1 件ずつ execute
+for machine in machines:
+    session.execute(sqlite_insert(DMD).values(...).on_conflict_do_update(...))
+
+# 改善案: values リストを構築してから 1 回の executemany
+records = [build_record(m) for m in machines]
+session.execute(sqlite_insert(DMD), records)
+# ただし SQLite の on_conflict_do_update との組み合わせは要検証
+```
+
+**留意点**: SQLAlchemy の `on_conflict_do_update` と `executemany` の組み合わせは SQLite 方言依存のため、テストで動作確認が必要。
+
+変更ファイル: `src/cli.py`
+
+---
+
+### 候補 BP-2: `exporter.py` の N+1 クエリ統合
+
+#### 問題のある箇所
+
+- [`src/exporter.py`](../src/exporter.py)（`_build_stores()` メソッド）
+
+```python
+for group_key, meta in groups.items():  # グループ数（現在 9）回ループ
+    latest_date = session.query(func.max(DailyMachineData.play_date))
+        .filter(DailyMachineData.store_id.in_(store_ids)).scalar()   # クエリ 1
+    oldest_date = session.query(func.min(DailyMachineData.play_date))
+        .filter(DailyMachineData.store_id.in_(store_ids)).scalar()   # クエリ 2
+    rows_on_date = session.query(...)
+        .filter(...).all()                                            # クエリ 3
+    # + machine_count の SELECT                                       # クエリ 4
+```
+
+グループ数 × 4 クエリ = 最大 36 回の SELECT が export のたびに走る。
+
+#### 影響度
+
+- 現在 9 グループ × 4 クエリ = 36 回（体感 1-2 秒）
+- グループ数が増えると線形に増加する
+
+#### 修正方針
+
+集計クエリを1本に統合して Python 側でマッピングする。
+
+```python
+# グループ別の最新日・最古日・台数を 1 クエリで取得
+agg = session.query(
+    DailyMachineData.store_id,
+    func.max(DailyMachineData.play_date).label("latest"),
+    func.min(DailyMachineData.play_date).label("oldest"),
+    func.count(DailyMachineData.id).label("count"),
+).group_by(DailyMachineData.store_id).all()
+# → store_id をキーに dict 化してからグループループで参照
+```
+
+変更ファイル: `src/exporter.py`
+
+---
+
+### 候補 BP-3: `_build_top_machines()` の NULL フィルタを DB 側に移動
+
+#### 問題のある箇所
+
+- [`src/exporter.py`](../src/exporter.py)（`_build_top_machines()`）
+
+```python
+rows = session.query(DailyMachineData)
+    .filter(DailyMachineData.play_date >= since)
+    .all()                          # 直近14日の全データを Python メモリに読み込み
+for r in rows:
+    if r.diff_coins is None:        # Python 側でフィルタ
+        continue
+```
+
+`diff_coins` が NULL の行（minrepo データ等）を Python 側でスキップしているが、DB 側フィルタにするとネットワーク転送量とメモリ使用量を削減できる。
+
+#### 影響度
+
+- 現在のデータ量（最大 7,200 行/日 × 14 日 = 100,800 行）では数 MB 程度
+- minrepo の割合が高まると NULL 行が増え、無駄なデータ転送が増加する
+
+#### 修正方針
+
+```python
+rows = session.query(DailyMachineData)
+    .filter(
+        DailyMachineData.play_date >= since,
+        DailyMachineData.diff_coins.isnot(None),  # DB 側でフィルタ
+    ).all()
+```
+
+変更ファイル: `src/exporter.py`
+
+---
+
+### 見送り: BP-4 `cmd_collect()` の並行化
+
+#### 理由
+
+店舗間の sleep（30-60 秒）は IP ブロック対策として設計要件であり、直列処理が必須。並行化しても sleep がボトルネックになるため改善効果がない。backfill はサイト別スレッド並行が実装済みで、これ以上の並行化は不要。
+
+---
+
+---
+
+## フロントエンド（docs/index.html）リファクタリング・パフォーマンス改善候補
+
+作成日: 2026-06-03
+
+### 背景・目的
+
+`docs/index.html` は CSS・HTML・JS を1ファイルに収めた約1100行の構成。機能追加が続いた結果、JS 部分（L441–L1076）に重複コード・未使用コード・パフォーマンス上の問題が蓄積している。
+
+**扱うデータ規模の目安**
+- `machines/YYYY-MM-DD.json` に1店舗あたり最大 800 台
+- 機種ランキング集計: 直近14日 × 最大9店舗 = 最大126ファイルを並行 fetch
+- 全台リストモーダル: 1回あたり最大 800 行の描画
+- 機種別サマリ集計: 800件を毎回フルスキャン
+
+**注意事項**: テストが存在しない単一 HTML ファイルのため、変更後は必ずブラウザで動作確認を行うこと。
+確認方法: `cd docs && python -m http.server 8080` → http://localhost:8080
+
+---
+
+### 全体サマリ
+
+#### パフォーマンス
+
+| 優先度 | # | 候補 | 影響が出るタイミング |
+|--------|---|------|---------------------|
+| 高 | FP-1 | machines JSON のキャッシュ（`machinesCache`） | モーダルを繰り返し開くとき |
+| 高 | FP-2 | `initMachineTableSort` / `initModelTableSort` → イベント委任に置換 | モーダルを開くたびに DOM 再構築 |
+| 中 | FP-3 | `buildModelSummary` の結果をキャッシュ | 機種別サマリのソート連打時 |
+| 低 | FP-4 | `buildAndRenderTopMachines` の中間配列削減 | データが大幅増加した場合 |
+
+#### 重複コード・コード品質
+
+| 優先度 | # | 候補 | 重複箇所数 |
+|--------|---|------|----------|
+| 高 | F-1 | フィルタ UI リセットの共通化（`resetFilterUI()`） | 3 |
+| 高 | F-2 | ソートインジケーター更新の共通化（`updateSortIndicators()`） | 2 |
+| 中 | F-3 | ページャー同期処理の共通化（`setPagerState()`）+ バグ修正 | 2 |
+| 低 | F-4 | `fmtPct()` 未使用関数を削除 | 1 |
+| 低 | F-5 | 未使用 `groups` 変数を削除 | 1 |
+| 見送り | F-6 | `renderMachineTable()` の責務分割 | — |
+
+---
+
+## 優先度: 高（パフォーマンス）
+
+---
+
+### 候補 FP-1: machines JSON のキャッシュ（`machinesCache`）
+
+#### 問題のある箇所
+
+- [`docs/index.html:686-696`](index.html#L686)（`buildAndRenderTopMachines()` 内の fetch）
+- [`docs/index.html:807-809`](index.html#L807)（`openMachineModal()` 内の fetch）
+
+```js
+// buildAndRenderTopMachines が同じファイルを取得済みでも…
+const res = await fetch(`data/machines/${d}.json`);
+
+// openMachineModal でも同じファイルを再 fetch している
+const res = await fetch(`data/machines/${playDate}.json`);
+```
+
+同じ `data/machines/YYYY-MM-DD.json` を2つの独立した経路が別々に取得している。GitHub Pages のキャッシュ設定によっては毎回ネットワークリクエストが走る。
+
+#### 実施メリット
+
+- 同日の店舗モーダルを何度開き直しても fetch が走らなくなる
+- `buildAndRenderTopMachines` 実行後は直近14日のモーダルが即時表示される
+
+#### 修正方針
+
+```js
+// モジュールスコープに追加
+const machinesCache = new Map(); // key: "YYYY-MM-DD", value: JSON オブジェクト
+
+// fetch 共通ヘルパーを新設（buildAndRenderTopMachines / openMachineModal 両方から使用）
+async function fetchMachinesJson(date) {
+  if (machinesCache.has(date)) return machinesCache.get(date);
+  try {
+    const res = await fetch(`data/machines/${date}.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    machinesCache.set(date, data);
+    return data;
+  } catch (_) { return null; }
+}
+```
+
+変更ファイル: `docs/index.html`
+
+---
+
+### 候補 FP-2: `initMachineTableSort` / `initModelTableSort` → イベント委任に置換
+
+#### 問題のある箇所
+
+- [`docs/index.html:903-920`](index.html#L903)（`initMachineTableSort()`）
+- [`docs/index.html:1018-1033`](index.html#L1018)（`initModelTableSort()`）
+
+```js
+function initMachineTableSort() {
+  // モーダルを開くたびに DOM を破壊・再構築してリスナーを登録し直す
+  document.querySelectorAll("#machine-table th.sortable").forEach(th => {
+    th.replaceWith(th.cloneNode(true));  // DOM 再作成（reflow を強制）
+  });
+  document.querySelectorAll("#machine-table th.sortable").forEach(th => {
+    th.addEventListener("click", () => { ... });
+  });
+}
+```
+
+`replaceWith(cloneNode(true))` は DOM ノードを毎回破壊・再構築する壊れやすいパターン。モーダルを開くたびに不要な reflow を強制する。
+
+#### 実施メリット
+
+- DOM の破壊・再構築と reflow がなくなる
+- イベントリスナーの登録が `DOMContentLoaded` 時の1回のみになる
+- F-3 相当（`initTableSort` 共通化）が同時に解決される
+
+#### 修正方針
+
+テーブル親要素へのイベント委任（event delegation）を使い、`DOMContentLoaded` 時に1回だけ登録する。
+
+```js
+// DOMContentLoaded 内（init() の前）に追加
+document.getElementById("machine-table").addEventListener("click", e => {
+  const th = e.target.closest("th.sortable");
+  if (!th) return;
+  if (modalSortCol === th.dataset.col) {
+    modalSortAsc = !modalSortAsc;
+  } else {
+    modalSortCol = th.dataset.col;
+    modalSortAsc = ["machine_number", "machine_name"].includes(modalSortCol);
+  }
+  renderMachineTable();
+});
+
+document.getElementById("model-table").addEventListener("click", e => {
+  const th = e.target.closest("th.sortable");
+  if (!th) return;
+  if (modelSortCol === th.dataset.col) {
+    modelSortAsc = !modelSortAsc;
+  } else {
+    modelSortCol = th.dataset.col;
+    modelSortAsc = th.dataset.col === "machine_name";
+  }
+  renderModelTable();
+});
+```
+
+- `initMachineTableSort()` / `initModelTableSort()` 関数を削除する
+- `openMachineModal()` 内の `initMachineTableSort(); initModelTableSort();` 呼び出し（L828-829）を削除する
+
+変更ファイル: `docs/index.html`
+
+---
+
+## 優先度: 高（重複コード）
+
+---
+
+### 候補 F-1: フィルタ UI リセット処理を `resetFilterUI()` に共通化
+
+#### 問題のある箇所
+
+- [`docs/index.html:821-823`](index.html#L821)（`openMachineModal()` 内）
+- [`docs/index.html:835-838`](index.html#L835)（`closeMachineModal()`）
+- [`docs/index.html:941-944`](index.html#L941)（`resetMachineFilter()`）
+
+```js
+// 3箇所に完全同一で存在
+machineFilter = null;
+document.getElementById("tab-btn-all").textContent = "全台リスト";
+document.getElementById("show-all-btn").style.display = "none";
+```
+
+#### 実施メリット
+
+- 「全台リストを表示」ボタンのラベル文字列変更が1箇所で完結する
+- フィルタ状態が増えた場合も `resetFilterUI()` を変更するだけで全箇所に反映される
+
+#### 修正方針
+
+```js
+function resetFilterUI() {
+  machineFilter = null;
+  document.getElementById("tab-btn-all").textContent = "全台リスト";
+  document.getElementById("show-all-btn").style.display = "none";
+}
+```
+
+- `openMachineModal()` の L821-823 → `resetFilterUI()` に置き換える
+- `closeMachineModal()` の L835-838 → `currentMachines = []; resetFilterUI();` に置き換える
+- `resetMachineFilter()` の L941-944 → `resetFilterUI(); switchModalTab("all");` に置き換える
+
+変更ファイル: `docs/index.html`
+
+---
+
+### 候補 F-2: ソートインジケーター更新を `updateSortIndicators()` に共通化
+
+#### 問題のある箇所
+
+- [`docs/index.html:894-900`](index.html#L894)（`renderMachineTable()` 末尾）
+- [`docs/index.html:1009-1015`](index.html#L1009)（`renderModelTable()` 末尾）
+
+```js
+// renderMachineTable 末尾（テーブル id と変数名だけ異なる同一コードが renderModelTable にも存在）
+document.querySelectorAll("#machine-table th.sortable").forEach(th => {
+  th.classList.remove("sort-asc", "sort-desc");
+  if (th.dataset.col === modalSortCol) {
+    th.classList.add(modalSortAsc ? "sort-asc" : "sort-desc");
+  }
+});
+```
+
+#### 実施メリット
+
+- CSS クラス名（`sort-asc` / `sort-desc`）の変更が1箇所で完結する
+
+#### 修正方針
+
+```js
+function updateSortIndicators(tableSelector, sortCol, sortAsc) {
+  document.querySelectorAll(`${tableSelector} th.sortable`).forEach(th => {
+    th.classList.remove("sort-asc", "sort-desc");
+    if (th.dataset.col === sortCol) {
+      th.classList.add(sortAsc ? "sort-asc" : "sort-desc");
+    }
+  });
+}
+// renderMachineTable 末尾
+updateSortIndicators("#machine-table", modalSortCol, modalSortAsc);
+// renderModelTable 末尾
+updateSortIndicators("#model-table", modelSortCol, modelSortAsc);
+```
+
+**注意**: FP-2（イベント委任）と組み合わせて実施する場合、`updateSortIndicators` は引き続き有効。FP-2 後も `renderMachineTable` / `renderModelTable` から呼ばれるため、どちらを先に実施しても矛盾しない。
+
+変更ファイル: `docs/index.html`
+
+---
+
+## 優先度: 中
+
+---
+
+### 候補 FP-3: `buildModelSummary` の結果をキャッシュ
+
+#### 問題のある箇所
+
+- [`docs/index.html:977-1016`](index.html#L977)（`renderModelTable()` 冒頭）
+
+```js
+function renderModelTable() {
+  let summary = buildModelSummary(currentMachines);  // ソートのたびに毎回 800件フルスキャン
+  summary.sort(...);
+  tbody.innerHTML = ...;
+}
+```
+
+`currentMachines`（最大 800 件）のフルスキャン集計を、機種別サマリタブでのソートのたびに実行している。`currentMachines` は `openMachineModal()` でのみ更新されるため集計結果は変わらない。
+
+#### 修正方針
+
+```js
+let _modelSummaryCache = null;
+
+// openMachineModal 内で currentMachines セット直後に集計
+_modelSummaryCache = buildModelSummary(currentMachines);
+
+// renderModelTable はキャッシュを使ってソートのみ
+function renderModelTable() {
+  if (!_modelSummaryCache) { ... return; }
+  const summary = [..._modelSummaryCache].sort(...);
+  ...
+}
+
+// closeMachineModal でキャッシュをクリア
+_modelSummaryCache = null;
+```
+
+変更ファイル: `docs/index.html`
+
+---
+
+### 候補 F-3: ページャー同期処理を `setPagerState()` に共通化 + バグ修正
+
+#### 問題のある箇所
+
+- [`docs/index.html:773-787`](index.html#L773)（`renderTopMachines()` 内）
+
+```js
+// 上部（L777-780）と下部（L781-784）で id の末尾 "-bottom" 以外が同一
+pager.style.display = "block";
+document.getElementById("top-machines-page-info").textContent = info;
+document.getElementById("top-machines-prev").disabled = atFirst;
+document.getElementById("top-machines-next").disabled = atLast;
+// ↓ 下部も全く同じ（"-bottom" サフィックスのみ違う）
+pagerBottom.style.display = "block";
+...
+```
+
+#### 潜在バグ
+
+データが 0 件のとき（L752-754）`pager.style.display = "none"` のみで **`pagerBottom` の非表示処理が漏れている**。ページ遷移後にデータ 0 件になると下部ページャーが残ったまま表示される。
+
+#### 修正方針
+
+```js
+function setPagerState(suffix, visible, info = "", atFirst = true, atLast = true) {
+  const s = suffix ? `-${suffix}` : "";
+  document.getElementById(`top-machines-pager${s}`).style.display = visible ? "block" : "none";
+  if (visible) {
+    document.getElementById(`top-machines-page-info${s}`).textContent = info;
+    document.getElementById(`top-machines-prev${s}`).disabled = atFirst;
+    document.getElementById(`top-machines-next${s}`).disabled = atLast;
+  }
+}
+
+// renderTopMachines 内
+setPagerState("",       false);  // ← データなし時のバグ修正（pagerBottom も非表示に）
+setPagerState("bottom", false);
+
+// データあり時
+setPagerState("",       totalPages > 1, info, atFirst, atLast);
+setPagerState("bottom", totalPages > 1, info, atFirst, atLast);
+```
+
+変更ファイル: `docs/index.html`
+
+---
+
+## 優先度: 低
+
+---
+
+### 候補 F-4: `fmtPct()` 未使用関数を削除
+
+- [`docs/index.html:496-498`](index.html#L496)
+
+```js
+function fmtPct(v) {        // 呼び出し元がコード全体に存在しない
+  return (v * 100).toFixed(1) + "%";
+}
+```
+
+削除前に全文検索で `fmtPct` が 0 件であることを確認すること。
+
+変更ファイル: `docs/index.html`
+
+---
+
+### 候補 F-5: 未使用 `groups` 変数を削除
+
+- [`docs/index.html:685`](index.html#L685)
+
+```js
+const groups = {};  // 宣言のみ。以降どこでも参照されていない残骸
+```
+
+変更ファイル: `docs/index.html`
+
+---
+
+### 候補 FP-4: `buildAndRenderTopMachines` の中間配列削減（見送りに近い低優先度）
+
+#### 理由
+
+現状の集計対象は最大「機種種類数 × 14日 × 9店舗」行（数千〜1万件）。`rows.sort()` は数十ms 程度で「集計中…」表示がカバーする。データ量が数倍になった段階で再検討。
+
+---
+
+## 見送り
+
+---
+
+### 候補 F-6: `renderMachineTable()` の責務分割
+
+#### 理由
+
+フィルタ・ソート・HTML 生成・インジケーター更新の4責務が混在しているが、FP-2（イベント委任）+ F-2（`updateSortIndicators`）の実施でインジケーター更新が分離され責務の混在は緩和される。残る3責務の分割は呼び出し順管理という新たな複雑さを生み、約50行の関数規模では費用対効果が小さい。
+
+---
+
+## フロントエンド 実施順序（推奨）
+
+テストが存在しないため、**各ステップ後にブラウザ動作確認を必須**とする。
+
+```
+第1ステップ: F-4・F-5（デッドコード除去）+ F-1（resetFilterUI）
+             → リスクゼロの変更を先に済ませる
+第2ステップ: FP-1（machinesCache + fetchMachinesJson ヘルパー新設）
+             → fetch 経路を統合してからイベント改修に進む
+第3ステップ: FP-2（イベント委任・initMachineTableSort / initModelTableSort 削除）
+             → openMachineModal から init 呼び出しも削除
+第4ステップ: F-2（updateSortIndicators）
+             → FP-2 後も残る querySelectorAll ループを共通化
+第5ステップ: FP-3（buildModelSummary キャッシュ）
+第6ステップ: F-3（setPagerState + pagerBottom バグ修正）
+```
