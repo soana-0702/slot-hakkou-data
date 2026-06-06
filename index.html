@@ -65,7 +65,8 @@
       flex-wrap: wrap;
     }
     .date-bar label { font-size: .85rem; color: #aaa; }
-    .date-bar select {
+    .date-bar select,
+    .date-bar input[type="date"] {
       padding: .4rem .75rem;
       border-radius: 6px;
       border: 1px solid #333;
@@ -73,8 +74,10 @@
       color: #fff;
       font-size: .9rem;
       cursor: pointer;
+      color-scheme: dark;
     }
-    .date-bar select:focus { outline: none; border-color: #7cb9ff; }
+    .date-bar select:focus,
+    .date-bar input[type="date"]:focus { outline: none; border-color: #7cb9ff; }
     .date-bar .nav-btn {
       padding: .35rem .7rem;
       border-radius: 6px;
@@ -183,6 +186,30 @@
     /* ── 空状態 ── */
     .empty { color: #555; font-size: .85rem; padding: 1rem 0; }
 
+    /* ── 曜日カラー ── */
+    .day-sat { color: #5b9bd5; }
+    .day-sun { color: #e05555; }
+
+    /* ── フィルタボタン ── */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem;
+      margin-bottom: .75rem;
+    }
+    .filter-btn {
+      padding: .25rem .6rem;
+      border-radius: 4px;
+      border: 1px solid #333;
+      background: #1c1f2e;
+      color: #aaa;
+      font-size: .78rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: #7cb9ff; color: #c5d8ff; }
+    .filter-btn.active { background: #1a2540; border-color: #7cb9ff; color: #7cb9ff; font-weight: 700; }
+
     /* ── フッター ── */
     footer { margin-top: 3rem; text-align: center; font-size: .75rem; color: #444; }
 
@@ -287,9 +314,7 @@
   <div class="date-bar">
     <label for="date-select">📅 表示日:</label>
     <button class="nav-btn" id="btn-prev" onclick="stepDate(-1)" disabled>◀ 前日</button>
-    <select id="date-select" onchange="onDateChange()">
-      <option value="">読み込み中…</option>
-    </select>
+    <input type="date" id="date-select" onchange="onDateChange()" />
     <button class="nav-btn" id="btn-next" onclick="stepDate(+1)" disabled>翌日 ▶</button>
   </div>
 
@@ -356,23 +381,63 @@
     </div>
   </section>
 
-  <!-- 日次サマリ -->
+  <!-- 出ている店舗ランキング -->
   <section>
-    <h2>日次収集サマリ（直近30日）</h2>
+    <h2 id="top-stores-heading">出ている店舗（直近14日）</h2>
     <div class="table-wrap">
-      <table id="daily-table">
+      <table id="top-stores-table">
         <thead>
           <tr>
-            <th>日付</th>
+            <th>#</th>
             <th>店舗</th>
-            <th class="num">台数</th>
             <th class="num">差枚合計</th>
+            <th class="num">平均差枚</th>
+            <th class="num-date">該当日</th>
           </tr>
         </thead>
-        <tbody id="daily-body">
-          <tr><td colspan="4" class="empty">データを読み込み中…</td></tr>
+        <tbody id="top-stores-body">
+          <tr><td colspan="5" class="empty">データを読み込み中…</td></tr>
         </tbody>
       </table>
+    </div>
+  </section>
+
+  <!-- 日次サマリ -->
+  <section>
+    <h2 onclick="toggleDailySummary()" style="cursor:pointer;" title="クリックで開閉">
+      日次収集サマリ（直近30日）<span id="daily-summary-toggle" style="font-size:.8rem;font-weight:400;color:#888;margin-left:.4rem;">▶</span>
+    </h2>
+    <div id="daily-summary-body" style="display:none;">
+      <div class="filter-bar" id="daily-filter-bar">
+        <button class="filter-btn active" onclick="setDailyFilter('all')" data-filter="all">全て</button>
+        <button class="filter-btn" onclick="setDailyFilter('digit','1')" data-filter="digit-1">1の付く日</button>
+        <button class="filter-btn" onclick="setDailyFilter('digit','6')" data-filter="digit-6">6の付く日</button>
+        <button class="filter-btn" onclick="setDailyFilter('zoromi')" data-filter="zoromi">ゾロ目日(11/22)</button>
+        <button class="filter-btn" onclick="setDailyFilter('tsuki_zoromi')" data-filter="tsuki_zoromi">月日ゾロ目</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',1)" data-filter="wd-1">月</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',2)" data-filter="wd-2">火</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',3)" data-filter="wd-3">水</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',4)" data-filter="wd-4">木</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',5)" data-filter="wd-5">金</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',6)" data-filter="wd-6">土</button>
+        <button class="filter-btn" onclick="setDailyFilter('weekday',0)" data-filter="wd-0">日</button>
+      </div>
+      <div class="table-wrap">
+        <table id="daily-table">
+          <thead>
+            <tr>
+              <th>日付</th>
+              <th>店舗</th>
+              <th class="num">台数</th>
+              <th class="num">差枚合計</th>
+              <th class="num">平均差枚</th>
+            </tr>
+          </thead>
+          <tbody id="daily-body">
+            <tr><td colspan="5" class="empty">データを読み込み中…</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </section>
 
@@ -396,6 +461,32 @@
       <button class="modal-tab active" id="tab-btn-all" data-tab="all" onclick="switchModalTab('all')">全台リスト</button>
       <button class="modal-tab" data-tab="model" onclick="switchModalTab('model')">機種別サマリ</button>
     </div>
+    <!-- 台番末尾フィルタ（全台リストタブ用） -->
+    <div id="machine-number-filter-bar" style="padding:.5rem 1.25rem .25rem; display:flex; flex-wrap:wrap; gap:.35rem; border-bottom:1px solid #2a3050; flex-shrink:0;">
+      <span style="font-size:.78rem;color:#888;align-self:center;">末尾:</span>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','0')" data-nf="s0">0</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','1')" data-nf="s1">1</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','2')" data-nf="s2">2</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','3')" data-nf="s3">3</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','4')" data-nf="s4">4</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','5')" data-nf="s5">5</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','6')" data-nf="s6">6</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','7')" data-nf="s7">7</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','8')" data-nf="s8">8</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('suffix1','9')" data-nf="s9">9</button>
+      <span style="font-size:.78rem;color:#888;align-self:center;margin-left:.25rem;">ゾロ目:</span>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','00')" data-nf="z00">00</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','11')" data-nf="z11">11</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','22')" data-nf="z22">22</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','33')" data-nf="z33">33</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','44')" data-nf="z44">44</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','55')" data-nf="z55">55</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','66')" data-nf="z66">66</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','77')" data-nf="z77">77</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','88')" data-nf="z88">88</button>
+      <button class="filter-btn" onclick="setMachineNumFilter('zoromi','99')" data-nf="z99">99</button>
+      <button class="filter-btn" onclick="clearMachineNumFilter()" data-nf="clear" style="margin-left:.25rem;">クリア</button>
+    </div>
     <div id="machine-modal-body">
       <!-- 全台リストタブ -->
       <div id="tab-all">
@@ -409,7 +500,6 @@
                 <th class="num sortable" data-col="total_games">G数</th>
                 <th class="num sortable" data-col="bb_prob">BB確率</th>
                 <th class="num sortable" data-col="rb_prob">RB確率</th>
-                <th>ソース</th>
               </tr>
             </thead>
             <tbody id="machine-table-body"></tbody>
@@ -438,6 +528,46 @@
 </div>
 
 <script>
+// ── 日付ユーティリティ ────────────────────────────────────────────────────
+// 2026年の日本の祝日（YYYY-MM-DD 形式）
+const HOLIDAYS = new Set([
+  "2026-01-01", // 元日
+  "2026-01-12", // 成人の日
+  "2026-02-11", // 建国記念の日
+  "2026-02-23", // 天皇誕生日
+  "2026-03-20", // 春分の日
+  "2026-04-29", // 昭和の日
+  "2026-05-03", // 憲法記念日
+  "2026-05-04", // みどりの日
+  "2026-05-05", // こどもの日
+  "2026-07-20", // 海の日
+  "2026-08-11", // 山の日
+  "2026-09-21", // 敬老の日
+  "2026-09-23", // 秋分の日
+  "2026-10-12", // スポーツの日
+  "2026-11-03", // 文化の日
+  "2026-11-23", // 勤労感謝の日
+]);
+const WEEKDAY_JA = ["日", "月", "火", "水", "木", "金", "土"];
+
+// HTMLスパン付きで曜日・土日祝カラーを返す（テーブルセル等に使用）
+function fmtDate(dateStr) {
+  if (!dateStr) return dateStr;
+  const d = new Date(dateStr + "T00:00:00");
+  const wd = d.getDay();
+  const label = `${dateStr} (${WEEKDAY_JA[wd]})`;
+  if (HOLIDAYS.has(dateStr) || wd === 0) return `<span class="day-sun">${label}</span>`;
+  if (wd === 6) return `<span class="day-sat">${label}</span>`;
+  return label;
+}
+
+// プレーンテキストで曜日を返す（select option 等に使用）
+function fmtDateText(dateStr) {
+  if (!dateStr) return dateStr;
+  const d = new Date(dateStr + "T00:00:00");
+  return `${dateStr} (${WEEKDAY_JA[d.getDay()]})`;
+}
+
 // ── パスワード認証 ────────────────────────────────────────────────────────
 const PW_HASH = "e12fd2d9aea614423c629f54503faba614d968dc4057ce10c071093cc04f46fe";
 const SESSION_KEY = "shd_auth";
@@ -574,38 +704,42 @@ async function loadIndex() {
 }
 
 function populateDateSelect(selectedDate) {
-  const sel = document.getElementById("date-select");
-  if (!availableDates.length) {
-    sel.innerHTML = '<option value="">最新</option>';
-    return;
-  }
-  sel.innerHTML = availableDates.map(d =>
-    `<option value="${d}"${d === selectedDate ? " selected" : ""}>${d}</option>`
-  ).join("");
+  const input = document.getElementById("date-select");
+  if (!availableDates.length) return;
+  // min/max で選択可能範囲を限定
+  input.min = availableDates[availableDates.length - 1];
+  input.max = availableDates[0];
+  input.value = selectedDate || availableDates[0];
   updateNavButtons();
 }
 
 function updateNavButtons() {
-  const sel = document.getElementById("date-select");
-  const idx = availableDates.indexOf(sel.value);
+  const input = document.getElementById("date-select");
+  const idx = availableDates.indexOf(input.value);
   document.getElementById("btn-prev").disabled = (idx === availableDates.length - 1);
   document.getElementById("btn-next").disabled = (idx <= 0);
 }
 
 function stepDate(direction) {
-  const sel = document.getElementById("date-select");
-  const idx = availableDates.indexOf(sel.value);
+  const input = document.getElementById("date-select");
+  const idx = availableDates.indexOf(input.value);
   const nextIdx = idx - direction;
   if (nextIdx < 0 || nextIdx >= availableDates.length) return;
-  sel.value = availableDates[nextIdx];
+  input.value = availableDates[nextIdx];
   onDateChange();
 }
 
 async function onDateChange() {
+  const input = document.getElementById("date-select");
+  const chosen = input.value;
+  // availableDates に含まれない日付は拒否して直前値に戻す
+  if (chosen && !availableDates.includes(chosen)) {
+    input.value = availableDates[0] || "";
+    return;
+  }
   updateNavButtons();
   closeStoreDetail();
-  const date = document.getElementById("date-select").value;
-  await loadAndRender(date);
+  await loadAndRender(chosen);
 }
 
 // ── データ読み込みと描画 ──────────────────────────────────────────────────
@@ -647,15 +781,18 @@ async function render(data) {
       `出ている機種（${playDate} 基準 直近14日）`;
   }
 
-  renderStores(data.stores || []);
+  // 当日の machines データを先行 fetch して店舗カードの平均差枚に使用
+  const machinesData = data.play_date ? await fetchMachinesJson(data.play_date) : null;
+  renderStores(data.stores || [], machinesData, data.play_date || "");
   renderDaily(data.daily_summary || []);
 
-  // 機種ランキングはフロントエンドで直近14日分を集計
+  // 機種・店舗ランキングはフロントエンドで直近14日分を集計
   await buildAndRenderTopMachines(data.play_date, data.stores || []);
+  await buildAndRenderTopStores(data.play_date, data.stores || []);
 }
 
 // ── 店舗カード ────────────────────────────────────────────────────────────
-function renderStores(stores) {
+function renderStores(stores, machinesData, displayDate) {
   const container = document.getElementById("stores-container");
   if (!stores.length) {
     container.innerHTML = '<p class="empty">データなし</p>';
@@ -666,14 +803,35 @@ function renderStores(stores) {
     const badge = hasData
       ? `<span class="badge badge-ok">収集済</span>`
       : `<span class="badge badge-ng">未収集</span>`;
-    // store_group キーで識別（store_id は JSON に存在しない）
+
+    // machines データから当日の平均差枚を計算
+    let avgStr = "";
+    if (machinesData && machinesData.stores && machinesData.stores[s.store_group]) {
+      const machines = machinesData.stores[s.store_group].machines || [];
+      const valid = machines.filter(m => m.diff_coins != null);
+      if (valid.length > 0) {
+        const avg = Math.round(valid.reduce((sum, m) => sum + m.diff_coins, 0) / valid.length);
+        const cls = avg >= 0 ? "pos" : "neg";
+        avgStr = ` <span class="${cls}">平均: ${avg >= 0 ? "+" : ""}${avg.toLocaleString()}</span>`;
+      }
+    }
+
+    const storeName = s.store_name.replace(/'/g, "\\'");
+    // 表示日のデータを開く（表示日がない場合はその店舗の最新日にフォールバック）
+    const cardDate = displayDate || s.latest_date || "";
     return `
-      <div class="card" onclick="openStoreDetail('${s.store_group}')" data-group="${s.store_group}">
+      <div class="card" onclick="onCardClick('${s.store_group}', '${storeName}', '${cardDate}')" data-group="${s.store_group}">
         <div class="card-title">${s.store_name}</div>
         <div class="card-value">${s.machine_count.toLocaleString()} 台</div>
-        <div class="card-sub">${s.latest_date || "—"} ${badge}</div>
+        <div class="card-sub">${s.latest_date || "—"} ${badge}${avgStr}</div>
       </div>`;
   }).join("");
+}
+
+// ── 店舗カードクリック：ドリルダウン＋当日モーダルを同時に開く ──────────────
+function onCardClick(storeGroup, storeName, playDate) {
+  openStoreDetail(storeGroup);
+  if (playDate) openMachineModal(storeGroup, storeName, playDate);
 }
 
 // ── 店舗ドリルダウン ──────────────────────────────────────────────────────
@@ -703,7 +861,7 @@ function openStoreDetail(storeGroup) {
   } else {
     tbody.innerHTML = summary.map(d => `
       <tr onclick="openMachineModal('${storeGroup}', '${storeName}', '${d.play_date}')" title="クリックで全台リストを表示">
-        <td>${d.play_date}</td>
+        <td>${fmtDate(d.play_date)}</td>
         <td><span style="font-size:.8rem;color:#888;">${d.store_id}</span></td>
         <td class="num">${d.machine_count.toLocaleString()}</td>
         <td class="num ${diffClass(d.total_diff)}">${fmtDiff(d.total_diff)}</td>
@@ -817,7 +975,7 @@ function renderTopMachines() {
       <td class="num ${diffClass(m.total_diff)}">${fmtDiff(m.total_diff)}</td>
       <td class="num ${diffClass(m.mean_diff)}">${fmtDiff(Math.round(m.mean_diff))}</td>
       <td class="num">${m.plus_count}/${m.total_count}</td>
-      <td class="num-date">${m.play_date}</td>
+      <td class="num-date">${fmtDate(m.play_date)}</td>
     </tr>`).join("");
 
   const show = totalPages > 1;
@@ -828,18 +986,98 @@ function renderTopMachines() {
   setPagerState("top-machines-pager-bottom", "top-machines-page-info-bottom", "top-machines-prev-bottom", "top-machines-next-bottom", show, info, atFirst, atLast);
 }
 
+// ── 出ている店舗ランキング ────────────────────────────────────────────────
+// machinesCache を再利用（buildAndRenderTopMachines が先に呼ばれている前提）
+async function buildAndRenderTopStores(playDate, stores) {
+  const tbody = document.getElementById("top-stores-body");
+  tbody.innerHTML = '<tr><td colspan="5" class="empty">集計中…</td></tr>';
+
+  const baseIdx = availableDates.indexOf(playDate);
+  const targetDates = baseIdx >= 0
+    ? availableDates.slice(baseIdx, baseIdx + 14)
+    : availableDates.slice(0, 14);
+
+  if (!targetDates.length) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">データが蓄積されると表示されます</td></tr>';
+    return;
+  }
+
+  const storeMap = {};
+  stores.forEach(s => { storeMap[s.store_group] = s.store_name; });
+
+  // 各日の machines JSON を fetch（buildAndRenderTopMachines 後なのでほぼキャッシュヒット）
+  const machineResults = await Promise.all(targetDates.map(d => fetchMachinesJson(d)));
+
+  // 日付 × 店舗ごとに差枚集計
+  const rows = [];
+  machineResults.forEach((data, i) => {
+    if (!data) return;
+    const playD = targetDates[i];
+    Object.entries(data.stores || {}).forEach(([storeGroup, storeData]) => {
+      const machines = (storeData.machines || []).filter(m => m.diff_coins != null);
+      if (!machines.length) return;
+      const totalDiff = machines.reduce((s, m) => s + m.diff_coins, 0);
+      const avgDiff = Math.round(totalDiff / machines.length);
+      rows.push({ store_group: storeGroup, total_diff: totalDiff, avg_diff: avgDiff, play_date: playD });
+    });
+  });
+
+  // 平均差枚降順でソート・上位100件
+  rows.sort((a, b) => b.avg_diff - a.avg_diff);
+  const top = rows.slice(0, 100);
+
+  if (!top.length) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">データが蓄積されると表示されます</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = top.map((r, i) => `
+    <tr>
+      <td>${i + 1}</td>
+      <td>${storeMap[r.store_group] || r.store_group}</td>
+      <td class="num ${diffClass(r.total_diff)}">${fmtDiff(r.total_diff)}</td>
+      <td class="num ${diffClass(r.avg_diff)}">${fmtDiff(r.avg_diff)}</td>
+      <td class="num-date">${fmtDate(r.play_date)}</td>
+    </tr>`).join("");
+}
+
 // ── 全台リストモーダル ────────────────────────────────────────────────────
 // 現在モーダルに表示中の台データ（ソート用に保持）
 let currentMachines = [];
+// 台番末尾フィルタ（null = フィルタなし, { type: "suffix1"|"zoromi", value: string }）
+let machineNumberFilter = null;
+
+function setMachineNumFilter(type, value) {
+  machineNumberFilter = { type, value };
+  const key = type === "suffix1" ? `s${value}` : `z${value}`;
+  document.querySelectorAll("#machine-number-filter-bar .filter-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.nf === key);
+  });
+  renderMachineTable();
+}
+
+function clearMachineNumFilter() {
+  machineNumberFilter = null;
+  document.querySelectorAll("#machine-number-filter-bar .filter-btn").forEach(btn => {
+    btn.classList.remove("active");
+  });
+  renderMachineTable();
+}
+
+function applyMachineNumberFilter(machines) {
+  if (!machineNumberFilter) return machines;
+  const { value } = machineNumberFilter;
+  return machines.filter(m => String(m.machine_number ?? "").endsWith(value));
+}
 let modelSummaryCache = null;  // currentMachines が変わるまで使い回す
 let modalSortCol = "diff_coins";
 let modalSortAsc = false;  // デフォルト：差枚降順
 
 async function openMachineModal(storeGroup, storeName, playDate) {
   document.getElementById("machine-modal-title").textContent =
-    `📋 ${storeName} — ${playDate} 全台リスト`;
+    `📋 ${storeName} — ${fmtDateText(playDate)} 全台リスト`;
   document.getElementById("machine-table-body").innerHTML =
-    '<tr><td colspan="7" class="empty">読み込み中…</td></tr>';
+    '<tr><td colspan="6" class="empty">読み込み中…</td></tr>';
   document.getElementById("machine-modal-overlay").classList.add("open");
 
   // machines/YYYY-MM-DD.json を fetch（キャッシュ活用）
@@ -854,6 +1092,12 @@ async function openMachineModal(storeGroup, storeName, playDate) {
   const storeEntry = machinesData.stores ? machinesData.stores[storeGroup] : null;
   currentMachines = storeEntry ? (storeEntry.machines || []) : [];
   modelSummaryCache = null;
+
+  // ヘッダーにソース情報を付加（全台同一ソースの前提で先頭1件を参照）
+  const sourceId = currentMachines[0]?.source_id ?? null;
+  const sourceLabel = sourceId ? `　${sourceId}` : "";
+  document.getElementById("machine-modal-title").textContent =
+    `📋 ${storeName} — ${fmtDateText(playDate)} 全台リスト${sourceLabel}`;
 
   // デフォルト：全台リストタブ・差枚降順・フィルタなし
   resetFilterUI();
@@ -873,6 +1117,7 @@ function closeMachineModal() {
   document.getElementById("machine-modal-overlay").classList.remove("open");
   currentMachines = [];
   resetFilterUI();
+  clearMachineNumFilter();
 }
 
 function onModalOverlayClick(e) {
@@ -885,13 +1130,14 @@ function onModalOverlayClick(e) {
 function renderMachineTable() {
   const tbody = document.getElementById("machine-table-body");
 
-  // 機種名フィルタが有効なら絞り込む
-  const source = machineFilter
+  // 機種名フィルタ → 台番末尾フィルタの順で絞り込む
+  const byModel = machineFilter
     ? currentMachines.filter(m => m.machine_name === machineFilter)
     : currentMachines;
+  const source = applyMachineNumberFilter(byModel);
 
   if (!source.length) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty">この日のデータなし</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" class="empty">この日のデータなし</td></tr>';
     return;
   }
 
@@ -925,7 +1171,6 @@ function renderMachineTable() {
         <td class="num">${m.total_games != null ? m.total_games.toLocaleString() : "—"}</td>
         <td class="num">${bbStr}</td>
         <td class="num">${rbStr}</td>
-        <td style="font-size:.8rem;color:#888;">${m.source_id ?? "—"}</td>
       </tr>`;
   }).join("");
 
@@ -1039,10 +1284,55 @@ function openModelDetail(machineName) {
 }
 
 // ── 日次サマリ ────────────────────────────────────────────────────────────
+function toggleDailySummary() {
+  const body = document.getElementById("daily-summary-body");
+  const arrow = document.getElementById("daily-summary-toggle");
+  const isOpen = body.style.display !== "none";
+  body.style.display = isOpen ? "none" : "";
+  arrow.textContent = isOpen ? "▶" : "▼";
+}
+
+// 現在のフィルタ状態（type: "all" | "digit" | "zoromi" | "tsuki_zoromi" | "weekday", value: 任意）
+let dailyFilter = { type: "all", value: null };
+
+function setDailyFilter(type, value = null) {
+  dailyFilter = { type, value };
+
+  // アクティブボタンを更新
+  const filterKey = type === "digit" ? `digit-${value}`
+    : type === "weekday" ? `wd-${value}`
+    : type;
+  document.querySelectorAll("#daily-filter-bar .filter-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.filter === filterKey);
+  });
+
+  // 再描画
+  if (currentData) renderDaily(currentData.daily_summary || []);
+}
+
+function filterDailySummary(summary) {
+  const { type, value } = dailyFilter;
+  if (type === "all") return summary;
+  return summary.filter(d => {
+    const dt = new Date(d.play_date + "T00:00:00");
+    const day = dt.getDate();
+    const month = dt.getMonth() + 1;
+    const wd = dt.getDay();
+    if (type === "digit") {
+      // 日付の1桁目（1の位または10の位）に value が含まれる
+      return String(day).includes(String(value));
+    }
+    if (type === "zoromi") return day === 11 || day === 22;
+    if (type === "tsuki_zoromi") return month === day;
+    if (type === "weekday") return wd === Number(value);
+    return true;
+  });
+}
+
 function renderDaily(summary) {
   const tbody = document.getElementById("daily-body");
   if (!summary.length) {
-    tbody.innerHTML = '<tr><td colspan="4" class="empty">データなし</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">データなし</td></tr>';
     return;
   }
 
@@ -1054,13 +1344,24 @@ function renderDaily(summary) {
     });
   }
 
-  tbody.innerHTML = summary.map(d => `
+  const filtered = filterDailySummary(summary);
+  if (!filtered.length) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">該当するデータなし</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = filtered.map(d => {
+    const avg = (d.total_diff != null && d.machine_count > 0)
+      ? Math.round(d.total_diff / d.machine_count) : null;
+    return `
     <tr>
-      <td>${d.play_date}</td>
+      <td>${fmtDate(d.play_date)}</td>
       <td>${storeMap[d.store_id] || d.store_id}</td>
       <td class="num">${d.machine_count.toLocaleString()}</td>
       <td class="num ${diffClass(d.total_diff)}">${fmtDiff(d.total_diff)}</td>
-    </tr>`).join("");
+      <td class="num ${diffClass(avg)}">${fmtDiff(avg)}</td>
+    </tr>`;
+  }).join("");
 }
 </script>
 </body>
