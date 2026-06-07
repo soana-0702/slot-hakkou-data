@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T22:48:15",
-  "play_date": "2026-04-25",
+  "generated_at": "2026-06-07T22:46:24",
+  "play_date": "2026-04-15",
   "stores": [
     {
       "store_group": "espace-kabuki",
@@ -45,7 +45,7 @@
       ],
       "latest_date": "2026-06-05",
       "oldest_date": "2026-04-03",
-      "machine_count": 377
+      "machine_count": 374
     },
     {
       "store_group": "espace-ueno-main",
@@ -60,7 +60,7 @@
       ],
       "latest_date": "2026-06-05",
       "oldest_date": "2026-04-03",
-      "machine_count": 375
+      "machine_count": 366
     },
     {
       "store_group": "espace-shinkoiwa",
