@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T22:08:55",
-  "play_date": "2026-04-02",
+  "generated_at": "2026-06-09T23:20:38",
+  "play_date": "2026-06-08",
   "stores": [
     {
       "store_group": "espace-kabuki",
@@ -14,8 +14,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
-      "machine_count": 739
+      "oldest_date": "2026-03-26",
+      "machine_count": 749
     },
     {
       "store_group": "espace-shinjuku-station",
@@ -29,7 +29,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 269
     },
     {
@@ -44,8 +44,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
-      "machine_count": 374
+      "oldest_date": "2026-03-26",
+      "machine_count": 377
     },
     {
       "store_group": "espace-ueno-main",
@@ -59,7 +59,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 375
     },
     {
@@ -74,7 +74,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 464
     },
     {
@@ -89,7 +89,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 344
     },
     {
@@ -104,7 +104,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 460
     },
     {
@@ -119,7 +119,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 317
     },
     {
@@ -134,7 +134,7 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-04-02",
+      "oldest_date": "2026-03-26",
       "machine_count": 664
     }
   ],
