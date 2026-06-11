@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T23:55:32",
+  "generated_at": "2026-06-12T00:17:10",
   "play_date": "2026-03-13",
   "stores": [
     {
@@ -1614,60 +1614,6 @@
       "store_id": "maruhan-shinjuku-anaslo",
       "machine_count": 664,
       "total_diff": 228100
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "amuse-asakusa-anaslo",
-      "machine_count": 460,
-      "total_diff": 40592
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "espace-kabuki-anaslo",
-      "machine_count": 749,
-      "total_diff": 203600
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "espace-shinjuku-station-minrepo",
-      "machine_count": 269,
-      "total_diff": 39740
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "espace-shinkoiwa-anaslo",
-      "machine_count": 464,
-      "total_diff": -100
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "espace-takadanobaba-minrepo",
-      "machine_count": 344,
-      "total_diff": -32044
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "espace-ueno-main-minrepo",
-      "machine_count": 375,
-      "total_diff": 22344
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "espace-ueno-new-anaslo",
-      "machine_count": 377,
-      "total_diff": -28200
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "jaran-asakusa-minrepo",
-      "machine_count": 317,
-      "total_diff": 21244
-    },
-    {
-      "play_date": "2026-05-13",
-      "store_id": "maruhan-shinjuku-anaslo",
-      "machine_count": 664,
-      "total_diff": -20200
     }
   ]
 }
