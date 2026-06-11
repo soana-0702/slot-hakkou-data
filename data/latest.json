@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T23:55:36",
-  "play_date": "2026-03-18",
+  "generated_at": "2026-06-11T00:07:03",
+  "play_date": "2026-06-10",
   "stores": [
     {
       "store_group": "espace-kabuki",
@@ -14,8 +14,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 739
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "espace-shinjuku-station",
@@ -29,8 +29,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 269
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "espace-ueno-new",
@@ -44,8 +44,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 374
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "espace-ueno-main",
@@ -59,8 +59,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 366
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "espace-shinkoiwa",
@@ -74,8 +74,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 464
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "espace-takadanobaba",
@@ -89,8 +89,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 344
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "amuse-asakusa",
@@ -104,8 +104,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 460
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "jaran-asakusa",
@@ -119,8 +119,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 317
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     },
     {
       "store_group": "maruhan-shinjuku",
@@ -134,8 +134,8 @@
         "minrepo"
       ],
       "latest_date": "2026-06-08",
-      "oldest_date": "2026-03-12",
-      "machine_count": 664
+      "oldest_date": "2026-03-19",
+      "machine_count": 0
     }
   ],
   "daily_summary": [
