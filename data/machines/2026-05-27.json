@@ -1,6 +1,6 @@
 {
   "play_date": "2026-05-27",
-  "generated_at": "2026-06-09T00:45:35",
+  "generated_at": "2026-06-12T00:25:21",
   "format_version": 1,
   "stores": {
     "amuse-asakusa": {
@@ -4183,8 +4183,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 910,
           "total_games": 8919,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 248.0,
+          "rb_prob": 357.0,
           "source_id": "minrepo"
         },
         {
@@ -4192,8 +4192,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -97,
           "total_games": 2216,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 222.0,
+          "rb_prob": 739.0,
           "source_id": "minrepo"
         },
         {
@@ -4201,8 +4201,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 4201,
           "total_games": 7862,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 179.0,
+          "rb_prob": 262.0,
           "source_id": "minrepo"
         },
         {
@@ -4210,8 +4210,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 905,
           "total_games": 6481,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 249.0,
+          "rb_prob": 295.0,
           "source_id": "minrepo"
         },
         {
@@ -4219,8 +4219,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -599,
           "total_games": 5437,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 388.0,
+          "rb_prob": 236.0,
           "source_id": "minrepo"
         },
         {
@@ -4228,8 +4228,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -397,
           "total_games": 8176,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 292.0,
+          "rb_prob": 327.0,
           "source_id": "minrepo"
         },
         {
@@ -4237,8 +4237,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -895,
           "total_games": 5304,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 332.0,
+          "rb_prob": 379.0,
           "source_id": "minrepo"
         },
         {
@@ -4246,8 +4246,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1190,
           "total_games": 6903,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 300.0,
+          "rb_prob": 531.0,
           "source_id": "minrepo"
         },
         {
@@ -4255,8 +4255,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1393,
           "total_games": 7562,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 344.0,
+          "rb_prob": 420.0,
           "source_id": "minrepo"
         },
         {
@@ -4273,8 +4273,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 112,
           "total_games": 7377,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 238.0,
+          "rb_prob": 461.0,
           "source_id": "minrepo"
         },
         {
@@ -4282,8 +4282,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1389,
           "total_games": 4709,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 392.0,
+          "rb_prob": 471.0,
           "source_id": "minrepo"
         },
         {
@@ -4291,8 +4291,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1492,
           "total_games": 5393,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 337.0,
+          "rb_prob": 415.0,
           "source_id": "minrepo"
         },
         {
@@ -4300,8 +4300,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1199,
           "total_games": 5107,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 319.0,
+          "rb_prob": 426.0,
           "source_id": "minrepo"
         },
         {
@@ -4309,8 +4309,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1198,
           "total_games": 5535,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 326.0,
+          "rb_prob": 426.0,
           "source_id": "minrepo"
         },
         {
@@ -4318,8 +4318,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -303,
           "total_games": 8933,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 331.0,
+          "rb_prob": 229.0,
           "source_id": "minrepo"
         },
         {
@@ -4327,8 +4327,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1897,
           "total_games": 7870,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 358.0,
+          "rb_prob": 394.0,
           "source_id": "minrepo"
         },
         {
@@ -4336,8 +4336,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -696,
           "total_games": 7463,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 311.0,
+          "rb_prob": 355.0,
           "source_id": "minrepo"
         },
         {
@@ -4345,8 +4345,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -2390,
           "total_games": 6787,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 424.0,
+          "rb_prob": 357.0,
           "source_id": "minrepo"
         },
         {
@@ -4363,8 +4363,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1899,
           "total_games": 5038,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 388.0,
+          "rb_prob": 336.0,
           "source_id": "minrepo"
         },
         {
@@ -4372,8 +4372,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 104,
           "total_games": 7390,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 255.0,
+          "rb_prob": 411.0,
           "source_id": "minrepo"
         },
         {
@@ -4381,8 +4381,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 314,
           "total_games": 7011,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 234.0,
+          "rb_prob": 637.0,
           "source_id": "minrepo"
         },
         {
@@ -4390,8 +4390,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -696,
           "total_games": 3498,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 292.0,
+          "rb_prob": 583.0,
           "source_id": "minrepo"
         },
         {
@@ -4399,8 +4399,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -590,
           "total_games": 7299,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 317.0,
+          "rb_prob": 406.0,
           "source_id": "minrepo"
         },
         {
@@ -4408,8 +4408,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -897,
           "total_games": 5932,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 330.0,
+          "rb_prob": 424.0,
           "source_id": "minrepo"
         },
         {
@@ -4417,8 +4417,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2801,
           "total_games": 7414,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 185.0,
+          "rb_prob": 436.0,
           "source_id": "minrepo"
         },
         {
@@ -4426,8 +4426,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 500,
           "total_games": 9546,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 298.0,
+          "rb_prob": 251.0,
           "source_id": "minrepo"
         },
         {
@@ -4435,8 +4435,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -597,
           "total_games": 6056,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 288.0,
+          "rb_prob": 319.0,
           "source_id": "minrepo"
         },
         {
@@ -4444,8 +4444,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1897,
           "total_games": 7613,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 401.0,
+          "rb_prob": 346.0,
           "source_id": "minrepo"
         },
         {
@@ -4462,8 +4462,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2216,
           "total_games": 7505,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 214.0,
+          "rb_prob": 313.0,
           "source_id": "minrepo"
         },
         {
@@ -4471,8 +4471,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1092,
           "total_games": 6097,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 265.0,
+          "rb_prob": 610.0,
           "source_id": "minrepo"
         },
         {
@@ -4480,8 +4480,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 316,
           "total_games": 5827,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 243.0,
+          "rb_prob": 486.0,
           "source_id": "minrepo"
         },
         {
@@ -4489,8 +4489,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2803,
           "total_games": 9372,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 208.0,
+          "rb_prob": 293.0,
           "source_id": "minrepo"
         },
         {
@@ -4498,8 +4498,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 301,
           "total_games": 8232,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 249.0,
+          "rb_prob": 374.0,
           "source_id": "minrepo"
         },
         {
@@ -4507,8 +4507,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1685,
           "total_games": 7185,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 312.0,
+          "rb_prob": 399.0,
           "source_id": "minrepo"
         },
         {
@@ -4516,8 +4516,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -196,
           "total_games": 6436,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 293.0,
+          "rb_prob": 402.0,
           "source_id": "minrepo"
         },
         {
@@ -4525,8 +4525,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1986,
           "total_games": 7149,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 376.0,
+          "rb_prob": 357.0,
           "source_id": "minrepo"
         },
         {
@@ -4534,8 +4534,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -397,
           "total_games": 8324,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 320.0,
+          "rb_prob": 277.0,
           "source_id": "minrepo"
         },
         {
@@ -4543,8 +4543,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -104,
           "total_games": 6146,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 228.0,
+          "rb_prob": 768.0,
           "source_id": "minrepo"
         },
         {
@@ -4561,8 +4561,8 @@
           "machine_name": "ミスタージャグラー",
           "diff_coins": 2409,
           "total_games": 9024,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 265.0,
+          "rb_prob": 180.0,
           "source_id": "minrepo"
         },
         {
@@ -4570,8 +4570,8 @@
           "machine_name": "ミスタージャグラー",
           "diff_coins": -1386,
           "total_games": 3536,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 393.0,
+          "rb_prob": 505.0,
           "source_id": "minrepo"
         },
         {
@@ -4579,8 +4579,8 @@
           "machine_name": "ミスタージャグラー",
           "diff_coins": -395,
           "total_games": 1880,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 269.0,
+          "rb_prob": 940.0,
           "source_id": "minrepo"
         },
         {
@@ -4588,8 +4588,8 @@
           "machine_name": "ミスタージャグラー",
           "diff_coins": 716,
           "total_games": 7335,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 229.0,
+          "rb_prob": 349.0,
           "source_id": "minrepo"
         },
         {
@@ -4597,8 +4597,8 @@
           "machine_name": "ミスタージャグラー",
           "diff_coins": 0,
           "total_games": 3364,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 240.0,
+          "rb_prob": 421.0,
           "source_id": "minrepo"
         },
         {
@@ -4606,8 +4606,8 @@
           "machine_name": "ミスタージャグラー",
           "diff_coins": 905,
           "total_games": 5948,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 238.0,
+          "rb_prob": 248.0,
           "source_id": "minrepo"
         },
         {
@@ -4615,8 +4615,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": -798,
           "total_games": 3151,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 394.0,
+          "rb_prob": 394.0,
           "source_id": "minrepo"
         },
         {
@@ -4624,8 +4624,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": 405,
           "total_games": 6767,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 271.0,
+          "rb_prob": 308.0,
           "source_id": "minrepo"
         },
         {
@@ -4633,8 +4633,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": -392,
           "total_games": 1384,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 346.0,
+          "rb_prob": 692.0,
           "source_id": "minrepo"
         },
         {
@@ -4642,8 +4642,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": 412,
           "total_games": 5848,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 244.0,
+          "rb_prob": 344.0,
           "source_id": "minrepo"
         },
         {
@@ -4660,8 +4660,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": 415,
           "total_games": 8540,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 294.0,
+          "rb_prob": 316.0,
           "source_id": "minrepo"
         },
         {
@@ -4669,8 +4669,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": 405,
           "total_games": 4601,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 242.0,
+          "rb_prob": 418.0,
           "source_id": "minrepo"
         },
         {
@@ -4678,8 +4678,8 @@
           "machine_name": "ハッピージャグラーＶＩＩＩ",
           "diff_coins": -1089,
           "total_games": 3104,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 310.0,
+          "rb_prob": 776.0,
           "source_id": "minrepo"
         },
         {
@@ -4687,8 +4687,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -793,
           "total_games": 4783,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 299.0,
+          "rb_prob": 399.0,
           "source_id": "minrepo"
         },
         {
@@ -4696,8 +4696,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1905,
           "total_games": 4356,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 436.0,
+          "rb_prob": 290.0,
           "source_id": "minrepo"
         },
         {
@@ -4705,8 +4705,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -592,
           "total_games": 6024,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 287.0,
+          "rb_prob": 317.0,
           "source_id": "minrepo"
         },
         {
@@ -4714,8 +4714,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 201,
           "total_games": 2106,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 211.0,
+          "rb_prob": 421.0,
           "source_id": "minrepo"
         },
         {
@@ -4723,8 +4723,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -496,
           "total_games": 5539,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 264.0,
+          "rb_prob": 396.0,
           "source_id": "minrepo"
         },
         {
@@ -4732,8 +4732,8 @@
           "machine_name": "ウルトラミラクルジャグラー",
           "diff_coins": -999,
           "total_games": 5455,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 321.0,
+          "rb_prob": 420.0,
           "source_id": "minrepo"
         },
         {
@@ -4741,8 +4741,8 @@
           "machine_name": "ウルトラミラクルジャグラー",
           "diff_coins": -1001,
           "total_games": 3503,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 318.0,
+          "rb_prob": 500.0,
           "source_id": "minrepo"
         },
         {
@@ -4759,8 +4759,8 @@
           "machine_name": "ウルトラミラクルジャグラー",
           "diff_coins": -590,
           "total_games": 5479,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 274.0,
+          "rb_prob": 421.0,
           "source_id": "minrepo"
         },
         {
@@ -4768,8 +4768,8 @@
           "machine_name": "ウルトラミラクルジャグラー",
           "diff_coins": -1499,
           "total_games": 4617,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 308.0,
+          "rb_prob": 577.0,
           "source_id": "minrepo"
         },
         {
@@ -4777,8 +4777,8 @@
           "machine_name": "ウルトラミラクルジャグラー",
           "diff_coins": 1010,
           "total_games": 8246,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 236.0,
+          "rb_prob": 284.0,
           "source_id": "minrepo"
         },
         {
@@ -4786,8 +4786,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 1913,
           "total_games": 8450,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 235.0,
+          "rb_prob": 282.0,
           "source_id": "minrepo"
         },
         {
@@ -4795,8 +4795,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 796,
           "total_games": 4406,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 232.0,
+          "rb_prob": 339.0,
           "source_id": "minrepo"
         },
         {
@@ -4804,8 +4804,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -594,
           "total_games": 2020,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 337.0,
+          "rb_prob": 505.0,
           "source_id": "minrepo"
         },
         {
@@ -4813,8 +4813,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 1614,
           "total_games": 6795,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 234.0,
+          "rb_prob": 283.0,
           "source_id": "minrepo"
         },
         {
@@ -4822,8 +4822,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -702,
           "total_games": 3288,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 329.0,
+          "rb_prob": 411.0,
           "source_id": "minrepo"
         },
         {
@@ -4831,8 +4831,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 407,
           "total_games": 5794,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 252.0,
+          "rb_prob": 483.0,
           "source_id": "minrepo"
         },
         {
@@ -4840,8 +4840,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 1010,
           "total_games": 7304,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 252.0,
+          "rb_prob": 292.0,
           "source_id": "minrepo"
         },
         {
@@ -4858,8 +4858,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -391,
           "total_games": 6284,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 314.0,
+          "rb_prob": 286.0,
           "source_id": "minrepo"
         },
         {
@@ -4867,8 +4867,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -3205,
           "total_games": 8072,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 367.0,
+          "rb_prob": 897.0,
           "source_id": "minrepo"
         },
         {
@@ -4876,8 +4876,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 512,
           "total_games": 4522,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 251.0,
+          "rb_prob": 301.0,
           "source_id": "minrepo"
         },
         {
@@ -4885,8 +4885,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -392,
           "total_games": 3215,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 292.0,
+          "rb_prob": 536.0,
           "source_id": "minrepo"
         },
         {
@@ -4894,8 +4894,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -793,
           "total_games": 2652,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 530.0,
+          "rb_prob": 295.0,
           "source_id": "minrepo"
         },
         {
@@ -4903,8 +4903,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 0,
           "total_games": 7842,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 290.0,
+          "rb_prob": 302.0,
           "source_id": "minrepo"
         },
         {
@@ -4912,8 +4912,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 708,
           "total_games": 8002,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 242.0,
+          "rb_prob": 320.0,
           "source_id": "minrepo"
         },
         {
@@ -4921,8 +4921,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 3213,
           "total_games": 7482,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 192.0,
+          "rb_prob": 299.0,
           "source_id": "minrepo"
         },
         {
@@ -4930,8 +4930,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -503,
           "total_games": 2692,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 385.0,
+          "rb_prob": 449.0,
           "source_id": "minrepo"
         },
         {
@@ -4948,8 +4948,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 307,
           "total_games": 3398,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 243.0,
+          "rb_prob": 340.0,
           "source_id": "minrepo"
         },
         {
@@ -4957,8 +4957,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -1086,
           "total_games": 2275,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 569.0,
+          "rb_prob": 284.0,
           "source_id": "minrepo"
         },
         {
@@ -4966,8 +4966,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 1102,
           "total_games": 5742,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 221.0,
+          "rb_prob": 410.0,
           "source_id": "minrepo"
         },
         {
@@ -4975,8 +4975,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -394,
           "total_games": 3922,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 261.0,
+          "rb_prob": 1307.0,
           "source_id": "minrepo"
         },
         {
@@ -4984,8 +4984,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -699,
           "total_games": 2567,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 321.0,
+          "rb_prob": 856.0,
           "source_id": "minrepo"
         },
         {
@@ -4993,8 +4993,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 710,
           "total_games": 7511,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 268.0,
+          "rb_prob": 268.0,
           "source_id": "minrepo"
         },
         {
@@ -5002,8 +5002,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -1391,
           "total_games": 5913,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 329.0,
+          "rb_prob": 538.0,
           "source_id": "minrepo"
         },
         {
@@ -5011,8 +5011,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -904,
           "total_games": 1488,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 496.0,
+          "rb_prob": 744.0,
           "source_id": "minrepo"
         },
         {
@@ -5020,8 +5020,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 1013,
           "total_games": 7885,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 272.0,
+          "rb_prob": 272.0,
           "source_id": "minrepo"
         },
         {
@@ -5038,8 +5038,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -1598,
           "total_games": 6251,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 368.0,
+          "rb_prob": 347.0,
           "source_id": "minrepo"
         },
         {
@@ -5047,8 +5047,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -192,
           "total_games": 7283,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 291.0,
+          "rb_prob": 347.0,
           "source_id": "minrepo"
         },
         {
@@ -5056,8 +5056,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -597,
           "total_games": 2741,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 343.0,
+          "rb_prob": 548.0,
           "source_id": "minrepo"
         },
         {
@@ -5065,8 +5065,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -1600,
           "total_games": 8145,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 354.0,
+          "rb_prob": 313.0,
           "source_id": "minrepo"
         },
         {
@@ -5074,8 +5074,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -397,
           "total_games": 6426,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 268.0,
+          "rb_prob": 378.0,
           "source_id": "minrepo"
         },
         {
@@ -5083,8 +5083,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 3502,
           "total_games": 7960,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 194.0,
+          "rb_prob": 284.0,
           "source_id": "minrepo"
         },
         {
@@ -5092,8 +5092,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -98,
           "total_games": 5183,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 273.0,
+          "rb_prob": 305.0,
           "source_id": "minrepo"
         },
         {
@@ -5101,8 +5101,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": -405,
           "total_games": 2901,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 290.0,
+          "rb_prob": 580.0,
           "source_id": "minrepo"
         },
         {
@@ -5110,8 +5110,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 511,
           "total_games": 3735,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 233.0,
+          "rb_prob": 415.0,
           "source_id": "minrepo"
         },
         {
@@ -5119,8 +5119,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 205,
           "total_games": 3036,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 217.0,
+          "rb_prob": 759.0,
           "source_id": "minrepo"
         },
         {
@@ -5146,8 +5146,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 0,
           "total_games": 3357,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 305.0,
+          "rb_prob": 280.0,
           "source_id": "minrepo"
         },
         {
@@ -5155,8 +5155,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1598,
           "total_games": 5169,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 287.0,
+          "rb_prob": 470.0,
           "source_id": "minrepo"
         },
         {
@@ -5164,8 +5164,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1194,
           "total_games": 5639,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 403.0,
+          "rb_prob": 245.0,
           "source_id": "minrepo"
         },
         {
@@ -5173,8 +5173,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1604,
           "total_games": 4457,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 343.0,
+          "rb_prob": 343.0,
           "source_id": "minrepo"
         },
         {
@@ -5182,8 +5182,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -599,
           "total_games": 3950,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 359.0,
+          "rb_prob": 263.0,
           "source_id": "minrepo"
         },
         {
@@ -5191,8 +5191,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1598,
           "total_games": 4649,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 423.0,
+          "rb_prob": 291.0,
           "source_id": "minrepo"
         },
         {
@@ -5200,8 +5200,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1896,
           "total_games": 5622,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 432.0,
+          "rb_prob": 281.0,
           "source_id": "minrepo"
         },
         {
@@ -5209,8 +5209,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -990,
           "total_games": 4464,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 319.0,
+          "rb_prob": 279.0,
           "source_id": "minrepo"
         },
         {
@@ -5218,8 +5218,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -502,
           "total_games": 6530,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 297.0,
+          "rb_prob": 297.0,
           "source_id": "minrepo"
         },
         {
@@ -5227,8 +5227,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 303,
           "total_games": 3972,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 209.0,
+          "rb_prob": 497.0,
           "source_id": "minrepo"
         },
         {
@@ -5245,8 +5245,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1092,
           "total_games": 5280,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 330.0,
+          "rb_prob": 293.0,
           "source_id": "minrepo"
         },
         {
@@ -5254,8 +5254,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 0,
           "total_games": 5598,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 254.0,
+          "rb_prob": 267.0,
           "source_id": "minrepo"
         },
         {
@@ -5263,8 +5263,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 402,
           "total_games": 7686,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 226.0,
+          "rb_prob": 427.0,
           "source_id": "minrepo"
         },
         {
@@ -5272,8 +5272,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -192,
           "total_games": 6115,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 322.0,
+          "rb_prob": 235.0,
           "source_id": "minrepo"
         },
         {
@@ -5281,8 +5281,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 804,
           "total_games": 5768,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 222.0,
+          "rb_prob": 304.0,
           "source_id": "minrepo"
         },
         {
@@ -5290,8 +5290,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 115,
           "total_games": 4093,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 227.0,
+          "rb_prob": 512.0,
           "source_id": "minrepo"
         },
         {
@@ -5299,8 +5299,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -390,
           "total_games": 4469,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 248.0,
+          "rb_prob": 447.0,
           "source_id": "minrepo"
         },
         {
@@ -5308,8 +5308,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 107,
           "total_games": 8222,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 274.0,
+          "rb_prob": 265.0,
           "source_id": "minrepo"
         },
         {
@@ -5317,8 +5317,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -896,
           "total_games": 5307,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 279.0,
+          "rb_prob": 408.0,
           "source_id": "minrepo"
         },
         {
@@ -5326,8 +5326,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1602,
           "total_games": 5443,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 302.0,
+          "rb_prob": 454.0,
           "source_id": "minrepo"
         },
         {
@@ -5344,8 +5344,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1084,
           "total_games": 4319,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 332.0,
+          "rb_prob": 360.0,
           "source_id": "minrepo"
         },
         {
@@ -5353,8 +5353,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -184,
           "total_games": 7741,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 258.0,
+          "rb_prob": 369.0,
           "source_id": "minrepo"
         },
         {
@@ -5362,8 +5362,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": 2503,
           "total_games": 6789,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 179.0,
+          "rb_prob": 424.0,
           "source_id": "minrepo"
         },
         {
@@ -5371,8 +5371,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -1491,
           "total_games": 3047,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 762.0,
+          "rb_prob": 234.0,
           "source_id": "minrepo"
         },
         {
@@ -5380,8 +5380,8 @@
           "machine_name": "ゴーゴージャグラー３",
           "diff_coins": -490,
           "total_games": 7086,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 283.0,
+          "rb_prob": 273.0,
           "source_id": "minrepo"
         },
         {
@@ -5389,8 +5389,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -295,
           "total_games": 6565,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 274.0,
+          "rb_prob": 386.0,
           "source_id": "minrepo"
         },
         {
@@ -5398,8 +5398,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 108,
           "total_games": 7213,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 277.0,
+          "rb_prob": 328.0,
           "source_id": "minrepo"
         },
         {
@@ -5407,8 +5407,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1909,
           "total_games": 7627,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 238.0,
+          "rb_prob": 246.0,
           "source_id": "minrepo"
         },
         {
@@ -5416,8 +5416,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 608,
           "total_games": 5086,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 231.0,
+          "rb_prob": 462.0,
           "source_id": "minrepo"
         },
         {
@@ -5425,8 +5425,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1012,
           "total_games": 8819,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 238.0,
+          "rb_prob": 367.0,
           "source_id": "minrepo"
         },
         {
@@ -5443,8 +5443,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 908,
           "total_games": 3756,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 198.0,
+          "rb_prob": 751.0,
           "source_id": "minrepo"
         },
         {
@@ -5452,8 +5452,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 799,
           "total_games": 9589,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 291.0,
+          "rb_prob": 223.0,
           "source_id": "minrepo"
         },
         {
@@ -5461,8 +5461,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -2302,
           "total_games": 7170,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 448.0,
+          "rb_prob": 359.0,
           "source_id": "minrepo"
         },
         {
@@ -5470,8 +5470,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1299,
           "total_games": 4051,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 368.0,
+          "rb_prob": 506.0,
           "source_id": "minrepo"
         },
         {
@@ -5479,8 +5479,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 906,
           "total_games": 5511,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 220.0,
+          "rb_prob": 501.0,
           "source_id": "minrepo"
         },
         {
@@ -5488,8 +5488,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 610,
           "total_games": 6401,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 229.0,
+          "rb_prob": 492.0,
           "source_id": "minrepo"
         },
         {
@@ -5497,8 +5497,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -993,
           "total_games": 7134,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 310.0,
+          "rb_prob": 310.0,
           "source_id": "minrepo"
         },
         {
@@ -5506,8 +5506,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": 2098,
           "total_games": 8323,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 213.0,
+          "rb_prob": 320.0,
           "source_id": "minrepo"
         },
         {
@@ -5515,8 +5515,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -997,
           "total_games": 3216,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 402.0,
+          "rb_prob": 536.0,
           "source_id": "minrepo"
         },
         {
@@ -5524,8 +5524,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": 406,
           "total_games": 6698,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 239.0,
+          "rb_prob": 335.0,
           "source_id": "minrepo"
         },
         {
@@ -5542,8 +5542,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": 0,
           "total_games": 7991,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 266.0,
+          "rb_prob": 333.0,
           "source_id": "minrepo"
         },
         {
@@ -5551,8 +5551,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -790,
           "total_games": 10039,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 324.0,
+          "rb_prob": 251.0,
           "source_id": "minrepo"
         },
         {
@@ -5560,8 +5560,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -1499,
           "total_games": 7957,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 332.0,
+          "rb_prob": 306.0,
           "source_id": "minrepo"
         },
         {
@@ -5569,8 +5569,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -787,
           "total_games": 7447,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 372.0,
+          "rb_prob": 248.0,
           "source_id": "minrepo"
         },
         {
@@ -5578,8 +5578,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -1084,
           "total_games": 3535,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 393.0,
+          "rb_prob": 393.0,
           "source_id": "minrepo"
         },
         {
@@ -5587,8 +5587,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -1000,
           "total_games": 3604,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 328.0,
+          "rb_prob": 721.0,
           "source_id": "minrepo"
         },
         {
@@ -5596,8 +5596,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": 1700,
           "total_games": 8659,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 201.0,
+          "rb_prob": 412.0,
           "source_id": "minrepo"
         },
         {
@@ -5605,8 +5605,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -1092,
           "total_games": 6944,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 316.0,
+          "rb_prob": 386.0,
           "source_id": "minrepo"
         },
         {
@@ -5614,8 +5614,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": -1685,
           "total_games": 5835,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 389.0,
+          "rb_prob": 389.0,
           "source_id": "minrepo"
         },
         {
@@ -5623,8 +5623,8 @@
           "machine_name": "ジャグラーガールズSS",
           "diff_coins": 1802,
           "total_games": 9600,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 213.0,
+          "rb_prob": 356.0,
           "source_id": "minrepo"
         },
         {
@@ -5641,8 +5641,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1088,
           "total_games": 7913,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 330.0,
+          "rb_prob": 293.0,
           "source_id": "minrepo"
         },
         {
@@ -5650,8 +5650,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 610,
           "total_games": 8773,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 292.0,
+          "rb_prob": 251.0,
           "source_id": "minrepo"
         },
         {
@@ -5659,8 +5659,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 0,
           "total_games": 6717,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 292.0,
+          "rb_prob": 292.0,
           "source_id": "minrepo"
         },
         {
@@ -5668,8 +5668,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -594,
           "total_games": 7820,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 244.0,
+          "rb_prob": 434.0,
           "source_id": "minrepo"
         },
         {
@@ -5677,8 +5677,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -501,
           "total_games": 2330,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 333.0,
+          "rb_prob": 583.0,
           "source_id": "minrepo"
         },
         {
@@ -5686,8 +5686,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -700,
           "total_games": 3246,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 325.0,
+          "rb_prob": 541.0,
           "source_id": "minrepo"
         },
         {
@@ -5695,8 +5695,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 500,
           "total_games": 7070,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 228.0,
+          "rb_prob": 471.0,
           "source_id": "minrepo"
         },
         {
@@ -5704,8 +5704,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -1303,
           "total_games": 2766,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 395.0,
+          "rb_prob": 922.0,
           "source_id": "minrepo"
         },
         {
@@ -5713,8 +5713,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 202,
           "total_games": 8109,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 239.0,
+          "rb_prob": 405.0,
           "source_id": "minrepo"
         },
         {
@@ -5722,8 +5722,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 2096,
           "total_games": 6777,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 199.0,
+          "rb_prob": 357.0,
           "source_id": "minrepo"
         },
         {
@@ -5740,8 +5740,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -1194,
           "total_games": 4576,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 381.0,
+          "rb_prob": 286.0,
           "source_id": "minrepo"
         },
         {
@@ -5749,8 +5749,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -397,
           "total_games": 4113,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 294.0,
+          "rb_prob": 374.0,
           "source_id": "minrepo"
         },
         {
@@ -5758,8 +5758,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1507,
           "total_games": 6726,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 187.0,
+          "rb_prob": 561.0,
           "source_id": "minrepo"
         },
         {
@@ -5767,8 +5767,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -2487,
           "total_games": 3626,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 725.0,
+          "rb_prob": 725.0,
           "source_id": "minrepo"
         },
         {
@@ -5776,8 +5776,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -305,
           "total_games": 2682,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 298.0,
+          "rb_prob": 536.0,
           "source_id": "minrepo"
         },
         {
@@ -5785,8 +5785,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 108,
           "total_games": 4639,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 258.0,
+          "rb_prob": 387.0,
           "source_id": "minrepo"
         },
         {
@@ -5794,8 +5794,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -394,
           "total_games": 2367,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 338.0,
+          "rb_prob": 338.0,
           "source_id": "minrepo"
         },
         {
@@ -5803,8 +5803,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 2213,
           "total_games": 8053,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 224.0,
+          "rb_prob": 288.0,
           "source_id": "minrepo"
         },
         {
@@ -5812,8 +5812,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 408,
           "total_games": 4195,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 247.0,
+          "rb_prob": 280.0,
           "source_id": "minrepo"
         },
         {
@@ -5821,8 +5821,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -2795,
           "total_games": 4634,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 515.0,
+          "rb_prob": 772.0,
           "source_id": "minrepo"
         },
         {
@@ -5839,8 +5839,8 @@
           "machine_name": "ネオアイムジャグラーEX",
           "diff_coins": 308,
           "total_games": 6417,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 257.0,
+          "rb_prob": 428.0,
           "source_id": "minrepo"
         },
         {
@@ -5848,8 +5848,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -1499,
           "total_games": 5437,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 418.0,
+          "rb_prob": 340.0,
           "source_id": "minrepo"
         },
         {
@@ -6127,8 +6127,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -1198,
           "total_games": 6728,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 280.0,
+          "rb_prob": 612.0,
           "source_id": "minrepo"
         },
         {
@@ -6136,8 +6136,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": 109,
           "total_games": 6026,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 241.0,
+          "rb_prob": 670.0,
           "source_id": "minrepo"
         },
         {
@@ -6145,8 +6145,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -103,
           "total_games": 2567,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 257.0,
+          "rb_prob": 642.0,
           "source_id": "minrepo"
         },
         {
@@ -6154,8 +6154,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": 2219,
           "total_games": 8955,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 230.0,
+          "rb_prob": 344.0,
           "source_id": "minrepo"
         },
         {
@@ -6163,8 +6163,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -593,
           "total_games": 1541,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 385.0,
+          "rb_prob": 514.0,
           "source_id": "minrepo"
         },
         {
@@ -6181,8 +6181,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -792,
           "total_games": 5057,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 337.0,
+          "rb_prob": 421.0,
           "source_id": "minrepo"
         },
         {
@@ -6190,8 +6190,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -397,
           "total_games": 3462,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 247.0,
+          "rb_prob": 1154.0,
           "source_id": "minrepo"
         },
         {
@@ -6199,8 +6199,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -101,
           "total_games": 3951,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 282.0,
+          "rb_prob": 439.0,
           "source_id": "minrepo"
         },
         {
@@ -6208,8 +6208,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -1604,
           "total_games": 7395,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 411.0,
+          "rb_prob": 308.0,
           "source_id": "minrepo"
         },
         {
@@ -6217,8 +6217,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": -788,
           "total_games": 8056,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 336.0,
+          "rb_prob": 322.0,
           "source_id": "minrepo"
         },
         {
@@ -6226,8 +6226,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": 910,
           "total_games": 8368,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 289.0,
+          "rb_prob": 349.0,
           "source_id": "minrepo"
         },
         {
@@ -6235,8 +6235,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": 97,
           "total_games": 9007,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 281.0,
+          "rb_prob": 429.0,
           "source_id": "minrepo"
         },
         {
@@ -6244,8 +6244,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": 1111,
           "total_games": 9557,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 281.0,
+          "rb_prob": 398.0,
           "source_id": "minrepo"
         },
         {
@@ -6253,8 +6253,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": -3999,
           "total_games": 8497,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 531.0,
+          "rb_prob": 386.0,
           "source_id": "minrepo"
         },
         {
@@ -6262,8 +6262,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": 1419,
           "total_games": 7988,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 250.0,
+          "rb_prob": 420.0,
           "source_id": "minrepo"
         },
         {
@@ -6280,8 +6280,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": 2496,
           "total_games": 8700,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 229.0,
+          "rb_prob": 378.0,
           "source_id": "minrepo"
         },
         {
@@ -6289,8 +6289,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": -485,
           "total_games": 8950,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 358.0,
+          "rb_prob": 344.0,
           "source_id": "minrepo"
         },
         {
@@ -6298,8 +6298,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": -403,
           "total_games": 7299,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 281.0,
+          "rb_prob": 521.0,
           "source_id": "minrepo"
         },
         {
@@ -6307,8 +6307,8 @@
           "machine_name": "スマート沖スロ ニューキングハナハナV",
           "diff_coins": -197,
           "total_games": 5431,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 259.0,
+          "rb_prob": 603.0,
           "source_id": "minrepo"
         },
         {
@@ -6379,8 +6379,8 @@
           "machine_name": "SHAKE BONUS TRIGGER",
           "diff_coins": 2801,
           "total_games": 7060,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 294.0,
+          "rb_prob": 471.0,
           "source_id": "minrepo"
         },
         {
@@ -6388,8 +6388,8 @@
           "machine_name": "SHAKE BONUS TRIGGER",
           "diff_coins": -898,
           "total_games": 2545,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 636.0,
+          "rb_prob": 509.0,
           "source_id": "minrepo"
         },
         {
@@ -6397,8 +6397,8 @@
           "machine_name": "SHAKE BONUS TRIGGER",
           "diff_coins": -705,
           "total_games": 5130,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 395.0,
+          "rb_prob": 342.0,
           "source_id": "minrepo"
         },
         {
@@ -6406,8 +6406,8 @@
           "machine_name": "クレアの秘宝伝～はじまりの扉と太陽の石～ボーナストリガーver.",
           "diff_coins": 714,
           "total_games": 5971,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 271.0,
+          "rb_prob": 351.0,
           "source_id": "minrepo"
         },
         {
@@ -6415,8 +6415,8 @@
           "machine_name": "クレアの秘宝伝～はじまりの扉と太陽の石～ボーナストリガーver.",
           "diff_coins": 112,
           "total_games": 2022,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 289.0,
+          "rb_prob": 506.0,
           "source_id": "minrepo"
         },
         {
@@ -6424,8 +6424,8 @@
           "machine_name": "クレアの秘宝伝～はじまりの扉と太陽の石～ボーナストリガーver.",
           "diff_coins": -499,
           "total_games": 977,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 489.0,
+          "rb_prob": 489.0,
           "source_id": "minrepo"
         },
         {
@@ -6433,8 +6433,8 @@
           "machine_name": "クレアの秘宝伝～はじまりの扉と太陽の石～ボーナストリガーver.",
           "diff_coins": 3504,
           "total_games": 9178,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 242.0,
+          "rb_prob": 316.0,
           "source_id": "minrepo"
         },
         {
@@ -6703,8 +6703,8 @@
           "machine_name": "スマスロ サンダーV",
           "diff_coins": 3021,
           "total_games": 6715,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 217.0,
+          "rb_prob": 480.0,
           "source_id": "minrepo"
         },
         {
@@ -6712,8 +6712,8 @@
           "machine_name": "スマスロ サンダーV",
           "diff_coins": 1202,
           "total_games": 7587,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 237.0,
+          "rb_prob": 474.0,
           "source_id": "minrepo"
         },
         {
@@ -6721,8 +6721,8 @@
           "machine_name": "スマスロ サンダーV",
           "diff_coins": 408,
           "total_games": 5338,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 243.0,
+          "rb_prob": 593.0,
           "source_id": "minrepo"
         },
         {
@@ -6730,8 +6730,8 @@
           "machine_name": "スマスロ ハナビ",
           "diff_coins": 802,
           "total_games": 6542,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 284.0,
+          "rb_prob": 363.0,
           "source_id": "minrepo"
         },
         {
@@ -6739,8 +6739,8 @@
           "machine_name": "スマスロ ハナビ",
           "diff_coins": 2213,
           "total_games": 7290,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 243.0,
+          "rb_prob": 317.0,
           "source_id": "minrepo"
         },
         {
@@ -6757,8 +6757,8 @@
           "machine_name": "スマスロ ハナビ",
           "diff_coins": -501,
           "total_games": 3465,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 347.0,
+          "rb_prob": 495.0,
           "source_id": "minrepo"
         },
         {
@@ -6766,8 +6766,8 @@
           "machine_name": "スマスロ ハナビ",
           "diff_coins": 2309,
           "total_games": 7412,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 232.0,
+          "rb_prob": 296.0,
           "source_id": "minrepo"
         },
         {
@@ -6775,8 +6775,8 @@
           "machine_name": "スマスロ ハナビ",
           "diff_coins": 804,
           "total_games": 7811,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 312.0,
+          "rb_prob": 325.0,
           "source_id": "minrepo"
         },
         {
@@ -6919,8 +6919,8 @@
           "machine_name": "L不二子BT",
           "diff_coins": 709,
           "total_games": 4838,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 121.0,
+          "rb_prob": 372.0,
           "source_id": "minrepo"
         },
         {
@@ -6973,7 +6973,7 @@
           "machine_name": "アレックス ブライト",
           "diff_coins": -500,
           "total_games": 1263,
-          "bb_prob": null,
+          "bb_prob": 421.0,
           "rb_prob": null,
           "source_id": "minrepo"
         },
@@ -6982,8 +6982,8 @@
           "machine_name": "Lパチスロうみねこのなく頃に2",
           "diff_coins": -298,
           "total_games": 3469,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 434.0,
+          "rb_prob": 434.0,
           "source_id": "minrepo"
         },
         {
@@ -7027,8 +7027,8 @@
           "machine_name": "Lパチスロうみねこのなく頃に2",
           "diff_coins": 501,
           "total_games": 7431,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 310.0,
+          "rb_prob": 676.0,
           "source_id": "minrepo"
         },
         {
@@ -7036,8 +7036,8 @@
           "machine_name": "Lパチスロうみねこのなく頃に2",
           "diff_coins": 1507,
           "total_games": 7005,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 412.0,
+          "rb_prob": 369.0,
           "source_id": "minrepo"
         },
         {
@@ -7045,8 +7045,8 @@
           "machine_name": "Lパチスロうみねこのなく頃に2",
           "diff_coins": 3713,
           "total_games": 8423,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 324.0,
+          "rb_prob": 526.0,
           "source_id": "minrepo"
         },
         {
@@ -7063,8 +7063,8 @@
           "machine_name": "Lパチスロうみねこのなく頃に2",
           "diff_coins": 204,
           "total_games": 7784,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 410.0,
+          "rb_prob": 371.0,
           "source_id": "minrepo"
         },
         {
@@ -7387,8 +7387,8 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": 1916,
           "total_games": 7961,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 210.0,
+          "rb_prob": 318.0,
           "source_id": "minrepo"
         },
         {
@@ -7396,8 +7396,8 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": -793,
           "total_games": 2033,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 407.0,
+          "rb_prob": 678.0,
           "source_id": "minrepo"
         },
         {
@@ -7405,8 +7405,8 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": 107,
           "total_games": 8172,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 272.0,
+          "rb_prob": 303.0,
           "source_id": "minrepo"
         },
         {
@@ -7414,8 +7414,8 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": -1686,
           "total_games": 4827,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 322.0,
+          "rb_prob": 603.0,
           "source_id": "minrepo"
         },
         {
@@ -7423,8 +7423,8 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": 801,
           "total_games": 9564,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 252.0,
+          "rb_prob": 273.0,
           "source_id": "minrepo"
         },
         {
@@ -7432,7 +7432,7 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": -500,
           "total_games": 1661,
-          "bb_prob": null,
+          "bb_prob": 277.0,
           "rb_prob": null,
           "source_id": "minrepo"
         },
@@ -7441,8 +7441,8 @@
           "machine_name": "スターハナハナ-30",
           "diff_coins": -994,
           "total_games": 4402,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 339.0,
+          "rb_prob": 400.0,
           "source_id": "minrepo"
         },
         {
@@ -7459,8 +7459,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -1499,
           "total_games": 6856,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 343.0,
+          "rb_prob": 429.0,
           "source_id": "minrepo"
         },
         {
@@ -7468,8 +7468,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -487,
           "total_games": 6515,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 251.0,
+          "rb_prob": 724.0,
           "source_id": "minrepo"
         },
         {
@@ -7477,8 +7477,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -1495,
           "total_games": 1918,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 959.0,
+          "rb_prob": 639.0,
           "source_id": "minrepo"
         },
         {
@@ -7486,8 +7486,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": 3093,
           "total_games": 8040,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 201.0,
+          "rb_prob": 383.0,
           "source_id": "minrepo"
         },
         {
@@ -7495,8 +7495,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": 0,
           "total_games": 5369,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 268.0,
+          "rb_prob": 488.0,
           "source_id": "minrepo"
         },
         {
@@ -7504,8 +7504,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -99,
           "total_games": 8750,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 292.0,
+          "rb_prob": 350.0,
           "source_id": "minrepo"
         },
         {
@@ -7513,8 +7513,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": 2804,
           "total_games": 7956,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 209.0,
+          "rb_prob": 419.0,
           "source_id": "minrepo"
         },
         {
@@ -7522,8 +7522,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": 3422,
           "total_games": 8283,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 202.0,
+          "rb_prob": 377.0,
           "source_id": "minrepo"
         },
         {
@@ -7531,8 +7531,8 @@
           "machine_name": "キングハナハナ-30",
           "diff_coins": -1296,
           "total_games": 7773,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 324.0,
+          "rb_prob": 518.0,
           "source_id": "minrepo"
         },
         {
@@ -7540,8 +7540,8 @@
           "machine_name": "ハナハナホウオウ～天翔～-30",
           "diff_coins": 707,
           "total_games": 9369,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 276.0,
+          "rb_prob": 468.0,
           "source_id": "minrepo"
         },
         {
@@ -7558,8 +7558,8 @@
           "machine_name": "ハナハナホウオウ～天翔～-30",
           "diff_coins": 2405,
           "total_games": 7673,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 240.0,
+          "rb_prob": 307.0,
           "source_id": "minrepo"
         },
         {
@@ -7567,8 +7567,8 @@
           "machine_name": "ハナハナホウオウ～天翔～-30",
           "diff_coins": 1608,
           "total_games": 9236,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 250.0,
+          "rb_prob": 369.0,
           "source_id": "minrepo"
         },
         {
@@ -8152,8 +8152,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -101,
           "total_games": 8749,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 273.0,
+          "rb_prob": 302.0,
           "source_id": "minrepo"
         },
         {
@@ -8161,8 +8161,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -193,
           "total_games": 7628,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 293.0,
+          "rb_prob": 318.0,
           "source_id": "minrepo"
         },
         {
@@ -8170,8 +8170,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 605,
           "total_games": 7127,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 255.0,
+          "rb_prob": 324.0,
           "source_id": "minrepo"
         },
         {
@@ -8179,8 +8179,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1490,
           "total_games": 4915,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 351.0,
+          "rb_prob": 447.0,
           "source_id": "minrepo"
         },
         {
@@ -8188,8 +8188,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1792,
           "total_games": 6012,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 354.0,
+          "rb_prob": 429.0,
           "source_id": "minrepo"
         },
         {
@@ -8197,8 +8197,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -596,
           "total_games": 5164,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 323.0,
+          "rb_prob": 397.0,
           "source_id": "minrepo"
         },
         {
@@ -8206,8 +8206,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1508,
           "total_games": 5975,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 213.0,
+          "rb_prob": 427.0,
           "source_id": "minrepo"
         },
         {
@@ -8215,8 +8215,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 208,
           "total_games": 7464,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 249.0,
+          "rb_prob": 373.0,
           "source_id": "minrepo"
         },
         {
@@ -8224,8 +8224,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -592,
           "total_games": 8006,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 320.0,
+          "rb_prob": 308.0,
           "source_id": "minrepo"
         },
         {
@@ -8242,8 +8242,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 0,
           "total_games": 6490,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 282.0,
+          "rb_prob": 382.0,
           "source_id": "minrepo"
         },
         {
@@ -8251,8 +8251,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 408,
           "total_games": 7407,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 265.0,
+          "rb_prob": 337.0,
           "source_id": "minrepo"
         },
         {
@@ -8260,8 +8260,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 207,
           "total_games": 5261,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 251.0,
+          "rb_prob": 585.0,
           "source_id": "minrepo"
         },
         {
@@ -8269,8 +8269,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 897,
           "total_games": 8162,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 227.0,
+          "rb_prob": 340.0,
           "source_id": "minrepo"
         },
         {
@@ -8278,8 +8278,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -400,
           "total_games": 5484,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 274.0,
+          "rb_prob": 499.0,
           "source_id": "minrepo"
         },
         {
@@ -8287,8 +8287,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 0,
           "total_games": 8460,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 282.0,
+          "rb_prob": 338.0,
           "source_id": "minrepo"
         },
         {
@@ -8296,8 +8296,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2316,
           "total_games": 9088,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 222.0,
+          "rb_prob": 313.0,
           "source_id": "minrepo"
         },
         {
@@ -8305,8 +8305,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -999,
           "total_games": 5540,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 277.0,
+          "rb_prob": 693.0,
           "source_id": "minrepo"
         },
         {
@@ -8314,8 +8314,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -595,
           "total_games": 7711,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 297.0,
+          "rb_prob": 335.0,
           "source_id": "minrepo"
         },
         {
@@ -8323,8 +8323,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -404,
           "total_games": 7244,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 302.0,
+          "rb_prob": 315.0,
           "source_id": "minrepo"
         },
         {
@@ -8341,8 +8341,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -303,
           "total_games": 6013,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 241.0,
+          "rb_prob": 501.0,
           "source_id": "minrepo"
         },
         {
@@ -8350,8 +8350,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1006,
           "total_games": 7811,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 252.0,
+          "rb_prob": 340.0,
           "source_id": "minrepo"
         },
         {
@@ -8359,8 +8359,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -488,
           "total_games": 6347,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 302.0,
+          "rb_prob": 317.0,
           "source_id": "minrepo"
         },
         {
@@ -8368,8 +8368,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1695,
           "total_games": 8675,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 248.0,
+          "rb_prob": 263.0,
           "source_id": "minrepo"
         },
         {
@@ -8377,8 +8377,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -3003,
           "total_games": 7478,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 415.0,
+          "rb_prob": 467.0,
           "source_id": "minrepo"
         },
         {
@@ -8386,8 +8386,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -486,
           "total_games": 6827,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 310.0,
+          "rb_prob": 310.0,
           "source_id": "minrepo"
         },
         {
@@ -8395,8 +8395,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1206,
           "total_games": 6993,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 233.0,
+          "rb_prob": 318.0,
           "source_id": "minrepo"
         },
         {
@@ -8404,8 +8404,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 3213,
           "total_games": 9524,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 207.0,
+          "rb_prob": 328.0,
           "source_id": "minrepo"
         },
         {
@@ -8413,8 +8413,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -194,
           "total_games": 7868,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 303.0,
+          "rb_prob": 291.0,
           "source_id": "minrepo"
         },
         {
@@ -8422,8 +8422,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -893,
           "total_games": 7398,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 296.0,
+          "rb_prob": 435.0,
           "source_id": "minrepo"
         },
         {
@@ -8440,8 +8440,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1190,
           "total_games": 5964,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 298.0,
+          "rb_prob": 426.0,
           "source_id": "minrepo"
         },
         {
@@ -8449,8 +8449,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2402,
           "total_games": 8083,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 225.0,
+          "rb_prob": 245.0,
           "source_id": "minrepo"
         },
         {
@@ -8458,8 +8458,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2220,
           "total_games": 7470,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 208.0,
+          "rb_prob": 340.0,
           "source_id": "minrepo"
         },
         {
@@ -8467,8 +8467,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1795,
           "total_games": 5623,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 375.0,
+          "rb_prob": 351.0,
           "source_id": "minrepo"
         },
         {
@@ -8476,8 +8476,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 603,
           "total_games": 7937,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 256.0,
+          "rb_prob": 305.0,
           "source_id": "minrepo"
         },
         {
@@ -8485,8 +8485,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1508,
           "total_games": 6861,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 229.0,
+          "rb_prob": 361.0,
           "source_id": "minrepo"
         },
         {
@@ -9484,8 +9484,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -3198,
           "total_games": 7021,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 540.0,
+          "rb_prob": 334.0,
           "source_id": "minrepo"
         },
         {
@@ -9493,8 +9493,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -298,
           "total_games": 4944,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 330.0,
+          "rb_prob": 353.0,
           "source_id": "minrepo"
         },
         {
@@ -9502,8 +9502,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -189,
           "total_games": 6976,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 291.0,
+          "rb_prob": 367.0,
           "source_id": "minrepo"
         },
         {
@@ -9511,8 +9511,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1304,
           "total_games": 3370,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 337.0,
+          "rb_prob": 674.0,
           "source_id": "minrepo"
         },
         {
@@ -9520,8 +9520,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 203,
           "total_games": 4809,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 240.0,
+          "rb_prob": 401.0,
           "source_id": "minrepo"
         },
         {
@@ -9538,8 +9538,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 2497,
           "total_games": 8081,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 224.0,
+          "rb_prob": 253.0,
           "source_id": "minrepo"
         },
         {
@@ -9547,8 +9547,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -699,
           "total_games": 6799,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 324.0,
+          "rb_prob": 340.0,
           "source_id": "minrepo"
         },
         {
@@ -9556,8 +9556,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -396,
           "total_games": 6792,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 295.0,
+          "rb_prob": 295.0,
           "source_id": "minrepo"
         },
         {
@@ -9565,8 +9565,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1387,
           "total_games": 3353,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 373.0,
+          "rb_prob": 671.0,
           "source_id": "minrepo"
         },
         {
@@ -9574,8 +9574,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -594,
           "total_games": 4817,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 268.0,
+          "rb_prob": 535.0,
           "source_id": "minrepo"
         },
         {
@@ -9583,8 +9583,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 512,
           "total_games": 7240,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 241.0,
+          "rb_prob": 381.0,
           "source_id": "minrepo"
         },
         {
@@ -9592,8 +9592,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -299,
           "total_games": 7087,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 295.0,
+          "rb_prob": 322.0,
           "source_id": "minrepo"
         },
         {
@@ -9601,8 +9601,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -101,
           "total_games": 6791,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 272.0,
+          "rb_prob": 357.0,
           "source_id": "minrepo"
         },
         {
@@ -9610,8 +9610,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1900,
           "total_games": 6690,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 394.0,
+          "rb_prob": 352.0,
           "source_id": "minrepo"
         },
         {
@@ -9619,8 +9619,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1302,
           "total_games": 5208,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 347.0,
+          "rb_prob": 473.0,
           "source_id": "minrepo"
         },
         {
@@ -9637,8 +9637,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -789,
           "total_games": 4193,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 349.0,
+          "rb_prob": 466.0,
           "source_id": "minrepo"
         },
         {
@@ -9646,8 +9646,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -498,
           "total_games": 4561,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 268.0,
+          "rb_prob": 570.0,
           "source_id": "minrepo"
         },
         {
@@ -9655,8 +9655,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 603,
           "total_games": 8640,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 254.0,
+          "rb_prob": 332.0,
           "source_id": "minrepo"
         },
         {
@@ -9664,8 +9664,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 1009,
           "total_games": 8681,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 280.0,
+          "rb_prob": 255.0,
           "source_id": "minrepo"
         },
         {
@@ -9673,8 +9673,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": 906,
           "total_games": 6233,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 231.0,
+          "rb_prob": 346.0,
           "source_id": "minrepo"
         },
         {
@@ -9682,8 +9682,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -393,
           "total_games": 5961,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 271.0,
+          "rb_prob": 426.0,
           "source_id": "minrepo"
         },
         {
@@ -9691,8 +9691,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -991,
           "total_games": 6012,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 354.0,
+          "rb_prob": 334.0,
           "source_id": "minrepo"
         },
         {
@@ -9700,8 +9700,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1493,
           "total_games": 8909,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 343.0,
+          "rb_prob": 405.0,
           "source_id": "minrepo"
         },
         {
@@ -9709,8 +9709,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1687,
           "total_games": 7175,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 359.0,
+          "rb_prob": 342.0,
           "source_id": "minrepo"
         },
         {
@@ -9718,8 +9718,8 @@
           "machine_name": "マイジャグラーV",
           "diff_coins": -1905,
           "total_games": 7060,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 441.0,
+          "rb_prob": 261.0,
           "source_id": "minrepo"
         },
         {
@@ -9736,8 +9736,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -1301,
           "total_games": 5305,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 408.0,
+          "rb_prob": 312.0,
           "source_id": "minrepo"
         },
         {
@@ -9745,8 +9745,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 4519,
           "total_games": 9004,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 192.0,
+          "rb_prob": 257.0,
           "source_id": "minrepo"
         },
         {
@@ -9754,8 +9754,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1114,
           "total_games": 7670,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 232.0,
+          "rb_prob": 284.0,
           "source_id": "minrepo"
         },
         {
@@ -9763,8 +9763,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 910,
           "total_games": 8608,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 253.0,
+          "rb_prob": 307.0,
           "source_id": "minrepo"
         },
         {
@@ -9772,8 +9772,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1615,
           "total_games": 6331,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 218.0,
+          "rb_prob": 317.0,
           "source_id": "minrepo"
         },
         {
@@ -9781,8 +9781,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 805,
           "total_games": 4487,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 195.0,
+          "rb_prob": 748.0,
           "source_id": "minrepo"
         },
         {
@@ -9790,8 +9790,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -1791,
           "total_games": 5467,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 322.0,
+          "rb_prob": 683.0,
           "source_id": "minrepo"
         },
         {
@@ -9799,8 +9799,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -990,
           "total_games": 6563,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 313.0,
+          "rb_prob": 438.0,
           "source_id": "minrepo"
         },
         {
@@ -9808,8 +9808,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -2391,
           "total_games": 3416,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 683.0,
+          "rb_prob": 1139.0,
           "source_id": "minrepo"
         },
         {
@@ -9817,8 +9817,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 2006,
           "total_games": 6881,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 197.0,
+          "rb_prob": 430.0,
           "source_id": "minrepo"
         },
         {
@@ -9835,8 +9835,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1908,
           "total_games": 7265,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 202.0,
+          "rb_prob": 404.0,
           "source_id": "minrepo"
         },
         {
@@ -9844,8 +9844,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -996,
           "total_games": 3938,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 358.0,
+          "rb_prob": 394.0,
           "source_id": "minrepo"
         },
         {
@@ -9853,8 +9853,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1507,
           "total_games": 7063,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 196.0,
+          "rb_prob": 415.0,
           "source_id": "minrepo"
         },
         {
@@ -9862,8 +9862,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1012,
           "total_games": 6216,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 230.0,
+          "rb_prob": 366.0,
           "source_id": "minrepo"
         },
         {
@@ -9871,8 +9871,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 1809,
           "total_games": 5170,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 185.0,
+          "rb_prob": 646.0,
           "source_id": "minrepo"
         },
         {
@@ -9880,8 +9880,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -787,
           "total_games": 2926,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 325.0,
+          "rb_prob": 585.0,
           "source_id": "minrepo"
         },
         {
@@ -9889,8 +9889,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": 800,
           "total_games": 7375,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 230.0,
+          "rb_prob": 369.0,
           "source_id": "minrepo"
         },
         {
@@ -9898,8 +9898,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -299,
           "total_games": 3186,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 290.0,
+          "rb_prob": 455.0,
           "source_id": "minrepo"
         },
         {
@@ -9907,8 +9907,8 @@
           "machine_name": "ファンキージャグラー２ＫＴ",
           "diff_coins": -703,
           "total_games": 6329,
-          "bb_prob": null,
-          "rb_prob": null,
+          "bb_prob": 275.0,
+          "rb_prob": 396.0,
           "source_id": "minrepo"
         },
         {
